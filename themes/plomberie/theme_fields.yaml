@@ -1,0 +1,108 @@
+# ===================================
+#  Field Definitions
+# ===================================
+tabs:
+  fields:
+    site_name:
+        label: Site name
+        comment: The website name as it should appear on the front-end
+        default: Jolois
+        span: auto
+        tab: General
+
+    site_motto:
+        label: Site motto
+        comment: A short statement about the website.
+        default: Consultants en informatique
+        span: auto
+        tab: General
+
+    default_email:
+        label: Default Email
+        comment: Set current info email
+        default:
+        span: auto
+        tab: General
+
+    support_email:
+        label: Support Email
+        comment: Set current email support
+        default:
+        span: auto
+        tab: General
+
+    default_phone:
+         label: Default Phone
+         comment: Set current phone
+         default:
+         span: auto
+         tab: General
+
+    tarif1:
+         label: Tarif Étudiants, troisième âge et résidentiel
+         comment: Set current price
+         default: 90
+         span: left
+         tab: Tarifs
+    tarif1_frais:
+         label: Frais de déplacement - Étudiants
+         comment: Set current price
+         default: 30
+         span: right
+         tab: Tarifs
+
+    tarif2:
+         label: Travailleurs autonomes et bureau à domicile
+         comment: Set current price
+         default: 110
+         span: auto
+         tab: Tarifs
+    tarif2_frais:
+         label: Frais de déplacement - autonomes
+         comment: Set current price
+         default: 40
+         span: auto
+         tab: Tarifs
+
+    tarif3:
+         label: PME, industries et commerces
+         comment: Set current price
+         default: 125
+         span: auto
+         tab: Tarifs
+    tarif3_frais:
+         label: Frais de déplacement - PME
+         comment: Set current price
+         default: 50
+         span: auto
+         tab: Tarifs
+
+    facebook_url:
+        label: Facebook URL
+        span: auto
+        default:
+        tab: Social
+
+    twitter_url:
+        label: Twitter URL
+        span: auto
+        default:
+        tab: Social
+
+    linkedin_url:
+        label: LinkedIn URL
+        span: auto
+        default:
+        tab: Social
+
+    instagram_url:
+        label: Instagram URL
+        span: auto
+        default:
+        tab: Social
+
+    pinterest_url:
+        label: Pinterest URL
+        span: auto
+        default:
+        tab: Social

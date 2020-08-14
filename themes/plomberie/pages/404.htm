@@ -1,0 +1,45 @@
+title = "404"
+url = "/404"
+layout = "default"
+meta_title = "404"
+meta_description = ""
+is_hidden = 0
+
+[viewBag]
+localeTitle[en] = "404"
+localeUrl[en] = "/404"
+localeMeta_title[en] = "404"
+localeMeta_description[en] = ""
+==
+<section id="top" class="hero-home banner-services py-5">
+    <div class="container py-5">
+        <div class="banner-text">
+            <div class="banner-heading text-uppercase">
+             {{ 'Oops! La page demandé est introuvable!'|_ }}
+            </div>
+        </div>
+    </div>
+</section>
+<section class="intro my-4">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h2 class="wow flipInX" style="font-size:10rem;">
+                    404
+                </h2>
+                <p class="wow flipInX">
+                    {{ 'Cette page n\'existe plus, vous pouvez retourner à la page d\'accueil!'|_ }}
+                </p>
+                <a class="btn btn-secondary wow fadeInUp"
+                   href="{{ 'home'|page }}" role="button">
+                    {{'Retourné à la page d\'accueil'|_ }}
+                </a>
+            </div>
+        </div>
+        <div class="row my-5 pb-4">
+            <div class="col">
+
+            </div>
+        </div>
+    </div>
+</section>

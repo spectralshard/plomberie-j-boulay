@@ -1,0 +1,58 @@
+/*
+ General CSS tricks
+*/
+ol, li {
+  margin: 0;
+  padding: 0;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.bold {
+  font-weight: bold!important;
+}
+
+.move-cursor {
+  cursor: move;
+}
+
+.underline:hover {
+  text-decoration: underline!important;
+}
+
+.disabled {
+  pointer-events: none!important;
+  cursor: default;
+}
+
+.small-block {
+  display: inline-block!important;
+  line-height: 16px;
+}
+
+.x-small-block {
+  display: inline-block!important;
+  line-height: 14px;
+  font-size: 0.7rem;
+}
+
+.fa-15x {
+  font-size: 1.5rem;
+}
+
+a {
+  outline: 0;
+  color: $primary-color;
+  text-decoration: none!important;
+}
+a:hover {
+  outline: 0;
+  color: $primary-color-dark;
+  text-decoration: none!important;
+}
+
+.text-primary{
+  color: $primary-color!important;
+}

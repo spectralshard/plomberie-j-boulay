@@ -42,12 +42,16 @@ class __TwigTemplate_189b3f9d65f4bde34bbb46feb1a9fc51380f7feb06ded9a2acb1bbd6f2c
         echo "\">
 \t\t\t<img src=\"";
         // line 4
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/jolois-consultants-logo.svg");
-        echo "\" style=\"width:200px;\" alt=\"";
-        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Logo de Jolois Consultants en informatique"]);
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/logo-plomberie-jboulay.jpg");
+        echo "\"
+\t\t\t\t style=\"width:200px;\"
+\t\t\t\t alt=\"";
+        // line 6
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Logo de Plomberie J. Boulay inc"]);
         echo "\">
 \t\t</a>
-\t\t<div class=\"hamburger hamburger--spring d-flex d-md-block d-lg-none float-right\"  data-toggle=\"collapse\" data-target=\"#navbarCollapse\">
+\t\t<div class=\"hamburger hamburger--spring d-flex d-md-block d-lg-none float-right\"
+\t\t\t data-toggle=\"collapse\" data-target=\"#navbarCollapse\">
 \t\t\t<div class=\"hamburger-box\">
 \t\t\t\t<div class=\"hamburger-inner\"></div>
 \t\t\t</div>
@@ -55,66 +59,56 @@ class __TwigTemplate_189b3f9d65f4bde34bbb46feb1a9fc51380f7feb06ded9a2acb1bbd6f2c
 \t\t<div class=\"collapse navbar-collapse\" id=\"navbarCollapse\">
 \t\t\t<ul class=\"navbar-nav ml-auto pb-0\">
 \t\t\t\t<li class=\"nav-item mx-auto\">
-\t\t\t\t\t<a class=\"nav-link\" href=\"";
-        // line 14
+\t\t\t\t\t<a class=\"nav-link d-flex align-items-center\" href=\"";
+        // line 17
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("home");
+        echo "\" title=\"";
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Accueil"]);
         echo "\">
 \t\t\t\t\t\t";
-        // line 15
+        // line 18
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Accueil"]);
         echo "
 \t\t\t\t\t</a>
 \t\t\t\t</li>
-\t\t\t\t<li class=\"nav-item dropdown mx-auto\">
-\t\t\t\t\t<a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\"
-\t\t\t\t\t   data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">
-\t\t\t\t\t\t";
-        // line 21
-        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["L'entreprise"]);
-        echo "
-\t\t\t\t\t</a>
-\t\t\t\t\t<div class=\"dropdown-menu animate slideIn mx-auto\" aria-labelledby=\"navbarDropdown\">
-\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"";
-        // line 24
-        echo $this->extensions['Cms\Twig\Extension']->pageFilter("entreprise");
-        echo "#jean-marie\">Jean-Marie</a>
-\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"";
-        // line 25
-        echo $this->extensions['Cms\Twig\Extension']->pageFilter("entreprise");
-        echo "#elias\">Elias</a>
-\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"";
-        // line 26
-        echo $this->extensions['Cms\Twig\Extension']->pageFilter("equipe");
-        echo "\">";
-        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["L'équipe"]);
-        echo "</a>
-\t\t\t\t\t</div>
-\t\t\t\t</li>
 \t\t\t\t<li class=\"nav-item mx-auto\">
-\t\t\t\t\t<a class=\"nav-link\" href=\"";
-        // line 30
-        echo $this->extensions['Cms\Twig\Extension']->pageFilter("services-et-tarifs");
-        echo "\">";
-        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Services"]);
-        echo "</a>
-\t\t\t\t</li>
-\t\t\t\t<li class=\"nav-item mx-auto\">
-\t\t\t\t\t<a class=\"nav-link\" href=\"";
-        // line 33
-        echo $this->extensions['Cms\Twig\Extension']->pageFilter("contact");
+\t\t\t\t\t<a class=\"nav-link d-flex align-items-center\" href=\"";
+        // line 22
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("a-propos");
+        echo "\" title=\"";
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["À Propos"]);
         echo "\">
 \t\t\t\t\t\t";
-        // line 34
-        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Contact"]);
-        echo "</a>
+        // line 23
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["À Propos"]);
+        echo "
+\t\t\t\t\t</a>
 \t\t\t\t</li>
-\t\t\t\t<li class=\"nav-item pl-3 d-none d-sm-none d-md-none d-lg-block\">
-\t\t\t\t\t<a class=\"btn btn-primary\" href=\"mailto:";
-        // line 37
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 37), "support_email", [], "any", false, false, false, 37), "html", null, true);
-        echo "\" target=\"_blank\">";
-        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Demande de support"]);
-        echo "</a>
+\t\t\t\t<li class=\"nav-item mx-auto\">
+\t\t\t\t\t<a class=\"nav-link d-flex align-items-center\" href=\"";
+        // line 27
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("residentielle");
+        echo "\" title=\"";
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Résidentielle"]);
+        echo "\">
+\t\t\t\t\t\t";
+        // line 28
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Résidentielle"]);
+        echo "
+\t\t\t\t\t</a>
+\t\t\t\t</li>
+\t\t\t\t<li class=\"nav-item mx-auto\">
+\t\t\t\t\t<a class=\"nav-link d-flex align-items-center\" href=\"";
+        // line 32
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("commerciale");
+        echo "\" title=\"";
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Commerciale"]);
+        echo "\">
+\t\t\t\t\t\t";
+        // line 33
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Commerciale"]);
+        echo "
+\t\t\t\t\t</a>
 \t\t\t\t</li>
 \t\t\t</ul>
 \t\t</div>
@@ -134,7 +128,7 @@ class __TwigTemplate_189b3f9d65f4bde34bbb46feb1a9fc51380f7feb06ded9a2acb1bbd6f2c
 
     public function getDebugInfo()
     {
-        return array (  114 => 37,  108 => 34,  104 => 33,  96 => 30,  87 => 26,  83 => 25,  79 => 24,  73 => 21,  64 => 15,  60 => 14,  45 => 4,  41 => 3,  37 => 1,);
+        return array (  109 => 33,  103 => 32,  96 => 28,  90 => 27,  83 => 23,  77 => 22,  70 => 18,  64 => 17,  50 => 6,  45 => 4,  41 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -142,9 +136,12 @@ class __TwigTemplate_189b3f9d65f4bde34bbb46feb1a9fc51380f7feb06ded9a2acb1bbd6f2c
         return new Source("<nav id=\"navbar\" class=\"navbar bg-white navbar-expand-lg\">
 \t<div class=\"container\">
 \t\t<a class=\"navbar-brand\" href=\"{{ 'home'|page }}\">
-\t\t\t<img src=\"{{'assets/images/jolois-consultants-logo.svg'|theme}}\" style=\"width:200px;\" alt=\"{{ 'Logo de Jolois Consultants en informatique'|_ }}\">
+\t\t\t<img src=\"{{'assets/images/logo-plomberie-jboulay.jpg'|theme}}\"
+\t\t\t\t style=\"width:200px;\"
+\t\t\t\t alt=\"{{ 'Logo de Plomberie J. Boulay inc'|_ }}\">
 \t\t</a>
-\t\t<div class=\"hamburger hamburger--spring d-flex d-md-block d-lg-none float-right\"  data-toggle=\"collapse\" data-target=\"#navbarCollapse\">
+\t\t<div class=\"hamburger hamburger--spring d-flex d-md-block d-lg-none float-right\"
+\t\t\t data-toggle=\"collapse\" data-target=\"#navbarCollapse\">
 \t\t\t<div class=\"hamburger-box\">
 \t\t\t\t<div class=\"hamburger-inner\"></div>
 \t\t\t</div>
@@ -152,30 +149,24 @@ class __TwigTemplate_189b3f9d65f4bde34bbb46feb1a9fc51380f7feb06ded9a2acb1bbd6f2c
 \t\t<div class=\"collapse navbar-collapse\" id=\"navbarCollapse\">
 \t\t\t<ul class=\"navbar-nav ml-auto pb-0\">
 \t\t\t\t<li class=\"nav-item mx-auto\">
-\t\t\t\t\t<a class=\"nav-link\" href=\"{{ 'home'|page }}\">
+\t\t\t\t\t<a class=\"nav-link d-flex align-items-center\" href=\"{{ 'home'|page }}\" title=\"{{'Accueil'|_}}\">
 \t\t\t\t\t\t{{'Accueil'|_}}
 \t\t\t\t\t</a>
 \t\t\t\t</li>
-\t\t\t\t<li class=\"nav-item dropdown mx-auto\">
-\t\t\t\t\t<a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\"
-\t\t\t\t\t   data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">
-\t\t\t\t\t\t{{'L\\'entreprise'|_}}
+\t\t\t\t<li class=\"nav-item mx-auto\">
+\t\t\t\t\t<a class=\"nav-link d-flex align-items-center\" href=\"{{ 'a-propos'|page }}\" title=\"{{'À Propos'|_}}\">
+\t\t\t\t\t\t{{'À Propos'|_}}
 \t\t\t\t\t</a>
-\t\t\t\t\t<div class=\"dropdown-menu animate slideIn mx-auto\" aria-labelledby=\"navbarDropdown\">
-\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"{{ 'entreprise'|page }}#jean-marie\">Jean-Marie</a>
-\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"{{ 'entreprise'|page }}#elias\">Elias</a>
-\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"{{ 'equipe'|page }}\">{{'L\\'équipe'|_}}</a>
-\t\t\t\t\t</div>
 \t\t\t\t</li>
 \t\t\t\t<li class=\"nav-item mx-auto\">
-\t\t\t\t\t<a class=\"nav-link\" href=\"{{ 'services-et-tarifs'|page }}\">{{'Services'|_}}</a>
+\t\t\t\t\t<a class=\"nav-link d-flex align-items-center\" href=\"{{ 'residentielle'|page }}\" title=\"{{'Résidentielle'|_}}\">
+\t\t\t\t\t\t{{'Résidentielle'|_}}
+\t\t\t\t\t</a>
 \t\t\t\t</li>
 \t\t\t\t<li class=\"nav-item mx-auto\">
-\t\t\t\t\t<a class=\"nav-link\" href=\"{{ 'contact'|page }}\">
-\t\t\t\t\t\t{{'Contact'|_}}</a>
-\t\t\t\t</li>
-\t\t\t\t<li class=\"nav-item pl-3 d-none d-sm-none d-md-none d-lg-block\">
-\t\t\t\t\t<a class=\"btn btn-primary\" href=\"mailto:{{ this.theme.support_email }}\" target=\"_blank\">{{'Demande de support'|_}}</a>
+\t\t\t\t\t<a class=\"nav-link d-flex align-items-center\" href=\"{{ 'commerciale'|page }}\" title=\"{{'Commerciale'|_}}\">
+\t\t\t\t\t\t{{'Commerciale'|_}}
+\t\t\t\t\t</a>
 \t\t\t\t</li>
 \t\t\t</ul>
 \t\t</div>

@@ -13,7 +13,7 @@
     li {
       display: table-cell !important;
       a {
-        color: $secondary-color!important;
+        color: $primary-color!important;
         padding: 5px 15px;
         display: inline-block;
         text-align: center;
@@ -25,7 +25,8 @@
         }
       }
       a:hover{
-        color: $secondary-color;
+        background-color: $primary-color;
+        color: $white;
       }
     }
     li:hover a {
@@ -64,7 +65,13 @@
 .nav-link {
   padding-top: 0.8rem;
   font-size: 1rem!important;
-  letter-spacing: 1px;
+  height: 100px;
+  color: $primary-color;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  color: $white;
+  background-color: $primary-color;
 }
 .dropdown-toggle::after {
   border: none;
@@ -73,13 +80,6 @@
   content: "\f078";
   vertical-align: 1px;
   -webkit-font-smoothing: antialiased;
-}
-.nav-link {
-  color: #4A4A4A;
-  text-transform: uppercase;
-}
-.nav-link:hover {
-  color: $secondary-color;
 }
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")

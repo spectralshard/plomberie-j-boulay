@@ -42,7 +42,7 @@ class __TwigTemplate_a6d85e86fbf2aab13f61116ef9bbea1ca8ec39a7f59e53586d0119cab25
     <title>";
         // line 6
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 6), "meta_title", [], "any", false, false, false, 6), "html", null, true);
-        echo " | Jolois Consultants en Informatique</title>
+        echo " | Plomberie J. Boulay inc.</title>
     <meta name=\"description\" content=\"";
         // line 7
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 7), "meta_description", [], "any", false, false, false, 7), "html", null, true);
@@ -159,19 +159,27 @@ class __TwigTemplate_a6d85e86fbf2aab13f61116ef9bbea1ca8ec39a7f59e53586d0119cab25
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
         // line 48
         echo "</main>
-<footer class=\"footer\">
+<section>
     ";
         // line 50
         $context['__cms_partial_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("footer"        , $context['__cms_partial_params']        , true        );
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("contact"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
         // line 51
+        echo "</section>
+<footer class=\"footer\">
+    ";
+        // line 53
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("footer"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 54
         echo "</footer>
 ";
-        $_type = isset($context["type"]) ? $context["type"] : null;        $_message = isset($context["message"]) ? $context["message"] : null;        // line 52
+        $_type = isset($context["type"]) ? $context["type"] : null;        $_message = isset($context["message"]) ? $context["message"] : null;        // line 55
         foreach (Flash::getMessages() as $type => $messages) {
             foreach ($messages as $message) {
-                $context["type"] = $type;                $context["message"] = $message;                // line 53
+                $context["type"] = $type;                $context["message"] = $message;                // line 56
                 echo "<span id=\"flash\" data-type=\"";
                 echo twig_escape_filter($this->env, ($context["type"] ?? null), "html", null, true);
                 echo "\" data-message=\"";
@@ -180,13 +188,13 @@ class __TwigTemplate_a6d85e86fbf2aab13f61116ef9bbea1ca8ec39a7f59e53586d0119cab25
 ";
             }
         }
-        $context["type"] = $_type;        $context["message"] = $_message;        // line 55
+        $context["type"] = $_type;        $context["message"] = $_message;        // line 58
         echo "<script src=\"";
         echo $this->extensions['Cms\Twig\Extension']->themeFilter([0 => "assets/vendor/jquery/jquery-3.4.1.min.js", 1 => "assets/vendor/bootstrap/js/bootstrap.min.js", 2 => "assets/vendor/aos/js/aos.js", 3 => "assets/js/main.js"]);
-        // line 60
+        // line 63
         echo "\"></script>
 ";
-        // line 61
+        // line 64
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
         if ($_minify) {
             echo '<script src="' . Request::getBasePath() . '/modules/system/assets/js/framework.combined-min.js"></script>'.PHP_EOL;
@@ -197,10 +205,10 @@ class __TwigTemplate_a6d85e86fbf2aab13f61116ef9bbea1ca8ec39a7f59e53586d0119cab25
         }
         echo '<link rel="stylesheet" property="stylesheet" href="' . Request::getBasePath() .'/modules/system/assets/css/framework.extras'.($_minify ? '-min' : '').'.css">'.PHP_EOL;
         unset($_minify);
-        // line 62
+        // line 65
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
-        // line 63
+        // line 66
         echo "</body>
 </html>";
     }
@@ -217,7 +225,7 @@ class __TwigTemplate_a6d85e86fbf2aab13f61116ef9bbea1ca8ec39a7f59e53586d0119cab25
 
     public function getDebugInfo()
     {
-        return array (  204 => 63,  201 => 62,  190 => 61,  187 => 60,  184 => 55,  175 => 53,  172 => 52,  169 => 51,  165 => 50,  161 => 48,  159 => 47,  155 => 45,  150 => 44,  146 => 43,  141 => 40,  138 => 39,  135 => 38,  133 => 36,  129 => 35,  125 => 34,  121 => 33,  115 => 30,  111 => 29,  105 => 26,  100 => 23,  95 => 21,  91 => 20,  86 => 19,  81 => 17,  77 => 16,  72 => 15,  70 => 14,  66 => 13,  62 => 12,  58 => 11,  52 => 8,  48 => 7,  44 => 6,  37 => 1,);
+        return array (  212 => 66,  209 => 65,  198 => 64,  195 => 63,  192 => 58,  183 => 56,  180 => 55,  177 => 54,  173 => 53,  169 => 51,  165 => 50,  161 => 48,  159 => 47,  155 => 45,  150 => 44,  146 => 43,  141 => 40,  138 => 39,  135 => 38,  133 => 36,  129 => 35,  125 => 34,  121 => 33,  115 => 30,  111 => 29,  105 => 26,  100 => 23,  95 => 21,  91 => 20,  86 => 19,  81 => 17,  77 => 16,  72 => 15,  70 => 14,  66 => 13,  62 => 12,  58 => 11,  52 => 8,  48 => 7,  44 => 6,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -227,7 +235,7 @@ class __TwigTemplate_a6d85e86fbf2aab13f61116ef9bbea1ca8ec39a7f59e53586d0119cab25
 <head>
     <meta charset=\"utf-8\">
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">
-    <title>{{ this.page.meta_title }} | Jolois Consultants en Informatique</title>
+    <title>{{ this.page.meta_title }} | Plomberie J. Boulay inc.</title>
     <meta name=\"description\" content=\"{{ this.page.meta_description }}\">
     <meta name=\"title\" content=\"{{ this.page.meta_title }} | Plomberie J. Boulay inc.\">
     <meta name=\"author\" content=\"Techno24.net\">
@@ -270,6 +278,9 @@ class __TwigTemplate_a6d85e86fbf2aab13f61116ef9bbea1ca8ec39a7f59e53586d0119cab25
 <main id=\"page\">
     {% page %}
 </main>
+<section>
+    {% partial 'contact' %}
+</section>
 <footer class=\"footer\">
     {% partial 'footer' %}
 </footer>

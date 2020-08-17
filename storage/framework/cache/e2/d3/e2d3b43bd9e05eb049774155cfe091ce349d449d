@@ -1,23 +1,26 @@
-1597255041a:1:{s:10:"header.htm";a:6:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:1729:"description = "Header"
+1597688771a:1:{s:10:"header.htm";a:6:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:1709:"description = "Header"
 ==
-<section id="header" class="secondary-color-dark">
+<section id="header" class="elegant-color">
     <div class="container">
         <div class="row justify-content-end">
-			<div class="col-sm-2 col-md-4 col-lg-6 d-none d-sm-block">
-				{% partial 'socials' %}
-			</div>
-            <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6 text-sm-right p-2">
-                <small><span class="pr-3 white-text">
+			<div class="col-lg-9 p-1">
+				<small><span class="pr-3 white-text">
 				<a href="tel:{{ this.theme.default_phone }}" style="color:white!important;">
 					<i class="fas fa-phone"></i>&nbsp;
 					{{ this.theme.default_phone }}</a>
 				</span>
-				<span class="pr-3 white-text align-top">
+					<span class="pr-3 white-text align-top">
 				<a href="mailto:{{ this.theme.default_email }}" class="text-uppercase" style="color:white!important;">
 					<i class="fas fa-envelope"></i>&nbsp;
 					{{ this.theme.default_email }}</a>
 				</span>
-				<span class="d-none d-sm-inline-block">
+				</small>
+			</div>
+			<div class="col-lg-3 text-sm-right pt-1">
+				<span class="pr-2">
+					{% partial 'socials' %}
+				</span>
+				<span class="d-none d-sm-inline-block" style="padding-top:3px;">
 				{% if lang == 'fr' %}
 				<a href="#"
 				   class="text-white"
@@ -34,7 +37,7 @@
 				</a>
 				{% endif %}
 				</span>
-				<span class="d-inline-block d-sm-none">
+					<span class="d-inline-block d-sm-none">
 				{% if lang == 'fr' %}
 				<a href="#"
 				   class="text-white"
@@ -52,27 +55,30 @@
 				{% endif %}
 				</span>
 				</small>
-            </div>
+			</div>
         </div>
     </div>
-</section>";s:5:"mtime";i:1589562601;s:6:"markup";s:1703:"<section id="header" class="secondary-color-dark">
+</section>";s:5:"mtime";i:1597428173;s:6:"markup";s:1683:"<section id="header" class="elegant-color">
     <div class="container">
         <div class="row justify-content-end">
-			<div class="col-sm-2 col-md-4 col-lg-6 d-none d-sm-block">
-				{% partial 'socials' %}
-			</div>
-            <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6 text-sm-right p-2">
-                <small><span class="pr-3 white-text">
+			<div class="col-lg-9 p-1">
+				<small><span class="pr-3 white-text">
 				<a href="tel:{{ this.theme.default_phone }}" style="color:white!important;">
 					<i class="fas fa-phone"></i>&nbsp;
 					{{ this.theme.default_phone }}</a>
 				</span>
-				<span class="pr-3 white-text align-top">
+					<span class="pr-3 white-text align-top">
 				<a href="mailto:{{ this.theme.default_email }}" class="text-uppercase" style="color:white!important;">
 					<i class="fas fa-envelope"></i>&nbsp;
 					{{ this.theme.default_email }}</a>
 				</span>
-				<span class="d-none d-sm-inline-block">
+				</small>
+			</div>
+			<div class="col-lg-3 text-sm-right pt-1">
+				<span class="pr-2">
+					{% partial 'socials' %}
+				</span>
+				<span class="d-none d-sm-inline-block" style="padding-top:3px;">
 				{% if lang == 'fr' %}
 				<a href="#"
 				   class="text-white"
@@ -89,7 +95,7 @@
 				</a>
 				{% endif %}
 				</span>
-				<span class="d-inline-block d-sm-none">
+					<span class="d-inline-block d-sm-none">
 				{% if lang == 'fr' %}
 				<a href="#"
 				   class="text-white"
@@ -107,7 +113,7 @@
 				{% endif %}
 				</span>
 				</small>
-            </div>
+			</div>
         </div>
     </div>
 </section>";s:4:"code";N;s:11:"description";s:6:"Header";}}

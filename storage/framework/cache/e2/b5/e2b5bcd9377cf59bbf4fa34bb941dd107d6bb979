@@ -1,188 +1,206 @@
-1597255041a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:4461:"description = "Footer"
+1597688771a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:4660:"description = "Footer"
 ==
-<section id="footer" class="py-5 secondary-color">
-    <div class="container secondary-color">
+<section id="footer" class="py-5 primary-color footer">
+    <div class="container">
     <div class="row">
-        <div class="col-sm-6 col-md-4 col-lg-4">
+        <div class="col-sm-6 col-md-4 col-lg-5">
             <div class="row">
                 <div class="col-xs-6 col-sm-12">
-                    <img class="img-fluid" src="{{'assets/images/jolois-consultants-logo.svg'|theme}}" style="width:200px;"
-                         alt="{{ 'Jolois Consultants en informatique logo'|_ }}">
-                </div>
-                <div class="col-xs-6 col-sm-12 pt-4">
-                    <img class="img-fluid" src="{{'assets/images/acn-logo.svg'|theme}}" style="width:120px;"
-                         alt="Apple Consultants Network logo">
+                    <h6 class="text-uppercase text-white mb-1">
+                        <strong>PLOMBERIE J. BOULAY inc.</strong>
+                    </h6>
+                    <hr class="footer-divider">
+                    <p class="text-white">
+                        Plomberie J. Boulay inc. est une entreprise familiale de plomberie fondée par Jonathan Boulay.
+                        Elle offre principalement des services en réparation et en rénovation dans les secteurs résidentiel et commercial.
+                    </p>
                 </div>
             </div>
         </div>
-        <div class="col-md-4 col-lg-4 d-none d-sm-none d-md-block">
+        <div class="col-md-4 col-lg-3 d-none d-sm-none d-md-block">
             <div class="row">
                 <div class="col-12">
                     <h6 class="text-uppercase text-white mb-1">
-                        <strong>{{ 'Adresse'|_ }}</strong>
+                        <strong>{{ 'Navigation'|_ }}</strong>
                     </h6>
-                </div>
-                <div class="col-12 text-white">
-                    <small>38 place du commerce,<br> bureau 11-134<br>
-                        Île des Soeurs (Québec)<br>Canada  H3E 1T8</small>
-                    <br>
-                    <small>
-                        <em>* {{ 'sur rendez-vous seulement'|_ }}</em>
-                    </small>
+                    <hr class="footer-divider">
+                        <p class="text-white mb-0">
+                            <a class="text-white" href="{{ 'home'|page }}" title="{{'Accueil'|_}}">
+                            {{'Accueil'|_}}
+                            </a>
+                        </p>
+                        <p class="text-white mb-0">
+                            <a class="text-white" href="{{ 'residentielle'|page }}" title="{{'Résidentielle'|_}}">
+                            {{'Résidentielle'|_}}
+                            </a>
+                        </p>
+                        <p class="text-white mb-0">
+                            <a class="text-white" href="{{ 'commerciale'|page }}" title="{{'Commerciale'|_}}">
+                            {{'Commerciale'|_}}
+                            </a>
+                        </p>
+                        <p class="text-white mb-0">
+                            <a class="text-white" href="{{ 'a-propos'|page }}" title="{{'À Propos'|_}}">
+                            {{'À Propos'|_}}
+                            </a>
+                        </p>
+                        <p class="text-white mb-0">
+                            {% if lang == 'fr' %}
+                            <a href="#"
+                               class="text-white"
+                               data-request="onSwitchLocale"
+                               data-request-data="locale: 'en'" title="English">
+                                Enlgish
+                            </a>
+                            {% else %}
+                            <a href="#"
+                               class="text-white"
+                               data-request="onSwitchLocale"
+                               data-request-data="locale: 'fr'" title="Français">
+                                Français
+                            </a>
+                            {% endif %}
+                        </p>
                 </div>
             </div>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 border-left d-none d-sm-block">
+        <div class="col-sm-6 col-md-4 col-lg-4">
             <div class="row">
                 <div class="col-12">
-                    <h6 class="text-uppercase text-white mb-2">
-                        <strong>{{ 'Coordonnées de contact'|_ }}</strong>
+                    <h6 class="text-uppercase text-white mb-2 ">
+                        <strong>{{ 'Contact'|_ }}</strong>
                     </h6>
-                    <a class="btn btn-outline-light btn-sm mr-3"
+                    <hr class="footer-divider">
+                    <p class="mb-0"><a class="mr-3 text-white"
                        href="tel:{{ this.theme.default_phone }}"><i class="fas fa-phone"></i>&nbsp;
                             {{ this.theme.default_phone }}
                     </a>
-                    <a class="btn btn-outline-light btn-sm mt-sm-3 mt-md-3 mt-lg-0"
+                    </p>
+                    <p>
+                    <a class="mt-sm-3 mt-md-3 mt-lg-0 text-white"
                         href="mailto:{{ this.theme.default_email }}"><i class="fas fa-envelope"></i>
                             {{ this.theme.default_email }}
                     </a>
-                </div>
-                <div class="col-12 text-white py-3">
-                    <small><strong>{{ 'Besoin d’un technicien :'|_ }}</strong></small><br>
-                    <a class="text-white" href="mailto:{{ this.theme.support_email }}">
-                        {{ this.theme.support_email }}</a>
+                    </p>
                 </div>
                 <div class="col-12">
-                    {% partial 'socials' %}
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 border-top d-block d-sm-none mt-4">
-            <div class="row">
-                <div class="col-12">
-                    <h6 class="text-uppercase text-white mb-2 pt-3">
-                        <strong>{{ 'Coordonnées de contact'|_ }}</strong>
-                    </h6>
-                    <a class="btn btn-outline-light btn-sm mr-3"
-                       href="tel:{{ this.theme.default_phone }}"><i class="fas fa-phone"></i>&nbsp;
-                        {{ this.theme.default_phone }}
-                    </a>
-                    <a class="btn btn-outline-light btn-sm mt-sm-3 mt-md-3 mt-lg-0"
-                       href="mailto:{{ this.theme.default_email }}"><i class="fas fa-envelope"></i>
-                        {{ this.theme.default_email }}
-                    </a>
-                </div>
-                <div class="col-12 text-white py-3">
-                    <small><strong>{{ 'Besoin d’un technicien :'|_ }}</strong></small><br>
-                    <a class="text-white" href="mailto:{{ this.theme.support_email }}">
-                        {{ this.theme.support_email }}</a>
-                </div>
-                <div class="col-12">
-                    {% partial 'socials' %}
+                    <p class="text-white mb-0">
+                        {{ 'Suivez nous'|_ }}
+                    </p>
+                    {% partial 'socials-footer' %}
                 </div>
             </div>
         </div>
     </div>
     </div>
 </section>
-<section class="secondary-color-dark">
+<section class="elegant-color">
     <div class="container">
         <div class="row">
             <div class="col text-center py-2 text-white">
-                <small>© Jolois Consultants en Informatiques - {{'Tous droits réservés'|_ }}</small>
+                <small>© {{ "now"|date("Y") }} {{'Droits réservés'|_ }} / Plomberie J. Boulay inc.</small>
             </div>
         </div>
     </div>
-</section>";s:5:"mtime";i:1589564332;s:6:"markup";s:4435:"<section id="footer" class="py-5 secondary-color">
-    <div class="container secondary-color">
+</section>";s:5:"mtime";i:1597680044;s:6:"markup";s:4634:"<section id="footer" class="py-5 primary-color footer">
+    <div class="container">
     <div class="row">
-        <div class="col-sm-6 col-md-4 col-lg-4">
+        <div class="col-sm-6 col-md-4 col-lg-5">
             <div class="row">
                 <div class="col-xs-6 col-sm-12">
-                    <img class="img-fluid" src="{{'assets/images/jolois-consultants-logo.svg'|theme}}" style="width:200px;"
-                         alt="{{ 'Jolois Consultants en informatique logo'|_ }}">
-                </div>
-                <div class="col-xs-6 col-sm-12 pt-4">
-                    <img class="img-fluid" src="{{'assets/images/acn-logo.svg'|theme}}" style="width:120px;"
-                         alt="Apple Consultants Network logo">
+                    <h6 class="text-uppercase text-white mb-1">
+                        <strong>PLOMBERIE J. BOULAY inc.</strong>
+                    </h6>
+                    <hr class="footer-divider">
+                    <p class="text-white">
+                        Plomberie J. Boulay inc. est une entreprise familiale de plomberie fondée par Jonathan Boulay.
+                        Elle offre principalement des services en réparation et en rénovation dans les secteurs résidentiel et commercial.
+                    </p>
                 </div>
             </div>
         </div>
-        <div class="col-md-4 col-lg-4 d-none d-sm-none d-md-block">
+        <div class="col-md-4 col-lg-3 d-none d-sm-none d-md-block">
             <div class="row">
                 <div class="col-12">
                     <h6 class="text-uppercase text-white mb-1">
-                        <strong>{{ 'Adresse'|_ }}</strong>
+                        <strong>{{ 'Navigation'|_ }}</strong>
                     </h6>
-                </div>
-                <div class="col-12 text-white">
-                    <small>38 place du commerce,<br> bureau 11-134<br>
-                        Île des Soeurs (Québec)<br>Canada  H3E 1T8</small>
-                    <br>
-                    <small>
-                        <em>* {{ 'sur rendez-vous seulement'|_ }}</em>
-                    </small>
+                    <hr class="footer-divider">
+                        <p class="text-white mb-0">
+                            <a class="text-white" href="{{ 'home'|page }}" title="{{'Accueil'|_}}">
+                            {{'Accueil'|_}}
+                            </a>
+                        </p>
+                        <p class="text-white mb-0">
+                            <a class="text-white" href="{{ 'residentielle'|page }}" title="{{'Résidentielle'|_}}">
+                            {{'Résidentielle'|_}}
+                            </a>
+                        </p>
+                        <p class="text-white mb-0">
+                            <a class="text-white" href="{{ 'commerciale'|page }}" title="{{'Commerciale'|_}}">
+                            {{'Commerciale'|_}}
+                            </a>
+                        </p>
+                        <p class="text-white mb-0">
+                            <a class="text-white" href="{{ 'a-propos'|page }}" title="{{'À Propos'|_}}">
+                            {{'À Propos'|_}}
+                            </a>
+                        </p>
+                        <p class="text-white mb-0">
+                            {% if lang == 'fr' %}
+                            <a href="#"
+                               class="text-white"
+                               data-request="onSwitchLocale"
+                               data-request-data="locale: 'en'" title="English">
+                                Enlgish
+                            </a>
+                            {% else %}
+                            <a href="#"
+                               class="text-white"
+                               data-request="onSwitchLocale"
+                               data-request-data="locale: 'fr'" title="Français">
+                                Français
+                            </a>
+                            {% endif %}
+                        </p>
                 </div>
             </div>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 border-left d-none d-sm-block">
+        <div class="col-sm-6 col-md-4 col-lg-4">
             <div class="row">
                 <div class="col-12">
-                    <h6 class="text-uppercase text-white mb-2">
-                        <strong>{{ 'Coordonnées de contact'|_ }}</strong>
+                    <h6 class="text-uppercase text-white mb-2 ">
+                        <strong>{{ 'Contact'|_ }}</strong>
                     </h6>
-                    <a class="btn btn-outline-light btn-sm mr-3"
+                    <hr class="footer-divider">
+                    <p class="mb-0"><a class="mr-3 text-white"
                        href="tel:{{ this.theme.default_phone }}"><i class="fas fa-phone"></i>&nbsp;
                             {{ this.theme.default_phone }}
                     </a>
-                    <a class="btn btn-outline-light btn-sm mt-sm-3 mt-md-3 mt-lg-0"
+                    </p>
+                    <p>
+                    <a class="mt-sm-3 mt-md-3 mt-lg-0 text-white"
                         href="mailto:{{ this.theme.default_email }}"><i class="fas fa-envelope"></i>
                             {{ this.theme.default_email }}
                     </a>
-                </div>
-                <div class="col-12 text-white py-3">
-                    <small><strong>{{ 'Besoin d’un technicien :'|_ }}</strong></small><br>
-                    <a class="text-white" href="mailto:{{ this.theme.support_email }}">
-                        {{ this.theme.support_email }}</a>
+                    </p>
                 </div>
                 <div class="col-12">
-                    {% partial 'socials' %}
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 border-top d-block d-sm-none mt-4">
-            <div class="row">
-                <div class="col-12">
-                    <h6 class="text-uppercase text-white mb-2 pt-3">
-                        <strong>{{ 'Coordonnées de contact'|_ }}</strong>
-                    </h6>
-                    <a class="btn btn-outline-light btn-sm mr-3"
-                       href="tel:{{ this.theme.default_phone }}"><i class="fas fa-phone"></i>&nbsp;
-                        {{ this.theme.default_phone }}
-                    </a>
-                    <a class="btn btn-outline-light btn-sm mt-sm-3 mt-md-3 mt-lg-0"
-                       href="mailto:{{ this.theme.default_email }}"><i class="fas fa-envelope"></i>
-                        {{ this.theme.default_email }}
-                    </a>
-                </div>
-                <div class="col-12 text-white py-3">
-                    <small><strong>{{ 'Besoin d’un technicien :'|_ }}</strong></small><br>
-                    <a class="text-white" href="mailto:{{ this.theme.support_email }}">
-                        {{ this.theme.support_email }}</a>
-                </div>
-                <div class="col-12">
-                    {% partial 'socials' %}
+                    <p class="text-white mb-0">
+                        {{ 'Suivez nous'|_ }}
+                    </p>
+                    {% partial 'socials-footer' %}
                 </div>
             </div>
         </div>
     </div>
     </div>
 </section>
-<section class="secondary-color-dark">
+<section class="elegant-color">
     <div class="container">
         <div class="row">
             <div class="col text-center py-2 text-white">
-                <small>© Jolois Consultants en Informatiques - {{'Tous droits réservés'|_ }}</small>
+                <small>© {{ "now"|date("Y") }} {{'Droits réservés'|_ }} / Plomberie J. Boulay inc.</small>
             </div>
         </div>
     </div>

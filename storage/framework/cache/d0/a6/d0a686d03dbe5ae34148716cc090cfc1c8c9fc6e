@@ -1,12 +1,15 @@
-1597255041a:1:{s:10:"navbar.htm";a:6:{s:8:"fileName";s:10:"navbar.htm";s:7:"content";s:1850:"description = "Navigation bar"
+1597688771a:1:{s:10:"navbar.htm";a:6:{s:8:"fileName";s:10:"navbar.htm";s:7:"content";s:1443:"description = "Navigation bar"
 ==
 
 <nav id="navbar" class="navbar bg-white navbar-expand-lg">
 	<div class="container">
 		<a class="navbar-brand" href="{{ 'home'|page }}">
-			<img src="{{'assets/images/jolois-consultants-logo.svg'|theme}}" style="width:200px;" alt="{{ 'Logo de Jolois Consultants en informatique'|_ }}">
+			<img src="{{'assets/images/logo-plomberie-jboulay.jpg'|theme}}"
+				 style="width:200px;"
+				 alt="{{ 'Logo de Plomberie J. Boulay inc'|_ }}">
 		</a>
-		<div class="hamburger hamburger--spring d-flex d-md-block d-lg-none float-right"  data-toggle="collapse" data-target="#navbarCollapse">
+		<div class="hamburger hamburger--spring d-flex d-md-block d-lg-none float-right"
+			 data-toggle="collapse" data-target="#navbarCollapse">
 			<div class="hamburger-box">
 				<div class="hamburger-inner"></div>
 			</div>
@@ -14,40 +17,37 @@
 		<div class="collapse navbar-collapse" id="navbarCollapse">
 			<ul class="navbar-nav ml-auto pb-0">
 				<li class="nav-item mx-auto">
-					<a class="nav-link" href="{{ 'home'|page }}">
+					<a class="nav-link d-flex align-items-center" href="{{ 'home'|page }}" title="{{'Accueil'|_}}">
 						{{'Accueil'|_}}
 					</a>
 				</li>
-				<li class="nav-item dropdown mx-auto">
-					<a class="nav-link dropdown-toggle" href="#" role="button"
-					   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						{{'L\'entreprise'|_}}
+				<li class="nav-item mx-auto">
+					<a class="nav-link d-flex align-items-center" href="{{ 'a-propos'|page }}" title="{{'À Propos'|_}}">
+						{{'À Propos'|_}}
 					</a>
-					<div class="dropdown-menu animate slideIn mx-auto" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="{{ 'entreprise'|page }}#jean-marie">Jean-Marie</a>
-						<a class="dropdown-item" href="{{ 'entreprise'|page }}#elias">Elias</a>
-						<a class="dropdown-item" href="{{ 'equipe'|page }}">{{'L\'équipe'|_}}</a>
-					</div>
 				</li>
 				<li class="nav-item mx-auto">
-					<a class="nav-link" href="{{ 'services-et-tarifs'|page }}">{{'Services'|_}}</a>
+					<a class="nav-link d-flex align-items-center" href="{{ 'residentielle'|page }}" title="{{'Résidentielle'|_}}">
+						{{'Résidentielle'|_}}
+					</a>
 				</li>
 				<li class="nav-item mx-auto">
-					<a class="nav-link" href="{{ 'contact'|page }}">
-						{{'Contact'|_}}</a>
-				</li>
-				<li class="nav-item pl-3 d-none d-sm-none d-md-none d-lg-block">
-					<a class="btn btn-primary" href="mailto:{{ this.theme.support_email }}" target="_blank">{{'Demande de support'|_}}</a>
+					<a class="nav-link d-flex align-items-center" href="{{ 'commerciale'|page }}" title="{{'Commerciale'|_}}">
+						{{'Commerciale'|_}}
+					</a>
 				</li>
 			</ul>
 		</div>
 	</div>
-</nav>";s:5:"mtime";i:1593116517;s:6:"markup";s:1815:"<nav id="navbar" class="navbar bg-white navbar-expand-lg">
+</nav>";s:5:"mtime";i:1597683631;s:6:"markup";s:1408:"<nav id="navbar" class="navbar bg-white navbar-expand-lg">
 	<div class="container">
 		<a class="navbar-brand" href="{{ 'home'|page }}">
-			<img src="{{'assets/images/jolois-consultants-logo.svg'|theme}}" style="width:200px;" alt="{{ 'Logo de Jolois Consultants en informatique'|_ }}">
+			<img src="{{'assets/images/logo-plomberie-jboulay.jpg'|theme}}"
+				 style="width:200px;"
+				 alt="{{ 'Logo de Plomberie J. Boulay inc'|_ }}">
 		</a>
-		<div class="hamburger hamburger--spring d-flex d-md-block d-lg-none float-right"  data-toggle="collapse" data-target="#navbarCollapse">
+		<div class="hamburger hamburger--spring d-flex d-md-block d-lg-none float-right"
+			 data-toggle="collapse" data-target="#navbarCollapse">
 			<div class="hamburger-box">
 				<div class="hamburger-inner"></div>
 			</div>
@@ -55,30 +55,24 @@
 		<div class="collapse navbar-collapse" id="navbarCollapse">
 			<ul class="navbar-nav ml-auto pb-0">
 				<li class="nav-item mx-auto">
-					<a class="nav-link" href="{{ 'home'|page }}">
+					<a class="nav-link d-flex align-items-center" href="{{ 'home'|page }}" title="{{'Accueil'|_}}">
 						{{'Accueil'|_}}
 					</a>
 				</li>
-				<li class="nav-item dropdown mx-auto">
-					<a class="nav-link dropdown-toggle" href="#" role="button"
-					   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						{{'L\'entreprise'|_}}
+				<li class="nav-item mx-auto">
+					<a class="nav-link d-flex align-items-center" href="{{ 'a-propos'|page }}" title="{{'À Propos'|_}}">
+						{{'À Propos'|_}}
 					</a>
-					<div class="dropdown-menu animate slideIn mx-auto" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="{{ 'entreprise'|page }}#jean-marie">Jean-Marie</a>
-						<a class="dropdown-item" href="{{ 'entreprise'|page }}#elias">Elias</a>
-						<a class="dropdown-item" href="{{ 'equipe'|page }}">{{'L\'équipe'|_}}</a>
-					</div>
 				</li>
 				<li class="nav-item mx-auto">
-					<a class="nav-link" href="{{ 'services-et-tarifs'|page }}">{{'Services'|_}}</a>
+					<a class="nav-link d-flex align-items-center" href="{{ 'residentielle'|page }}" title="{{'Résidentielle'|_}}">
+						{{'Résidentielle'|_}}
+					</a>
 				</li>
 				<li class="nav-item mx-auto">
-					<a class="nav-link" href="{{ 'contact'|page }}">
-						{{'Contact'|_}}</a>
-				</li>
-				<li class="nav-item pl-3 d-none d-sm-none d-md-none d-lg-block">
-					<a class="btn btn-primary" href="mailto:{{ this.theme.support_email }}" target="_blank">{{'Demande de support'|_}}</a>
+					<a class="nav-link d-flex align-items-center" href="{{ 'commerciale'|page }}" title="{{'Commerciale'|_}}">
+						{{'Commerciale'|_}}
+					</a>
 				</li>
 			</ul>
 		</div>

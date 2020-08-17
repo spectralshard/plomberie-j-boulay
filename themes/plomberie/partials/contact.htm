@@ -1,0 +1,20 @@
+description = "Contact us zone"
+
+[simpleContact Mysimplecontact]
+nameTitle = "Votre nom et prénom"
+emailTitle = "Courriel"
+phoneTitle = "Téléphone"
+subjectTitle = "Sujets"
+messageTitle = "Messages"
+buttonText = "Soumettre"
+displayPhone = 1
+==
+<div class="container">
+    <div class="row d-flex justify-content-center">
+        <div class="col-8 my-5">
+            <h2 class="text-uppercase text-primary text-center">Nous joindre</h2>
+            <p class="text-center">Nous sommes disponibles 24 heures sur 24, 7 jours sur 7, <br> écrivez-nous dès maintenant!</p>
+            {% component 'Mysimplecontact' %}
+        </div>
+    </div>
+</div>

@@ -1,7 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e94d1dc5-35da-47b9-af3d-328d74e3d7c6" name="Default Changelist" comment="" />
+    <list default="true" id="e94d1dc5-35da-47b9-af3d-328d74e3d7c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/alexandrefoisy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/cache/67/3b/default.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/cache/8d/0a/404.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/cache/af/19/cta.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/cache/e6/b9/contact.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/1cc51e4403fbd8dfdde4f08d2e706128" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/5a0c2ad0f54f2b1e7df5bc16cf3b63f8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/8b46d32cf4856a11cf063d40c022eaa4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/8f7e916e11f7a24daa0bdb3f1e5bdc23" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/9f2d52c4226c60526e94ec247beb7a36" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/af556e9dc90f0a60223af920391e920b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/b85666dd5be409ad0cc57be5b67f50c1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/bfea1af55f64d3e15c4a0e6faa9d9e0d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/twig/10/10212f046e620e5eef254e27d42180505d2f6f6e9fc564fadafed383614caec1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/twig/6e/6e05ebedae6fb4d80b8c60704837c4f4f7a5656f72dcb7fb56a7fb4492b127c6.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/twig/75/759281999fea99f9c728bcb6329bc85fc3c19c3598bf001d2830655c42d44a10.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/twig/bd/bd9fcf2afdeaebb47fac9100a371bb9e0a02bdb74a86238af827b1ee4fa64e12.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/twig/c4/c419f7d12c300e26453ac7df9f02d9e9ce8fde6af46cba5ce715e34aef274e92.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/03/88/0388448f19afe9595ffb310d469cd59d980ee397" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/1b/46/1b46a1313efb89324ca769f23c6d7fa00492c0fb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/28/57/285708c6e1b7cbf20e5253b9181e66ac7d9aeaf4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/4d/11/4d11837b3f481fbc16969295bc09fef8578be41d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/5b/72/5b729f6852c02abfb64f225ba29aaaebea7fb713" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/67/58/67581da42ba4ad501aa9e52f289106328a137527" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/68/14/681441af38ac2f05a56d7118130f932163789338" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/71/8f/718f7f79808fdcb6e0f90ad64f0388526862983d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/d5/26/d5267ed21013026a7bde75d7283347d2ca894e23" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/f7/5b/f75ba89402e88a5cc48db5562a33beb0baf6c62b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/sessions/k2DG6go1NOTstiZXBCGrQ3USw3rKIoao3VSvDLKT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/plomberie/assets/images/logo-plomberie-jboulay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/plomberie/partials/Mysimplecontact/default.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/plomberie/partials/Mysimplecontact/flashMessage.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/plomberie/partials/contact.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/plomberie/partials/reusable/cta.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/plomberie/partials/socials-footer.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/09/08/default.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/09/08/default.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/09/1c/footer.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/09/1c/footer.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/33/20/socials.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/33/20/socials.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/76/22/navbar.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/76/22/navbar.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/8c/fb/header.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/8c/fb/header.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/f2/d0/home.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/f2/d0/home.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/combiner/assets/23b6cb72c956d4a4dfb2d661974e881e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/combiner/assets/78e2cee9f5a92cd4d6c69bbf9c38bf59" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/3c/3c6a04ddd7c5acafecdb72761af1594d46bde2d7bc03c083303640f131e31a4b.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/3c/3c6a04ddd7c5acafecdb72761af1594d46bde2d7bc03c083303640f131e31a4b.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/4f/4fc802af40be0eb91dd0bccd1cbd228c0ccdbfc42f3eb4bfa4d4b1635fcd321a.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/4f/4fc802af40be0eb91dd0bccd1cbd228c0ccdbfc42f3eb4bfa4d4b1635fcd321a.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/b4/b44cf26f55501e735ea2e0417df33489575151700b093fef2a75e637f278e845.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/b4/b44cf26f55501e735ea2e0417df33489575151700b093fef2a75e637f278e845.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/ce/ce3c0eb3045efffc8d64b6842016925fe867e4005cdc5b75c5033c9437744ca4.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/ce/ce3c0eb3045efffc8d64b6842016925fe867e4005cdc5b75c5033c9437744ca4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/cf/cf49e579b96f229b279da3e03a08f001d1144b864829aa615745af2ff75a8ef6.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/cf/cf49e579b96f229b279da3e03a08f001d1144b864829aa615745af2ff75a8ef6.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/d5/d5de5dff472a66ff1636d3c5803e23e3e25f9293fae447b50aa1d2b23544ba74.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/d5/d5de5dff472a66ff1636d3c5803e23e3e25f9293fae447b50aa1d2b23544ba74.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/08/df/08dfdfd922681bba7ab5215d56b7da8dd8d64c53" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/08/df/08dfdfd922681bba7ab5215d56b7da8dd8d64c53" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/11/de/11de31e1eabb2682cf62ee9c9ccb0630f1019006" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/11/de/11de31e1eabb2682cf62ee9c9ccb0630f1019006" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/22/43/2243f500ae1632e1e609a9d4d08e7bad65800071" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/22/43/2243f500ae1632e1e609a9d4d08e7bad65800071" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/26/45/2645345408957659f74a75bbf768c99b59553010" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/26/87/268708b3dec453876a36f5168757b1f067658a99" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/26/87/268708b3dec453876a36f5168757b1f067658a99" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/43/cd/43cd68a12422fb6213b49f0f02b0a540b35ec18a" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/43/cd/43cd68a12422fb6213b49f0f02b0a540b35ec18a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/57/21/572145a78e1af950c585d4eb675b8288761bb8ce" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/57/21/572145a78e1af950c585d4eb675b8288761bb8ce" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/66/65/666582ffea28796aac87443dbbc6420b7c6df7cd" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/66/65/666582ffea28796aac87443dbbc6420b7c6df7cd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/72/4d/724d64623b82cdd367a46a1a3611b8fce75faedf" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/72/4d/724d64623b82cdd367a46a1a3611b8fce75faedf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/73/6d/736ded45c3d27dc4bd3fc62f98cb6f6a81a24741" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/73/6d/736ded45c3d27dc4bd3fc62f98cb6f6a81a24741" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/77/61/77616e1c5e0d202cb4cf522bddafaebf56f27660" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/77/61/77616e1c5e0d202cb4cf522bddafaebf56f27660" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/81/08/81088ee972be9acbd8e1be71ecc4b3b3a0d95aaf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/83/b4/83b4c9cedb265a8417b1b87a333492643f5eb1c3" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/83/b4/83b4c9cedb265a8417b1b87a333492643f5eb1c3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/87/d7/87d7e8ded054edf7298dd3a74f3c4eb8efc53c74" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/8c/7a/8c7aae8a99d2af67e4014e7aceabb50870f815d8" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/8c/7a/8c7aae8a99d2af67e4014e7aceabb50870f815d8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/90/ad/90ad575eff5bc1f90c01308b3364aded689c2a25" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/90/ad/90ad575eff5bc1f90c01308b3364aded689c2a25" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/91/2a/912a0174a1922c0f2c728e800307c2d928ea1e9e" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/91/2a/912a0174a1922c0f2c728e800307c2d928ea1e9e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/97/37/9737833e426f53b3dcb4d98fdcb68c76762765de" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/97/37/9737833e426f53b3dcb4d98fdcb68c76762765de" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/97/39/9739b3a900e31d6b7467fc7f7b244804b462b524" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/9a/e8/9ae8ba54c10c58926a7502abb5f7ba6ba6d19951" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/a0/c9/a0c910eb995ad1e9281e5bb05187281e039e242f" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/a0/c9/a0c910eb995ad1e9281e5bb05187281e039e242f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/b1/b6/b1b6b61b6cd58fcbec08f9d00687d524901e8a6d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/b1/b6/b1b6b61b6cd58fcbec08f9d00687d524901e8a6d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/d0/1e/d01e8e95ac402ba16ad83ad09f6851991c3b6212" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/d0/1e/d01e8e95ac402ba16ad83ad09f6851991c3b6212" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/d0/a6/d0a686d03dbe5ae34148716cc090cfc1c8c9fc6e" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/d0/a6/d0a686d03dbe5ae34148716cc090cfc1c8c9fc6e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/d2/bf/d2bfa1437aba00dadecca2b56617050d8f711997" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/d2/bf/d2bfa1437aba00dadecca2b56617050d8f711997" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/d9/06/d906a5597504713894cb6a6a3ffa5ecc434fe9f4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/e2/b5/e2b5bcd9377cf59bbf4fa34bb941dd107d6bb979" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/e2/b5/e2b5bcd9377cf59bbf4fa34bb941dd107d6bb979" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/e2/d3/e2d3b43bd9e05eb049774155cfe091ce349d449d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/e2/d3/e2d3b43bd9e05eb049774155cfe091ce349d449d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/fd/d9/fdd95f73e8a7b38da98ce16df1b7dca5a86fc03a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/classes.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/classes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/mlXw4hzW2kjb0HQXHxG21HWX3huZ2aooIVQDgcMM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/plomberie/assets/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/plomberie/assets/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/plomberie/assets/css/theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/themes/plomberie/assets/css/theme.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/plomberie/assets/sass/_color.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/plomberie/assets/sass/_color.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/plomberie/assets/sass/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/plomberie/assets/sass/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/plomberie/assets/sass/_layouts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/plomberie/assets/sass/_layouts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/plomberie/assets/sass/controls/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/plomberie/assets/sass/controls/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/plomberie/assets/sass/controls/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/plomberie/assets/sass/controls/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/plomberie/assets/vendor/bootstrap/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/plomberie/assets/vendor/bootstrap/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/plomberie/layouts/default.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/plomberie/layouts/default.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/plomberie/pages/home.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/plomberie/pages/home.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/plomberie/partials/footer.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/plomberie/partials/footer.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/plomberie/partials/header.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/plomberie/partials/header.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/plomberie/partials/navbar.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/plomberie/partials/navbar.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/plomberie/partials/socials.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/plomberie/partials/socials.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/plomberie/theme_fields.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/plomberie/theme_fields.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,17 +128,44 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1g5sNBTCHcMH0A8XenI7bEGi1Nt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/themes/plomberie/partials" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/plomberie/partials" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -33,24 +178,59 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597415746097</updated>
-      <workItem from="1597415747146" duration="954000" />
+      <workItem from="1597415747146" duration="5835000" />
+      <workItem from="1597677984423" duration="7799000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="586" y="387" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1597685652650">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="586" y="387" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-1920.59.1920.1200/0.0.1680.1050@0.0.1680.1050" timestamp="1597685652650" />
+    <state x="300" y="100" key="CommitChangelistDialog2" timestamp="1597685757592">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="300" y="100" key="CommitChangelistDialog2/-1920.59.1920.1200/0.0.1680.1050@0.0.1680.1050" timestamp="1597685757592" />
     <state x="492" y="310" key="EditFileWatcherDialog" timestamp="1597416248910">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="492" y="310" key="EditFileWatcherDialog/-1920.59.1920.1200/0.0.1680.1050@0.0.1680.1050" timestamp="1597416248910" />
-    <state x="341" y="164" key="SettingsEditor" timestamp="1597416250589">
+    <state x="679" y="429" key="Github.ShareDialog" timestamp="1597417363048">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="341" y="164" key="SettingsEditor/-1920.59.1920.1200/0.0.1680.1050@0.0.1680.1050" timestamp="1597416250589" />
+    <state x="679" y="429" key="Github.ShareDialog/-1920.59.1920.1200/0.0.1680.1050@0.0.1680.1050" timestamp="1597417363048" />
+    <state x="350" y="237" key="Github.UntrackedFilesDialog" timestamp="1597417382916">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="350" y="237" key="Github.UntrackedFilesDialog/-1920.59.1920.1200/0.0.1680.1050@0.0.1680.1050" timestamp="1597417382916" />
+    <state x="341" y="164" key="SettingsEditor" timestamp="1597687883615">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="341" y="164" key="SettingsEditor/-1920.59.1920.1200/0.0.1680.1050@0.0.1680.1050" timestamp="1597687883615" />
+    <state x="538" y="280" width="604" height="490" key="find.popup" timestamp="1597688160133">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="538" y="280" width="604" height="490" key="find.popup/-1920.59.1920.1200/0.0.1680.1050@0.0.1680.1050" timestamp="1597688160133" />
   </component>
 </project>

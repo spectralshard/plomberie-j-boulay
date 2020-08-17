@@ -1,23 +1,66 @@
 title = "Accueil"
 url = "/"
 layout = "default"
-description = "Que vous soyez étudiant, une personne du troisième âge, un travailleur autonome ou encore une PME, nous pouvons vous apporter un soutien informatique."
-meta_title = "Support informatique MAC et Windows pour particuliers et entreprises"
-meta_description = "Que vous soyez étudiant, une personne du troisième âge, un travailleur autonome ou encore une PME, nous pouvons vous apporter un soutien informatique."
+description = "Meta desc."
+meta_title = "Meta Title"
+meta_description = "Meta desc"
 is_hidden = 0
 
 [viewBag]
 localeUrl[en] = "/"
-localeMeta_title[en] = "Mac and Windows IT support for individuals and businesses"
-localeMeta_description[en] = "Whether you are a student, a senior citizen, a self-employed worker or an SME, we can provide you with IT support."
+localeMeta_title[en] = "English title"
+localeMeta_description[en] = "English desc."
 ==
-<div class="banner hero-home py-5">
-    <div class="container py-5">
-        <div class="banner-text">
-            <div class="banner-heading text-uppercase">
-                {{ 'Avec nous, Apple et Windows n’ont jamais fait aussi bon ménage!'|_ }}
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-5 my-5">
+                <h1 class="display-6 text-uppercase">Une urgence avec votre plomberie?</h1>
+                <a href="tel:{{ this.theme.default_phone }}" class="btn btn-danger text-uppercase" title="{{ this.theme.default_phone }}">Appeler maintenant</a>
             </div>
-            <a class="btn btn-outline-light text-uppercase" href="{{ 'contact'|page }}">{{ 'Contactez nous'|_ }}</a>
         </div>
     </div>
 </div>
+<section class="py-5">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-10">
+                <h2 class="h2-responsive text-center">Services Complets</h2>
+                <p class="text-center">
+                    Nos experts de la plomberie sont certifiés et expérimentés pour faire l’analyse de vos besoin ou problème ainsi que de vous proposer la solution la mieux adaptée.
+                </p>
+                <div>
+                    <div class="mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="https://placeholder.com/wp-content/uploads/2019/06/stock-images.webp" class="card-img img-fluid">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Résidentielle</h5>
+                                    <p class="card-text">De la réparation des problèmes reliés à la tuyauterie de votre résidence à l'installation des appareils sanitaires, nous offrons l'éventail complet - et même plus - des services de plomberie résidentielle.</p>
+                                    <a href="" class="btn btn-primary text-uppercase">En savoir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Commerciale</h5>
+                                    <p class="card-text">Pour l'installation et l'entretien de séparateur de graisses ou tous vos besoins en plomberie pour votre cuisine commerciale ou vos salles de bain publiques.</p>
+                                    <a href="" class="btn btn-primary text-uppercase">En savoir plus</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="https://placeholder.com/wp-content/uploads/2019/06/stock-images.webp" class="card-img img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% partial 'reusable/cta' %}

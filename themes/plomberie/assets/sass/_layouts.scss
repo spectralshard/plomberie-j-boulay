@@ -56,3 +56,20 @@ a:hover {
 .text-primary{
   color: $primary-color!important;
 }
+
+.footer a {
+  outline: 0;
+  color: $white;
+  text-decoration: none !important;
+}
+
+.footer a:hover {
+  outline: 0;
+  color: $white;
+  text-decoration: none !important;
+}
+.footer-divider {
+  border-color: $white;
+  border-bottom:1px solid;
+  margin:0.5rem 0;
+}

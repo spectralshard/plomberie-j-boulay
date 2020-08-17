@@ -1,0 +1,28 @@
+1597688771a:1:{s:11:"contact.htm";a:7:{s:8:"fileName";s:11:"contact.htm";s:7:"content";s:647:"description = "Contact us zone"
+
+[simpleContact Mysimplecontact]
+nameTitle = "Votre nom et prénom"
+emailTitle = "Courriel"
+phoneTitle = "Téléphone"
+subjectTitle = "Sujets"
+messageTitle = "Messages"
+buttonText = "Soumettre"
+displayPhone = 1
+==
+<div class="container">
+    <div class="row d-flex justify-content-center">
+        <div class="col-8 my-5">
+            <h2 class="text-uppercase text-primary text-center">Nous joindre</h2>
+            <p class="text-center">Nous sommes disponibles 24 heures sur 24, 7 jours sur 7, <br> écrivez-nous dès maintenant!</p>
+            {% component 'Mysimplecontact' %}
+        </div>
+    </div>
+</div>";s:5:"mtime";i:1597685311;s:6:"markup";s:401:"<div class="container">
+    <div class="row d-flex justify-content-center">
+        <div class="col-8 my-5">
+            <h2 class="text-uppercase text-primary text-center">Nous joindre</h2>
+            <p class="text-center">Nous sommes disponibles 24 heures sur 24, 7 jours sur 7, <br> écrivez-nous dès maintenant!</p>
+            {% component 'Mysimplecontact' %}
+        </div>
+    </div>
+</div>";s:4:"code";N;s:11:"description";s:15:"Contact us zone";s:29:"simpleContact Mysimplecontact";a:7:{s:9:"nameTitle";s:20:"Votre nom et prénom";s:10:"emailTitle";s:8:"Courriel";s:10:"phoneTitle";s:11:"Téléphone";s:12:"subjectTitle";s:6:"Sujets";s:12:"messageTitle";s:8:"Messages";s:10:"buttonText";s:9:"Soumettre";s:12:"displayPhone";s:1:"1";}}}

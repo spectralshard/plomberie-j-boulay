@@ -39,9 +39,9 @@ class __TwigTemplate_7402f6a06a8b2b3113d6b81d7e177fc85cfc3e244af6575c550365e68bc
             echo "<a href=\"";
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 2), "facebook_url", [], "any", false, false, false, 2), "html", null, true);
             echo "\" target=\"_blank\" title=\"Facebook\">
-\t<span class=\"fa-stack\" style=\"vertical-align: top; font-size:10px; margin-top:10px\">
-\t\t<i class=\"fas fa-circle fa-stack-2x white-text\"></i>
-\t\t<i class=\"fab fa-facebook-f fa-stack-1x\"></i>
+\t<span class=\"fa-stack\" style=\"vertical-align: top; font-size:10px;\">
+\t\t<i class=\"fas fa-circle fa-stack-2x\"></i>
+\t\t<i class=\"fab fa-facebook-f fa-stack-1x text-white\"></i>
 \t</span>
 </a>
 ";
@@ -52,9 +52,9 @@ class __TwigTemplate_7402f6a06a8b2b3113d6b81d7e177fc85cfc3e244af6575c550365e68bc
             echo "<a href=\"";
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 10), "twitter_url", [], "any", false, false, false, 10), "html", null, true);
             echo "\" target=\"_blank\" title=\"Twitter\">
-\t<span class=\"fa-stack\" style=\"vertical-align: top; font-size:10px;margin-top:10px\">
-\t\t<i class=\"fas fa-circle fa-stack-2x white-text\"></i>
-\t\t<i class=\"fab fa-twitter fa-stack-1x\"></i>
+\t<span class=\"fa-stack\" style=\"vertical-align: top; font-size:10px;\">
+\t\t<i class=\"fas fa-circle fa-stack-2x\"></i>
+\t\t<i class=\"fab fa-twitter fa-stack-1x text-white\"></i>
 \t</span>
 </a>
 ";
@@ -65,9 +65,9 @@ class __TwigTemplate_7402f6a06a8b2b3113d6b81d7e177fc85cfc3e244af6575c550365e68bc
             echo "<a href=\"";
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 18), "linkedin_url", [], "any", false, false, false, 18), "html", null, true);
             echo "\" target=\"_blank\" title=\"LinkedIn\">
-\t<span class=\"fa-stack\" style=\"vertical-align: top; font-size:10px; margin-top:10px\">
-\t\t<i class=\"fas fa-circle fa-stack-2x white-text\"></i>
-\t\t<i class=\"fab fa-linkedin-in fa-stack-1x\"></i>
+\t<span class=\"fa-stack\" style=\"vertical-align: top; font-size:10px;\">
+\t\t<i class=\"fas fa-circle fa-stack-2x\"></i>
+\t\t<i class=\"fab fa-linkedin-in fa-stack-1x text-white\"></i>
 \t</span>
 </a>
 ";
@@ -78,9 +78,9 @@ class __TwigTemplate_7402f6a06a8b2b3113d6b81d7e177fc85cfc3e244af6575c550365e68bc
             echo "<a href=\"";
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 26), "instagram_url", [], "any", false, false, false, 26), "html", null, true);
             echo "\" target=\"_blank\" title=\"Instagram\">
-\t<span class=\"fa-stack\" style=\"vertical-align: top; font-size:10px; margin-top:10px;\">
-\t\t<i class=\"fas fa-circle fa-stack-2x white-text\"></i>
-\t\t<i class=\"fab fa-instagram fa-stack-1x\"></i>
+\t<span class=\"fa-stack\" style=\"vertical-align: top; font-size:10px;\">
+\t\t<i class=\"fas fa-circle fa-stack-2x\"></i>
+\t\t<i class=\"fab fa-instagram fa-stack-1x text-white\"></i>
 \t</span>
 </a>
 ";
@@ -91,9 +91,9 @@ class __TwigTemplate_7402f6a06a8b2b3113d6b81d7e177fc85cfc3e244af6575c550365e68bc
             echo "<a href=\"";
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 34), "pinterest_url", [], "any", false, false, false, 34), "html", null, true);
             echo "\" target=\"_blank\" title=\"Pinterest\">
-\t<span class=\"fa-stack\" style=\"vertical-align: top; font-size:10px; margin-top:10px;\">
-\t\t<i class=\"fas fa-circle fa-stack-2x white-text\"></i>
-\t\t<i class=\"fab fa-pinterest-p fa-stack-1x\"></i>
+\t<span class=\"fa-stack\" style=\"vertical-align: top; font-size:10px;\">
+\t\t<i class=\"fas fa-circle fa-stack-2x\"></i>
+\t\t<i class=\"fab fa-pinterest-p fa-stack-1x text-white\"></i>
 \t</span>
 </a>
 ";
@@ -119,41 +119,41 @@ class __TwigTemplate_7402f6a06a8b2b3113d6b81d7e177fc85cfc3e244af6575c550365e68bc
     {
         return new Source("{% if this.theme.facebook_url %}
 <a href=\"{{ this.theme.facebook_url }}\" target=\"_blank\" title=\"Facebook\">
-\t<span class=\"fa-stack\" style=\"vertical-align: top; font-size:10px; margin-top:10px\">
-\t\t<i class=\"fas fa-circle fa-stack-2x white-text\"></i>
-\t\t<i class=\"fab fa-facebook-f fa-stack-1x\"></i>
+\t<span class=\"fa-stack\" style=\"vertical-align: top; font-size:10px;\">
+\t\t<i class=\"fas fa-circle fa-stack-2x\"></i>
+\t\t<i class=\"fab fa-facebook-f fa-stack-1x text-white\"></i>
 \t</span>
 </a>
 {% endif %}
 {% if this.theme.twitter_url %}
 <a href=\"{{ this.theme.twitter_url }}\" target=\"_blank\" title=\"Twitter\">
-\t<span class=\"fa-stack\" style=\"vertical-align: top; font-size:10px;margin-top:10px\">
-\t\t<i class=\"fas fa-circle fa-stack-2x white-text\"></i>
-\t\t<i class=\"fab fa-twitter fa-stack-1x\"></i>
+\t<span class=\"fa-stack\" style=\"vertical-align: top; font-size:10px;\">
+\t\t<i class=\"fas fa-circle fa-stack-2x\"></i>
+\t\t<i class=\"fab fa-twitter fa-stack-1x text-white\"></i>
 \t</span>
 </a>
 {% endif %}
 {% if this.theme.linkedin_url %}
 <a href=\"{{ this.theme.linkedin_url }}\" target=\"_blank\" title=\"LinkedIn\">
-\t<span class=\"fa-stack\" style=\"vertical-align: top; font-size:10px; margin-top:10px\">
-\t\t<i class=\"fas fa-circle fa-stack-2x white-text\"></i>
-\t\t<i class=\"fab fa-linkedin-in fa-stack-1x\"></i>
+\t<span class=\"fa-stack\" style=\"vertical-align: top; font-size:10px;\">
+\t\t<i class=\"fas fa-circle fa-stack-2x\"></i>
+\t\t<i class=\"fab fa-linkedin-in fa-stack-1x text-white\"></i>
 \t</span>
 </a>
 {% endif %}
 {% if this.theme.instagram_url %}
 <a href=\"{{ this.theme.instagram_url }}\" target=\"_blank\" title=\"Instagram\">
-\t<span class=\"fa-stack\" style=\"vertical-align: top; font-size:10px; margin-top:10px;\">
-\t\t<i class=\"fas fa-circle fa-stack-2x white-text\"></i>
-\t\t<i class=\"fab fa-instagram fa-stack-1x\"></i>
+\t<span class=\"fa-stack\" style=\"vertical-align: top; font-size:10px;\">
+\t\t<i class=\"fas fa-circle fa-stack-2x\"></i>
+\t\t<i class=\"fab fa-instagram fa-stack-1x text-white\"></i>
 \t</span>
 </a>
 {% endif %}
 {% if this.theme.pinterest_url %}
 <a href=\"{{ this.theme.pinterest_url }}\" target=\"_blank\" title=\"Pinterest\">
-\t<span class=\"fa-stack\" style=\"vertical-align: top; font-size:10px; margin-top:10px;\">
-\t\t<i class=\"fas fa-circle fa-stack-2x white-text\"></i>
-\t\t<i class=\"fab fa-pinterest-p fa-stack-1x\"></i>
+\t<span class=\"fa-stack\" style=\"vertical-align: top; font-size:10px;\">
+\t\t<i class=\"fas fa-circle fa-stack-2x\"></i>
+\t\t<i class=\"fab fa-pinterest-p fa-stack-1x text-white\"></i>
 \t</span>
 </a>
 {% endif %}", "/Users/alexandrefoisy/web sites/plomberie-j-boulay/themes/plomberie/partials/socials.htm", "");

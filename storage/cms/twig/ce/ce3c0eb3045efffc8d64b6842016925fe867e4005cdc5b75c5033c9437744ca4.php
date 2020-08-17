@@ -34,45 +34,48 @@ class __TwigTemplate_c9ea065a6cbadf7b16c7af09324bb04551ca633fda67bfefedf91191aae
     {
         $macros = $this->macros;
         // line 1
-        echo "<section id=\"header\" class=\"secondary-color-dark\">
+        echo "<section id=\"header\" class=\"elegant-color\">
     <div class=\"container\">
         <div class=\"row justify-content-end\">
-\t\t\t<div class=\"col-sm-2 col-md-4 col-lg-6 d-none d-sm-block\">
-\t\t\t\t";
-        // line 5
-        $context['__cms_partial_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("socials"        , $context['__cms_partial_params']        , true        );
-        unset($context['__cms_partial_params']);
-        // line 6
-        echo "\t\t\t</div>
-            <div class=\"col-xs-12 col-sm-10 col-md-8 col-lg-6 text-sm-right p-2\">
-                <small><span class=\"pr-3 white-text\">
+\t\t\t<div class=\"col-lg-9 p-1\">
+\t\t\t\t<small><span class=\"pr-3 white-text\">
 \t\t\t\t<a href=\"tel:";
-        // line 9
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 9), "default_phone", [], "any", false, false, false, 9), "html", null, true);
+        // line 6
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 6), "default_phone", [], "any", false, false, false, 6), "html", null, true);
         echo "\" style=\"color:white!important;\">
 \t\t\t\t\t<i class=\"fas fa-phone\"></i>&nbsp;
 \t\t\t\t\t";
-        // line 11
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 11), "default_phone", [], "any", false, false, false, 11), "html", null, true);
+        // line 8
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 8), "default_phone", [], "any", false, false, false, 8), "html", null, true);
         echo "</a>
 \t\t\t\t</span>
-\t\t\t\t<span class=\"pr-3 white-text align-top\">
+\t\t\t\t\t<span class=\"pr-3 white-text align-top\">
 \t\t\t\t<a href=\"mailto:";
-        // line 14
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 14), "default_email", [], "any", false, false, false, 14), "html", null, true);
+        // line 11
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 11), "default_email", [], "any", false, false, false, 11), "html", null, true);
         echo "\" class=\"text-uppercase\" style=\"color:white!important;\">
 \t\t\t\t\t<i class=\"fas fa-envelope\"></i>&nbsp;
 \t\t\t\t\t";
-        // line 16
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 16), "default_email", [], "any", false, false, false, 16), "html", null, true);
+        // line 13
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 13), "default_email", [], "any", false, false, false, 13), "html", null, true);
         echo "</a>
 \t\t\t\t</span>
-\t\t\t\t<span class=\"d-none d-sm-inline-block\">
-\t\t\t\t";
+\t\t\t\t</small>
+\t\t\t</div>
+\t\t\t<div class=\"col-lg-3 text-sm-right pt-1\">
+\t\t\t\t<span class=\"pr-2\">
+\t\t\t\t\t";
         // line 19
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("socials"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 20
+        echo "\t\t\t\t</span>
+\t\t\t\t<span class=\"d-none d-sm-inline-block\" style=\"padding-top:3px;\">
+\t\t\t\t";
+        // line 22
         if ((($context["lang"] ?? null) == "fr")) {
-            // line 20
+            // line 23
             echo "\t\t\t\t<a href=\"#\"
 \t\t\t\t   class=\"text-white\"
 \t\t\t\t   data-request=\"onSwitchLocale\"
@@ -81,7 +84,7 @@ class __TwigTemplate_c9ea065a6cbadf7b16c7af09324bb04551ca633fda67bfefedf91191aae
 \t\t\t\t</a>
 \t\t\t\t";
         } else {
-            // line 27
+            // line 30
             echo "\t\t\t\t<a href=\"#\"
 \t\t\t\t   class=\"text-white\"
 \t\t\t\t   data-request=\"onSwitchLocale\"
@@ -90,13 +93,13 @@ class __TwigTemplate_c9ea065a6cbadf7b16c7af09324bb04551ca633fda67bfefedf91191aae
 \t\t\t\t</a>
 \t\t\t\t";
         }
-        // line 34
+        // line 37
         echo "\t\t\t\t</span>
-\t\t\t\t<span class=\"d-inline-block d-sm-none\">
+\t\t\t\t\t<span class=\"d-inline-block d-sm-none\">
 \t\t\t\t";
-        // line 36
+        // line 39
         if ((($context["lang"] ?? null) == "fr")) {
-            // line 37
+            // line 40
             echo "\t\t\t\t<a href=\"#\"
 \t\t\t\t   class=\"text-white\"
 \t\t\t\t   data-request=\"onSwitchLocale\"
@@ -105,7 +108,7 @@ class __TwigTemplate_c9ea065a6cbadf7b16c7af09324bb04551ca633fda67bfefedf91191aae
 \t\t\t\t</a>
 \t\t\t\t";
         } else {
-            // line 44
+            // line 47
             echo "\t\t\t\t<a href=\"#\"
 \t\t\t\t   class=\"text-white\"
 \t\t\t\t   data-request=\"onSwitchLocale\"
@@ -114,10 +117,10 @@ class __TwigTemplate_c9ea065a6cbadf7b16c7af09324bb04551ca633fda67bfefedf91191aae
 \t\t\t\t</a>
 \t\t\t\t";
         }
-        // line 51
+        // line 54
         echo "\t\t\t\t</span>
 \t\t\t\t</small>
-            </div>
+\t\t\t</div>
         </div>
     </div>
 </section>";
@@ -135,29 +138,32 @@ class __TwigTemplate_c9ea065a6cbadf7b16c7af09324bb04551ca633fda67bfefedf91191aae
 
     public function getDebugInfo()
     {
-        return array (  118 => 51,  109 => 44,  100 => 37,  98 => 36,  94 => 34,  85 => 27,  76 => 20,  74 => 19,  68 => 16,  63 => 14,  57 => 11,  52 => 9,  47 => 6,  43 => 5,  37 => 1,);
+        return array (  121 => 54,  112 => 47,  103 => 40,  101 => 39,  97 => 37,  88 => 30,  79 => 23,  77 => 22,  73 => 20,  69 => 19,  60 => 13,  55 => 11,  49 => 8,  44 => 6,  37 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("<section id=\"header\" class=\"secondary-color-dark\">
+        return new Source("<section id=\"header\" class=\"elegant-color\">
     <div class=\"container\">
         <div class=\"row justify-content-end\">
-\t\t\t<div class=\"col-sm-2 col-md-4 col-lg-6 d-none d-sm-block\">
-\t\t\t\t{% partial 'socials' %}
-\t\t\t</div>
-            <div class=\"col-xs-12 col-sm-10 col-md-8 col-lg-6 text-sm-right p-2\">
-                <small><span class=\"pr-3 white-text\">
+\t\t\t<div class=\"col-lg-9 p-1\">
+\t\t\t\t<small><span class=\"pr-3 white-text\">
 \t\t\t\t<a href=\"tel:{{ this.theme.default_phone }}\" style=\"color:white!important;\">
 \t\t\t\t\t<i class=\"fas fa-phone\"></i>&nbsp;
 \t\t\t\t\t{{ this.theme.default_phone }}</a>
 \t\t\t\t</span>
-\t\t\t\t<span class=\"pr-3 white-text align-top\">
+\t\t\t\t\t<span class=\"pr-3 white-text align-top\">
 \t\t\t\t<a href=\"mailto:{{ this.theme.default_email }}\" class=\"text-uppercase\" style=\"color:white!important;\">
 \t\t\t\t\t<i class=\"fas fa-envelope\"></i>&nbsp;
 \t\t\t\t\t{{ this.theme.default_email }}</a>
 \t\t\t\t</span>
-\t\t\t\t<span class=\"d-none d-sm-inline-block\">
+\t\t\t\t</small>
+\t\t\t</div>
+\t\t\t<div class=\"col-lg-3 text-sm-right pt-1\">
+\t\t\t\t<span class=\"pr-2\">
+\t\t\t\t\t{% partial 'socials' %}
+\t\t\t\t</span>
+\t\t\t\t<span class=\"d-none d-sm-inline-block\" style=\"padding-top:3px;\">
 \t\t\t\t{% if lang == 'fr' %}
 \t\t\t\t<a href=\"#\"
 \t\t\t\t   class=\"text-white\"
@@ -174,7 +180,7 @@ class __TwigTemplate_c9ea065a6cbadf7b16c7af09324bb04551ca633fda67bfefedf91191aae
 \t\t\t\t</a>
 \t\t\t\t{% endif %}
 \t\t\t\t</span>
-\t\t\t\t<span class=\"d-inline-block d-sm-none\">
+\t\t\t\t\t<span class=\"d-inline-block d-sm-none\">
 \t\t\t\t{% if lang == 'fr' %}
 \t\t\t\t<a href=\"#\"
 \t\t\t\t   class=\"text-white\"
@@ -192,7 +198,7 @@ class __TwigTemplate_c9ea065a6cbadf7b16c7af09324bb04551ca633fda67bfefedf91191aae
 \t\t\t\t{% endif %}
 \t\t\t\t</span>
 \t\t\t\t</small>
-            </div>
+\t\t\t</div>
         </div>
     </div>
 </section>", "/Users/alexandrefoisy/web sites/plomberie-j-boulay/themes/plomberie/partials/header.htm", "");

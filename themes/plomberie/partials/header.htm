@@ -1,23 +1,26 @@
 description = "Header"
 ==
-<section id="header" class="secondary-color-dark">
+<section id="header" class="elegant-color">
     <div class="container">
         <div class="row justify-content-end">
-			<div class="col-sm-2 col-md-4 col-lg-6 d-none d-sm-block">
-				{% partial 'socials' %}
-			</div>
-            <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6 text-sm-right p-2">
-                <small><span class="pr-3 white-text">
+			<div class="col-lg-9 p-1">
+				<small><span class="pr-3 white-text">
 				<a href="tel:{{ this.theme.default_phone }}" style="color:white!important;">
 					<i class="fas fa-phone"></i>&nbsp;
 					{{ this.theme.default_phone }}</a>
 				</span>
-				<span class="pr-3 white-text align-top">
+					<span class="pr-3 white-text align-top">
 				<a href="mailto:{{ this.theme.default_email }}" class="text-uppercase" style="color:white!important;">
 					<i class="fas fa-envelope"></i>&nbsp;
 					{{ this.theme.default_email }}</a>
 				</span>
-				<span class="d-none d-sm-inline-block">
+				</small>
+			</div>
+			<div class="col-lg-3 text-sm-right pt-1">
+				<span class="pr-2">
+					{% partial 'socials' %}
+				</span>
+				<span class="d-none d-sm-inline-block" style="padding-top:3px;">
 				{% if lang == 'fr' %}
 				<a href="#"
 				   class="text-white"
@@ -34,7 +37,7 @@ description = "Header"
 				</a>
 				{% endif %}
 				</span>
-				<span class="d-inline-block d-sm-none">
+					<span class="d-inline-block d-sm-none">
 				{% if lang == 'fr' %}
 				<a href="#"
 				   class="text-white"
@@ -52,7 +55,7 @@ description = "Header"
 				{% endif %}
 				</span>
 				</small>
-            </div>
+			</div>
         </div>
     </div>
 </section>

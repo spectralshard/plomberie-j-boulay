@@ -31,4 +31,6 @@
   'RainLab\\Translate\\FormWidgets\\MLTextarea' => 'plugins/rainlab/translate/formwidgets/MLTextarea.php',
   'RainLab\\Translate\\Models\\Message' => 'plugins/rainlab/translate/models/Message.php',
   'VojtaSvoboda\\TwigExtensions\\Classes\\TimeDiffTranslator' => 'plugins/vojtasvoboda/twigextensions/classes/TimeDiffTranslator.php',
+  'cms\\Controllers\\themeoptions' => 'modules/cms/controllers/themeoptions.php',
+  'Zainab\\SimpleContact\\Models\\Settings' => 'plugins/zainab/simplecontact/models/Settings.php',
 );

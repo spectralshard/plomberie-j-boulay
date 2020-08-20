@@ -37,17 +37,17 @@ class __TwigTemplate_c9ea065a6cbadf7b16c7af09324bb04551ca633fda67bfefedf91191aae
         echo "<section id=\"header\" class=\"elegant-color\">
     <div class=\"container\">
         <div class=\"row justify-content-end\">
-\t\t\t<div class=\"col-lg-9 p-1\">
+\t\t\t<div class=\"col-6 col-sm-8 col-md-6 col-lg-9 p-1\">
 \t\t\t\t<small><span class=\"pr-3 white-text\">
 \t\t\t\t<a href=\"tel:";
         // line 6
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 6), "default_phone", [], "any", false, false, false, 6), "html", null, true);
         echo "\" style=\"color:white!important;\">
 \t\t\t\t\t<i class=\"fas fa-phone\"></i>&nbsp;
-\t\t\t\t\t";
+\t\t\t\t\t<span>";
         // line 8
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 8), "default_phone", [], "any", false, false, false, 8), "html", null, true);
-        echo "</a>
+        echo "</span></a>
 \t\t\t\t</span>
 \t\t\t\t\t<span class=\"pr-3 white-text align-top\">
 \t\t\t\t<a href=\"mailto:";
@@ -55,14 +55,14 @@ class __TwigTemplate_c9ea065a6cbadf7b16c7af09324bb04551ca633fda67bfefedf91191aae
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 11), "default_email", [], "any", false, false, false, 11), "html", null, true);
         echo "\" class=\"text-uppercase\" style=\"color:white!important;\">
 \t\t\t\t\t<i class=\"fas fa-envelope\"></i>&nbsp;
-\t\t\t\t\t";
+\t\t\t\t\t<span class=\"d-none d-sm-inline\">";
         // line 13
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 13), "default_email", [], "any", false, false, false, 13), "html", null, true);
-        echo "</a>
+        echo "</span></a>
 \t\t\t\t</span>
 \t\t\t\t</small>
 \t\t\t</div>
-\t\t\t<div class=\"col-lg-3 text-sm-right pt-1\">
+\t\t\t<div class=\"col-6 col-sm-4 col-md-6 col-lg-3 text-right pt-2 pt-sm-1\">
 \t\t\t\t<span class=\"pr-2\">
 \t\t\t\t\t";
         // line 19
@@ -146,20 +146,20 @@ class __TwigTemplate_c9ea065a6cbadf7b16c7af09324bb04551ca633fda67bfefedf91191aae
         return new Source("<section id=\"header\" class=\"elegant-color\">
     <div class=\"container\">
         <div class=\"row justify-content-end\">
-\t\t\t<div class=\"col-lg-9 p-1\">
+\t\t\t<div class=\"col-6 col-sm-8 col-md-6 col-lg-9 p-1\">
 \t\t\t\t<small><span class=\"pr-3 white-text\">
 \t\t\t\t<a href=\"tel:{{ this.theme.default_phone }}\" style=\"color:white!important;\">
 \t\t\t\t\t<i class=\"fas fa-phone\"></i>&nbsp;
-\t\t\t\t\t{{ this.theme.default_phone }}</a>
+\t\t\t\t\t<span>{{ this.theme.default_phone }}</span></a>
 \t\t\t\t</span>
 \t\t\t\t\t<span class=\"pr-3 white-text align-top\">
 \t\t\t\t<a href=\"mailto:{{ this.theme.default_email }}\" class=\"text-uppercase\" style=\"color:white!important;\">
 \t\t\t\t\t<i class=\"fas fa-envelope\"></i>&nbsp;
-\t\t\t\t\t{{ this.theme.default_email }}</a>
+\t\t\t\t\t<span class=\"d-none d-sm-inline\">{{ this.theme.default_email }}</span></a>
 \t\t\t\t</span>
 \t\t\t\t</small>
 \t\t\t</div>
-\t\t\t<div class=\"col-lg-3 text-sm-right pt-1\">
+\t\t\t<div class=\"col-6 col-sm-4 col-md-6 col-lg-3 text-right pt-2 pt-sm-1\">
 \t\t\t\t<span class=\"pr-2\">
 \t\t\t\t\t{% partial 'socials' %}
 \t\t\t\t</span>

@@ -1,22 +1,22 @@
-1597939544a:1:{s:10:"header.htm";a:6:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:1709:"description = "Header"
+1597959216a:1:{s:10:"header.htm";a:6:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:1815:"description = "Header"
 ==
 <section id="header" class="elegant-color">
     <div class="container">
         <div class="row justify-content-end">
-			<div class="col-lg-9 p-1">
+			<div class="col-6 col-sm-8 col-md-6 col-lg-9 p-1">
 				<small><span class="pr-3 white-text">
 				<a href="tel:{{ this.theme.default_phone }}" style="color:white!important;">
 					<i class="fas fa-phone"></i>&nbsp;
-					{{ this.theme.default_phone }}</a>
+					<span>{{ this.theme.default_phone }}</span></a>
 				</span>
 					<span class="pr-3 white-text align-top">
 				<a href="mailto:{{ this.theme.default_email }}" class="text-uppercase" style="color:white!important;">
 					<i class="fas fa-envelope"></i>&nbsp;
-					{{ this.theme.default_email }}</a>
+					<span class="d-none d-sm-inline">{{ this.theme.default_email }}</span></a>
 				</span>
 				</small>
 			</div>
-			<div class="col-lg-3 text-sm-right pt-1">
+			<div class="col-6 col-sm-4 col-md-6 col-lg-3 text-right pt-2 pt-sm-1">
 				<span class="pr-2">
 					{% partial 'socials' %}
 				</span>
@@ -58,23 +58,23 @@
 			</div>
         </div>
     </div>
-</section>";s:5:"mtime";i:1597428173;s:6:"markup";s:1683:"<section id="header" class="elegant-color">
+</section>";s:5:"mtime";i:1597952309;s:6:"markup";s:1789:"<section id="header" class="elegant-color">
     <div class="container">
         <div class="row justify-content-end">
-			<div class="col-lg-9 p-1">
+			<div class="col-6 col-sm-8 col-md-6 col-lg-9 p-1">
 				<small><span class="pr-3 white-text">
 				<a href="tel:{{ this.theme.default_phone }}" style="color:white!important;">
 					<i class="fas fa-phone"></i>&nbsp;
-					{{ this.theme.default_phone }}</a>
+					<span>{{ this.theme.default_phone }}</span></a>
 				</span>
 					<span class="pr-3 white-text align-top">
 				<a href="mailto:{{ this.theme.default_email }}" class="text-uppercase" style="color:white!important;">
 					<i class="fas fa-envelope"></i>&nbsp;
-					{{ this.theme.default_email }}</a>
+					<span class="d-none d-sm-inline">{{ this.theme.default_email }}</span></a>
 				</span>
 				</small>
 			</div>
-			<div class="col-lg-3 text-sm-right pt-1">
+			<div class="col-6 col-sm-4 col-md-6 col-lg-3 text-right pt-2 pt-sm-1">
 				<span class="pr-2">
 					{% partial 'socials' %}
 				</span>

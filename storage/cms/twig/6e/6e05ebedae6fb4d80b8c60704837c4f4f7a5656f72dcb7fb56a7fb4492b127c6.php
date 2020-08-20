@@ -34,46 +34,43 @@ class __TwigTemplate_2fb4fb8bb41571e7534994f3a7fe31cead67fdc100b57001e725ccb597b
     {
         $macros = $this->macros;
         // line 1
-        echo "<section id=\"top\" class=\"hero-home banner-services py-5\">
-    <div class=\"container py-5\">
-        <div class=\"banner-text\">
-            <div class=\"banner-heading text-uppercase\">
-             ";
-        // line 5
-        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Oops! La page demandé est introuvable!"]);
-        echo "
+        echo "<div class=\"jumbotron jumbotron-fluid about-bg-header\">
+    <div class=\"container my-5\">
+        <div class=\"row my-5 py-5\">
+            <div class=\"col-sm-12 my-5 text-white text-center\">
+                <h1 class=\"display-6 text-uppercase text-shadow\" style=\"font-size:10rem;\">
+                    404
+                </h1>
             </div>
         </div>
     </div>
-</section>
-<section class=\"intro my-4\">
+</div>
+<section class=\"py-5\">
     <div class=\"container\">
-        <div class=\"row\">
-            <div class=\"col text-center\">
-                <h2 class=\"wow flipInX\" style=\"font-size:10rem;\">
-                    404
+        <div class=\"row d-flex justify-content-center\">
+            <div class=\"col-12 col-lg-10 text-center\">
+                <h2 class=\"wow flipInX\">
+                    ";
+        // line 17
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Oops! La page demandé est introuvable!"]);
+        echo "
                 </h2>
                 <p class=\"wow flipInX\">
                     ";
-        // line 18
+        // line 20
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Cette page n'existe plus, vous pouvez retourner à la page d'accueil!"]);
         echo "
                 </p>
-                <a class=\"btn btn-secondary wow fadeInUp\"
+                <a class=\"btn btn-primary wow fadeInUp\"
                    href=\"";
-        // line 21
+        // line 23
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("home");
         echo "\" role=\"button\">
                     ";
-        // line 22
+        // line 24
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Retourné à la page d'accueil"]);
         echo "
                 </a>
-            </div>
-        </div>
-        <div class=\"row my-5 pb-4\">
-            <div class=\"col\">
-
             </div>
         </div>
     </div>
@@ -92,39 +89,36 @@ class __TwigTemplate_2fb4fb8bb41571e7534994f3a7fe31cead67fdc100b57001e725ccb597b
 
     public function getDebugInfo()
     {
-        return array (  69 => 22,  65 => 21,  59 => 18,  43 => 5,  37 => 1,);
+        return array (  71 => 24,  67 => 23,  61 => 20,  55 => 17,  37 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("<section id=\"top\" class=\"hero-home banner-services py-5\">
-    <div class=\"container py-5\">
-        <div class=\"banner-text\">
-            <div class=\"banner-heading text-uppercase\">
-             {{ 'Oops! La page demandé est introuvable!'|_ }}
+        return new Source("<div class=\"jumbotron jumbotron-fluid about-bg-header\">
+    <div class=\"container my-5\">
+        <div class=\"row my-5 py-5\">
+            <div class=\"col-sm-12 my-5 text-white text-center\">
+                <h1 class=\"display-6 text-uppercase text-shadow\" style=\"font-size:10rem;\">
+                    404
+                </h1>
             </div>
         </div>
     </div>
-</section>
-<section class=\"intro my-4\">
+</div>
+<section class=\"py-5\">
     <div class=\"container\">
-        <div class=\"row\">
-            <div class=\"col text-center\">
-                <h2 class=\"wow flipInX\" style=\"font-size:10rem;\">
-                    404
+        <div class=\"row d-flex justify-content-center\">
+            <div class=\"col-12 col-lg-10 text-center\">
+                <h2 class=\"wow flipInX\">
+                    {{ 'Oops! La page demandé est introuvable!'|_ }}
                 </h2>
                 <p class=\"wow flipInX\">
                     {{ 'Cette page n\\'existe plus, vous pouvez retourner à la page d\\'accueil!'|_ }}
                 </p>
-                <a class=\"btn btn-secondary wow fadeInUp\"
+                <a class=\"btn btn-primary wow fadeInUp\"
                    href=\"{{ 'home'|page }}\" role=\"button\">
                     {{'Retourné à la page d\\'accueil'|_ }}
                 </a>
-            </div>
-        </div>
-        <div class=\"row my-5 pb-4\">
-            <div class=\"col\">
-
             </div>
         </div>
     </div>

@@ -34,17 +34,27 @@ class __TwigTemplate_e8736684d13cf689a1f84781df07e72e177b47746c7157d4f7a39294c89
     {
         $macros = $this->macros;
         // line 1
-        echo "<div class=\"container\">
+        echo "<div class=\"container pb-5\">
     <div class=\"row d-flex justify-content-center\">
-        <div class=\"col-8 my-5\">
-            <h2 class=\"text-uppercase text-primary text-center\">Nous joindre</h2>
-            <p class=\"text-center\">Nous sommes disponibles 24 heures sur 24, 7 jours sur 7, <br> écrivez-nous dès maintenant!</p>
+        <div class=\"col-lg-8 col-sm-12 my-5\">
+            <h2 class=\"text-uppercase text-primary text-center\">
+                ";
+        // line 5
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Nous joindre"]);
+        echo "
+            </h2>
+            <p class=\"text-center\">
+                ";
+        // line 8
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Nous sommes disponibles 24 heures sur 24, 7 jours sur 7, écrivez-nous dès maintenant!"]);
+        echo "
+            </p>
             ";
-        // line 6
+        // line 10
         $context['__cms_component_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("Mysimplecontact"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
-        // line 7
+        // line 11
         echo "        </div>
     </div>
 </div>";
@@ -62,16 +72,20 @@ class __TwigTemplate_e8736684d13cf689a1f84781df07e72e177b47746c7157d4f7a39294c89
 
     public function getDebugInfo()
     {
-        return array (  48 => 7,  44 => 6,  37 => 1,);
+        return array (  58 => 11,  54 => 10,  49 => 8,  43 => 5,  37 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("<div class=\"container\">
+        return new Source("<div class=\"container pb-5\">
     <div class=\"row d-flex justify-content-center\">
-        <div class=\"col-8 my-5\">
-            <h2 class=\"text-uppercase text-primary text-center\">Nous joindre</h2>
-            <p class=\"text-center\">Nous sommes disponibles 24 heures sur 24, 7 jours sur 7, <br> écrivez-nous dès maintenant!</p>
+        <div class=\"col-lg-8 col-sm-12 my-5\">
+            <h2 class=\"text-uppercase text-primary text-center\">
+                {{ \"Nous joindre\"|_ }}
+            </h2>
+            <p class=\"text-center\">
+                {{ \"Nous sommes disponibles 24 heures sur 24, 7 jours sur 7, écrivez-nous dès maintenant!\"|_ }}
+            </p>
             {% component 'Mysimplecontact' %}
         </div>
     </div>

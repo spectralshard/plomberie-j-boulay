@@ -1,4 +1,4 @@
-1597939988a:1:{s:8:"home.htm";a:13:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:3637:"title = "Accueil"
+1597959216a:1:{s:8:"home.htm";a:13:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:3919:"title = "Accueil"
 url = "/"
 layout = "default"
 description = "Meta desc."
@@ -13,52 +13,55 @@ localeMeta_description[en] = "English desc."
 ==
 <div class="jumbotron jumbotron-fluid home-bg-header">
     <div class="container my-5">
-        <div class="row my-5">
-            <div class="col-5 my-5 text-white">
-                <h1 class="display-6 text-uppercase text-shadow pb-3">Une urgence avec votre plomberie?</h1>
-                <a href="tel:{{ this.theme.default_phone }}" class="btn btn-black text-uppercase" title="{{ this.theme.default_phone }}">Appeler maintenant</a>
+        <div class="row my-5 py-5">
+            <div class="col-lg-5 col-sm-12 my-5 py-5 text-white">
+                <h1 class="display-6 text-uppercase text-shadow pb-3">
+                    {{ "Une urgence avec votre plomberie?"|_ }}</h1>
+                <a href="tel:{{ this.theme.default_phone }}" class="btn btn-black text-uppercase" title="{{ this.theme.default_phone }}">{{ "Appeler maintenant"|_ }}</a>
             </div>
         </div>
     </div>
 </div>
 <section class="py-5">
     <div class="container">
-        <div class="row d-flex justify-content-center">
-            <div class="col-10">
-                <h2 class="h2-responsive text-center">Services Complets</h2>
+        <div class="row d-flex justify-content-center pb-3">
+            <div class="col-lg-10 col-sm-12">
+                <h2 class="h2-responsive text-center">
+                    {{ "Services Complets"|_ }}</h2>
                 <p class="text-center">
-                    Nos experts de la plomberie sont certifiés et expérimentés pour faire l’analyse de vos besoin ou problème ainsi que de vous proposer la solution la mieux adaptée.
+                    {{ "Nos experts de la plomberie sont certifiés et expérimentés pour faire l’analyse de vos besoin ou problème ainsi que de vous proposer la solution la mieux adaptée."|_ }}
                 </p>
                 <div>
-                    <div class="mb-3">
+                    <div class="my-4">
                         <div class="row no-gutters">
                             <div class="col-md-6">
-                                <img src="{{'assets/images/residentielle-service.jpg'|theme}}"
+                                <img src="{{'assets/images/residentielle-service-600x.jpg'|theme}}"
                                      class="card-img img-fluid"
                                      alt="{{ 'Service résidentielle de plomberie'|_ }}">
                             </div>
                             <div class="col-md-6 d-flex align-items-center">
                                 <div class="card-body">
-                                    <h5 class="card-title">Résidentielle</h5>
-                                    <p class="card-text">De la réparation des problèmes reliés à la tuyauterie de votre résidence à l'installation des appareils sanitaires, nous offrons l'éventail complet - et même plus - des services de plomberie résidentielle.</p>
-                                    <a href="{{ 'residentielle'|page }}" class="btn btn-primary text-uppercase">En savoir plus</a>
+                                    <h5 class="card-title">{{ "Résidentielle"|_ }}</h5>
+                                    <p class="card-text">{{ "De la réparation des problèmes reliés à la tuyauterie de votre résidence à l'installation des appareils sanitaires, nous offrons l'éventail complet"|_ }} -
+                                   {{ "et même plus - des services de plomberie résidentielle."|_ }}</p>
+                                    <a href="{{ 'residentielle'|page }}" class="btn btn-primary text-uppercase">{{ "En savoir plus"|_ }}</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="mb-3">
+                    <div class="my-4">
                         <div class="row no-gutters">
-                            <div class="col-md-6 d-flex align-items-center">
-                                <div class="card-body">
-                                    <h5 class="card-title">Commerciale</h5>
-                                    <p class="card-text">Pour l'installation et l'entretien de séparateur de graisses ou tous vos besoins en plomberie pour votre cuisine commerciale ou vos salles de bain publiques.</p>
-                                    <a href="{{ 'commerciale'|page }}" class="btn btn-primary text-uppercase">En savoir plus</a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <img src="{{'assets/images/commercial-service.jpg'|theme}}"
+                            <div class="col-md-6 order-sm-1 order-lg-2">
+                                <img src="{{'assets/images/commercial-service-600x.jpg'|theme}}"
                                      class="card-img img-fluid"
                                      alt="{{ 'Service commerciale de plomberie'|_ }}">
+                            </div>
+                            <div class="col-md-6 d-flex align-items-center order-sm-2 order-lg-1">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{ "Commerciale"|_ }}</h5>
+                                    <p class="card-text">{{ "Pour l'installation et l'entretien de séparateur de graisses ou tous vos besoins en plomberie pour votre cuisine commerciale ou vos salles de bain publiques."|_ }}</p>
+                                    <a href="{{ 'commerciale'|page }}" class="btn btn-primary text-uppercase">{{ "En savoir plus"|_ }}</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -67,54 +70,57 @@ localeMeta_description[en] = "English desc."
         </div>
     </div>
 </section>
-{% partial 'reusable/cta' %}";s:5:"mtime";i:1597939388;s:6:"markup";s:3374:"<div class="jumbotron jumbotron-fluid home-bg-header">
+{% partial 'reusable/cta' %}";s:5:"mtime";i:1597958616;s:6:"markup";s:3656:"<div class="jumbotron jumbotron-fluid home-bg-header">
     <div class="container my-5">
-        <div class="row my-5">
-            <div class="col-5 my-5 text-white">
-                <h1 class="display-6 text-uppercase text-shadow pb-3">Une urgence avec votre plomberie?</h1>
-                <a href="tel:{{ this.theme.default_phone }}" class="btn btn-black text-uppercase" title="{{ this.theme.default_phone }}">Appeler maintenant</a>
+        <div class="row my-5 py-5">
+            <div class="col-lg-5 col-sm-12 my-5 py-5 text-white">
+                <h1 class="display-6 text-uppercase text-shadow pb-3">
+                    {{ "Une urgence avec votre plomberie?"|_ }}</h1>
+                <a href="tel:{{ this.theme.default_phone }}" class="btn btn-black text-uppercase" title="{{ this.theme.default_phone }}">{{ "Appeler maintenant"|_ }}</a>
             </div>
         </div>
     </div>
 </div>
 <section class="py-5">
     <div class="container">
-        <div class="row d-flex justify-content-center">
-            <div class="col-10">
-                <h2 class="h2-responsive text-center">Services Complets</h2>
+        <div class="row d-flex justify-content-center pb-3">
+            <div class="col-lg-10 col-sm-12">
+                <h2 class="h2-responsive text-center">
+                    {{ "Services Complets"|_ }}</h2>
                 <p class="text-center">
-                    Nos experts de la plomberie sont certifiés et expérimentés pour faire l’analyse de vos besoin ou problème ainsi que de vous proposer la solution la mieux adaptée.
+                    {{ "Nos experts de la plomberie sont certifiés et expérimentés pour faire l’analyse de vos besoin ou problème ainsi que de vous proposer la solution la mieux adaptée."|_ }}
                 </p>
                 <div>
-                    <div class="mb-3">
+                    <div class="my-4">
                         <div class="row no-gutters">
                             <div class="col-md-6">
-                                <img src="{{'assets/images/residentielle-service.jpg'|theme}}"
+                                <img src="{{'assets/images/residentielle-service-600x.jpg'|theme}}"
                                      class="card-img img-fluid"
                                      alt="{{ 'Service résidentielle de plomberie'|_ }}">
                             </div>
                             <div class="col-md-6 d-flex align-items-center">
                                 <div class="card-body">
-                                    <h5 class="card-title">Résidentielle</h5>
-                                    <p class="card-text">De la réparation des problèmes reliés à la tuyauterie de votre résidence à l'installation des appareils sanitaires, nous offrons l'éventail complet - et même plus - des services de plomberie résidentielle.</p>
-                                    <a href="{{ 'residentielle'|page }}" class="btn btn-primary text-uppercase">En savoir plus</a>
+                                    <h5 class="card-title">{{ "Résidentielle"|_ }}</h5>
+                                    <p class="card-text">{{ "De la réparation des problèmes reliés à la tuyauterie de votre résidence à l'installation des appareils sanitaires, nous offrons l'éventail complet"|_ }} -
+                                   {{ "et même plus - des services de plomberie résidentielle."|_ }}</p>
+                                    <a href="{{ 'residentielle'|page }}" class="btn btn-primary text-uppercase">{{ "En savoir plus"|_ }}</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="mb-3">
+                    <div class="my-4">
                         <div class="row no-gutters">
-                            <div class="col-md-6 d-flex align-items-center">
-                                <div class="card-body">
-                                    <h5 class="card-title">Commerciale</h5>
-                                    <p class="card-text">Pour l'installation et l'entretien de séparateur de graisses ou tous vos besoins en plomberie pour votre cuisine commerciale ou vos salles de bain publiques.</p>
-                                    <a href="{{ 'commerciale'|page }}" class="btn btn-primary text-uppercase">En savoir plus</a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <img src="{{'assets/images/commercial-service.jpg'|theme}}"
+                            <div class="col-md-6 order-sm-1 order-lg-2">
+                                <img src="{{'assets/images/commercial-service-600x.jpg'|theme}}"
                                      class="card-img img-fluid"
                                      alt="{{ 'Service commerciale de plomberie'|_ }}">
+                            </div>
+                            <div class="col-md-6 d-flex align-items-center order-sm-2 order-lg-1">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{ "Commerciale"|_ }}</h5>
+                                    <p class="card-text">{{ "Pour l'installation et l'entretien de séparateur de graisses ou tous vos besoins en plomberie pour votre cuisine commerciale ou vos salles de bain publiques."|_ }}</p>
+                                    <a href="{{ 'commerciale'|page }}" class="btn btn-primary text-uppercase">{{ "En savoir plus"|_ }}</a>
+                                </div>
                             </div>
                         </div>
                     </div>

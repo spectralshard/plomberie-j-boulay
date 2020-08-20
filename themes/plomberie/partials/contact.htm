@@ -9,11 +9,15 @@ messageTitle = "Messages"
 buttonText = "Soumettre"
 displayPhone = 1
 ==
-<div class="container">
+<div class="container pb-5">
     <div class="row d-flex justify-content-center">
-        <div class="col-8 my-5">
-            <h2 class="text-uppercase text-primary text-center">Nous joindre</h2>
-            <p class="text-center">Nous sommes disponibles 24 heures sur 24, 7 jours sur 7, <br> écrivez-nous dès maintenant!</p>
+        <div class="col-lg-8 col-sm-12 my-5">
+            <h2 class="text-uppercase text-primary text-center">
+                {{ "Nous joindre"|_ }}
+            </h2>
+            <p class="text-center">
+                {{ "Nous sommes disponibles 24 heures sur 24, 7 jours sur 7, écrivez-nous dès maintenant!"|_ }}
+            </p>
             {% component 'Mysimplecontact' %}
         </div>
     </div>

@@ -1,4 +1,4 @@
-1597939544a:1:{s:7:"404.htm";a:12:{s:8:"fileName";s:7:"404.htm";s:7:"content";s:1278:"title = "404"
+1597959631a:1:{s:7:"404.htm";a:12:{s:8:"fileName";s:7:"404.htm";s:7:"content";s:1312:"title = "404"
 url = "/404"
 layout = "default"
 meta_title = "404"
@@ -11,65 +11,60 @@ localeUrl[en] = "/404"
 localeMeta_title[en] = "404"
 localeMeta_description[en] = ""
 ==
-<section id="top" class="hero-home banner-services py-5">
-    <div class="container py-5">
-        <div class="banner-text">
-            <div class="banner-heading text-uppercase">
-             {{ 'Oops! La page demandé est introuvable!'|_ }}
+
+<div class="jumbotron jumbotron-fluid about-bg-header">
+    <div class="container my-5">
+        <div class="row my-5 py-5">
+            <div class="col-sm-12 my-5 text-white text-center">
+                <h1 class="display-6 text-uppercase text-shadow" style="font-size:10rem;">
+                    404
+                </h1>
             </div>
         </div>
     </div>
-</section>
-<section class="intro my-4">
+</div>
+<section class="py-5">
     <div class="container">
-        <div class="row">
-            <div class="col text-center">
-                <h2 class="wow flipInX" style="font-size:10rem;">
-                    404
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 col-lg-10 text-center">
+                <h2 class="wow flipInX">
+                    {{ 'Oops! La page demandé est introuvable!'|_ }}
                 </h2>
                 <p class="wow flipInX">
                     {{ 'Cette page n\'existe plus, vous pouvez retourner à la page d\'accueil!'|_ }}
                 </p>
-                <a class="btn btn-secondary wow fadeInUp"
+                <a class="btn btn-primary wow fadeInUp"
                    href="{{ 'home'|page }}" role="button">
                     {{'Retourné à la page d\'accueil'|_ }}
                 </a>
             </div>
         </div>
-        <div class="row my-5 pb-4">
-            <div class="col">
-
-            </div>
-        </div>
     </div>
-</section>";s:5:"mtime";i:1590077508;s:6:"markup";s:1055:"<section id="top" class="hero-home banner-services py-5">
-    <div class="container py-5">
-        <div class="banner-text">
-            <div class="banner-heading text-uppercase">
-             {{ 'Oops! La page demandé est introuvable!'|_ }}
-            </div>
-        </div>
-    </div>
-</section>
-<section class="intro my-4">
-    <div class="container">
-        <div class="row">
-            <div class="col text-center">
-                <h2 class="wow flipInX" style="font-size:10rem;">
+</section>";s:5:"mtime";i:1597959031;s:6:"markup";s:1088:"<div class="jumbotron jumbotron-fluid about-bg-header">
+    <div class="container my-5">
+        <div class="row my-5 py-5">
+            <div class="col-sm-12 my-5 text-white text-center">
+                <h1 class="display-6 text-uppercase text-shadow" style="font-size:10rem;">
                     404
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="py-5">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 col-lg-10 text-center">
+                <h2 class="wow flipInX">
+                    {{ 'Oops! La page demandé est introuvable!'|_ }}
                 </h2>
                 <p class="wow flipInX">
                     {{ 'Cette page n\'existe plus, vous pouvez retourner à la page d\'accueil!'|_ }}
                 </p>
-                <a class="btn btn-secondary wow fadeInUp"
+                <a class="btn btn-primary wow fadeInUp"
                    href="{{ 'home'|page }}" role="button">
                     {{'Retourné à la page d\'accueil'|_ }}
                 </a>
-            </div>
-        </div>
-        <div class="row my-5 pb-4">
-            <div class="col">
-
             </div>
         </div>
     </div>

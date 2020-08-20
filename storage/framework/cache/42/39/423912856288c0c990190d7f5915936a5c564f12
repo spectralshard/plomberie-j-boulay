@@ -1,4 +1,4 @@
-1597939857a:1:{s:12:"a-propos.htm";a:13:{s:8:"fileName";s:12:"a-propos.htm";s:7:"content";s:2148:"title = "À propos"
+1597959275a:1:{s:12:"a-propos.htm";a:13:{s:8:"fileName";s:12:"a-propos.htm";s:7:"content";s:2427:"title = "À propos"
 url = "/a-propos"
 layout = "default"
 description = "Meta desc."
@@ -13,9 +13,11 @@ localeMeta_description[en] = "English desc."
 ==
 <div class="jumbotron jumbotron-fluid about-bg-header">
     <div class="container my-5">
-        <div class="row my-5">
-            <div class="col-5 my-5 text-white">
-                <h1 class="display-6 text-uppercase text-shadow">À Propos</h1>
+        <div class="row my-5 py-5">
+            <div class="col-lg-5 col-sm-12 my-5 text-white">
+                <h1 class="display-6 text-uppercase text-shadow">
+                    {{ "À Propos"|_ }}
+                </h1>
             </div>
         </div>
     </div>
@@ -23,12 +25,14 @@ localeMeta_description[en] = "English desc."
 <section class="py-5">
     <div class="container">
         <div class="row d-flex justify-content-center">
-            <div class="col-10">
+            <div class="col-12 col-lg-10">
                 <h2 class="h2-responsive text-center">Plomberie J. Boulay Inc.</h2>
                 <p class="text-center">
-                    Nous sommes une entreprise  spécialisé dans le domaine de la plomberie résidentielle et commerciale. Nous offrons un service d'urgence de plomberie disponible 24 heures sur 24 afin de répondre rapidement à vos besoins.</p>
+                    {{ "Nous sommes une entreprise  spécialisé dans le domaine de la plomberie résidentielle et commerciale."|_ }}
+                    {{ "Nous offrons un service d'urgence de plomberie disponible 24 heures sur 24 afin de répondre rapidement à vos besoins."|_ }}
+                    </p>
                 <p class="text-center">
-                    Pour le remplacement et l'installation de tuyauterie ou pour l'installation d'une nouvelle entrée d'eau, vous pouvez compter sur le savoir-faire de l'équipe. Contactez nous dès aujourd'hui!
+                    {{ "Pour le remplacement et l'installation de tuyauterie ou pour l'installation d'une nouvelle entrée d'eau, vous pouvez compter sur le savoir-faire de l'équipe. Contactez nous dès aujourd'hui!"|_ }}
                 </p>
             </div>
         </div>
@@ -37,19 +41,25 @@ localeMeta_description[en] = "English desc."
 <section class="py-5 secondary-color text-white">
     <div class="container">
         <div class="row d-flex justify-content-center">
-            <div class="col-10">
-                <h2 class="h2-responsive text-center">Offrir une qualité exceptionnelle de service</h2>
+            <div class="col-12 col-lg-10">
+                <h2 class="h2-responsive text-center">
+                    {{ "Offrir une qualité exceptionnelle de service"|_ }}
+                    </h2>
                 <p class="text-center">
-                    Notre mandat est d’être une entreprise humaine et fiable. En plus de vous proposer un service rapide et une expertise complète, nous avons à cœur de vous fournir toutes les informations dont vous avez besoin. Notre but est de vous aider à prendre les meilleures décisions en fonction de vos enjeux particuliers!
+                    {{ "Notre mandat est d’être une entreprise humaine et fiable."|_ }}
+                    {{ "En plus de vous proposer un service rapide et une expertise complète, nous avons à cœur de vous fournir toutes les informations dont vous avez besoin."|_ }}
+                    {{ "Notre but est de vous aider à prendre les meilleures décisions en fonction de vos enjeux particuliers!"|_ }}
                 </p>
             </div>
         </div>
     </div>
-</section>";s:5:"mtime";i:1597937954;s:6:"markup";s:1870:"<div class="jumbotron jumbotron-fluid about-bg-header">
+</section>";s:5:"mtime";i:1597958675;s:6:"markup";s:2149:"<div class="jumbotron jumbotron-fluid about-bg-header">
     <div class="container my-5">
-        <div class="row my-5">
-            <div class="col-5 my-5 text-white">
-                <h1 class="display-6 text-uppercase text-shadow">À Propos</h1>
+        <div class="row my-5 py-5">
+            <div class="col-lg-5 col-sm-12 my-5 text-white">
+                <h1 class="display-6 text-uppercase text-shadow">
+                    {{ "À Propos"|_ }}
+                </h1>
             </div>
         </div>
     </div>
@@ -57,12 +67,14 @@ localeMeta_description[en] = "English desc."
 <section class="py-5">
     <div class="container">
         <div class="row d-flex justify-content-center">
-            <div class="col-10">
+            <div class="col-12 col-lg-10">
                 <h2 class="h2-responsive text-center">Plomberie J. Boulay Inc.</h2>
                 <p class="text-center">
-                    Nous sommes une entreprise  spécialisé dans le domaine de la plomberie résidentielle et commerciale. Nous offrons un service d'urgence de plomberie disponible 24 heures sur 24 afin de répondre rapidement à vos besoins.</p>
+                    {{ "Nous sommes une entreprise  spécialisé dans le domaine de la plomberie résidentielle et commerciale."|_ }}
+                    {{ "Nous offrons un service d'urgence de plomberie disponible 24 heures sur 24 afin de répondre rapidement à vos besoins."|_ }}
+                    </p>
                 <p class="text-center">
-                    Pour le remplacement et l'installation de tuyauterie ou pour l'installation d'une nouvelle entrée d'eau, vous pouvez compter sur le savoir-faire de l'équipe. Contactez nous dès aujourd'hui!
+                    {{ "Pour le remplacement et l'installation de tuyauterie ou pour l'installation d'une nouvelle entrée d'eau, vous pouvez compter sur le savoir-faire de l'équipe. Contactez nous dès aujourd'hui!"|_ }}
                 </p>
             </div>
         </div>
@@ -71,10 +83,14 @@ localeMeta_description[en] = "English desc."
 <section class="py-5 secondary-color text-white">
     <div class="container">
         <div class="row d-flex justify-content-center">
-            <div class="col-10">
-                <h2 class="h2-responsive text-center">Offrir une qualité exceptionnelle de service</h2>
+            <div class="col-12 col-lg-10">
+                <h2 class="h2-responsive text-center">
+                    {{ "Offrir une qualité exceptionnelle de service"|_ }}
+                    </h2>
                 <p class="text-center">
-                    Notre mandat est d’être une entreprise humaine et fiable. En plus de vous proposer un service rapide et une expertise complète, nous avons à cœur de vous fournir toutes les informations dont vous avez besoin. Notre but est de vous aider à prendre les meilleures décisions en fonction de vos enjeux particuliers!
+                    {{ "Notre mandat est d’être une entreprise humaine et fiable."|_ }}
+                    {{ "En plus de vous proposer un service rapide et une expertise complète, nous avons à cœur de vous fournir toutes les informations dont vous avez besoin."|_ }}
+                    {{ "Notre but est de vous aider à prendre les meilleures décisions en fonction de vos enjeux particuliers!"|_ }}
                 </p>
             </div>
         </div>

@@ -34,4 +34,7 @@
   'cms\\Controllers\\themeoptions' => 'modules/cms/controllers/themeoptions.php',
   'Zainab\\SimpleContact\\Models\\Settings' => 'plugins/zainab/simplecontact/models/Settings.php',
   'rainlab\\translate\\Controllers\\locales' => 'plugins/rainlab/translate/controllers/locales.php',
+  'rainlab\\translate\\Controllers\\messages' => 'plugins/rainlab/translate/controllers/messages.php',
+  'RainLab\\Translate\\Models\\MessageImport' => 'plugins/rainlab/translate/models/MessageImport.php',
+  'RainLab\\Translate\\Models\\MessageExport' => 'plugins/rainlab/translate/models/MessageExport.php',
 );

@@ -11,8 +11,8 @@ description = "Footer"
                     </h6>
                     <hr class="footer-divider">
                     <p class="text-white">
-                        Plomberie J. Boulay inc. est une entreprise familiale de plomberie fondée par Jonathan Boulay.
-                        Elle offre principalement des services en réparation et en rénovation dans les secteurs résidentiel et commercial.
+                        {{ "Plomberie J. Boulay inc. est une entreprise familiale de plomberie fondée par Jonathan Boulay."|_ }}
+                        {{ "Elle offre principalement des services en réparation et en rénovation dans les secteurs résidentiel et commercial."|_ }}
                     </p>
                 </div>
             </div>
@@ -28,23 +28,19 @@ description = "Footer"
                             <a class="text-white" href="{{ 'home'|page }}" title="{{'Accueil'|_}}">
                             {{'Accueil'|_}}
                             </a>
-                        </p>
-                        <p class="text-white mb-0">
+                        <br>
                             <a class="text-white" href="{{ 'residentielle'|page }}" title="{{'Résidentielle'|_}}">
                             {{'Résidentielle'|_}}
                             </a>
-                        </p>
-                        <p class="text-white mb-0">
+                            <br>
                             <a class="text-white" href="{{ 'commerciale'|page }}" title="{{'Commerciale'|_}}">
                             {{'Commerciale'|_}}
                             </a>
-                        </p>
-                        <p class="text-white mb-0">
+                            <br>
                             <a class="text-white" href="{{ 'a-propos'|page }}" title="{{'À Propos'|_}}">
                             {{'À Propos'|_}}
                             </a>
-                        </p>
-                        <p class="text-white mb-0">
+                            <br>
                             {% if lang == 'fr' %}
                             <a href="#"
                                class="text-white"
@@ -75,8 +71,7 @@ description = "Footer"
                        href="tel:{{ this.theme.default_phone }}"><i class="fas fa-phone"></i>&nbsp;
                             {{ this.theme.default_phone }}
                     </a>
-                    </p>
-                    <p>
+                        <br>
                     <a class="mt-sm-3 mt-md-3 mt-lg-0 text-white"
                         href="mailto:{{ this.theme.default_email }}"><i class="fas fa-envelope"></i>
                             {{ this.theme.default_email }}
@@ -84,7 +79,7 @@ description = "Footer"
                     </p>
                 </div>
                 <div class="col-12">
-                    <p class="text-white mb-0">
+                    <p class="text-white">
                         {{ 'Suivez nous'|_ }}
                     </p>
                     {% partial 'socials-footer' %}

@@ -1,4 +1,4 @@
-1597940120a:1:{s:17:"residentielle.htm";a:13:{s:8:"fileName";s:17:"residentielle.htm";s:7:"content";s:4743:"title = "Service résidentielle"
+1597959331a:1:{s:17:"residentielle.htm";a:13:{s:8:"fileName";s:17:"residentielle.htm";s:7:"content";s:5423:"title = "Service résidentielle"
 url = "/residentielle"
 layout = "default"
 description = "Meta desc."
@@ -13,9 +13,10 @@ localeMeta_description[en] = "English desc."
 ==
 <div class="jumbotron jumbotron-fluid residentielle-bg-header">
     <div class="container my-5">
-        <div class="row my-5">
-            <div class="col-5 my-5 text-white">
-                <h1 class="display-6 text-uppercase text-shadow">Plomberie Résidentielle</h1>
+        <div class="row my-5 py-5">
+            <div class="col-lg-5 col-sm-12 my-5 text-white">
+                <h1 class="display-6 text-uppercase text-shadow">
+                    {{ "Plomberie Résidentielle"|_ }}</h1>
             </div>
         </div>
     </div>
@@ -23,20 +24,24 @@ localeMeta_description[en] = "English desc."
 <section class="py-5">
     <div class="container">
         <div class="row d-flex justify-content-center">
-            <div class="col-12">
+            <div class="col-10 pb-5">
                 <h3 class="text-center h3-responsive text-primary">
-                    Notre services résidentiels</h3>
+                    {{ "Notre services résidentiels"|_ }}</h3>
                 <p class="text-center">
-                    L’alimentation en eau de votre résidence revêt une importance particulière, pour des raisons de commodité mais aussi de santé. Il n’y a pas de chance à prendre et vous avez besoin de professionnels chevronnés et certifiés pour assurer la conformité des systèmes de plomberie de votre maison.</p>
+                    {{ "L’alimentation en eau de votre résidence revêt une importance particulière, pour des raisons de commodité mais aussi de santé."|_ }}
+                    {{ "Il n’y a pas de chance à prendre et vous avez besoin de professionnels chevronnés et certifiés pour assurer la conformité des systèmes de plomberie de votre maison."|_ }} </p>
 
             </div>
-            <div>
-                <div class="mb-3">
+            <div class="col-sm-12 col-lg-10 pb-5">
+                <div class="my-4">
                     <div class="row no-gutters">
                         <div class="col-md-6 d-flex align-items-center">
                             <div class="card-body">
-                                <h5 class="card-title">Réparations aux systèmes de plomberie et tuyaux</h5>
-                                <p class="card-text">Si votre plomberie est désuète ou endommagée, des fuites ou micro-fuites peuvent causer des dommages à d’autres éléments de votre propriétés (planchers, armoires, etc.). Nous pouvons faire l’inspection de vos installations actuelles et planifier la mise à jour de votre plomberie.</p>
+                                <h5 class="card-title">
+                                    {{ "Plomberie commerciale et industrielle"|_ }}Réparations aux systèmes de plomberie et tuyaux</h5>
+                                <p class="card-text">
+                                    {{ "Si votre plomberie est désuète ou endommagée, des fuites ou micro-fuites peuvent causer des dommages à d’autres éléments de votre propriétés (planchers, armoires, etc.)."|_ }}
+                                    {{ "Nous pouvons faire l’inspection de vos installations actuelles et planifier la mise à jour de votre plomberie."|_ }}</p>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -46,7 +51,7 @@ localeMeta_description[en] = "English desc."
                         </div>
                     </div>
                 </div>
-                <div class="mb-3">
+                <div class="my-4">
                     <div class="row no-gutters">
                         <div class="col-md-6">
                             <img src="{{'assets/images/salle-de-bain.jpg'|theme}}"
@@ -55,39 +60,46 @@ localeMeta_description[en] = "English desc."
                         </div>
                         <div class="col-md-6 d-flex align-items-center">
                             <div class="card-body">
-                                <h5 class="card-title">Installation et réparation d’appareils sanitaires de cuisine et de salle de bain:</h5>
+                                <h5 class="card-title">{{ "Installation et réparation d’appareils sanitaires de cuisine et de salle de bain:"|_ }}</h5>
                                 <ul>
-                                    <li>Toilette</li>
-                                    <li>Évier et lavabo</li>
-                                    <li>Douche</li>
-                                    <li>Baignoire</li>
-                                    <li>Lave-vaisselle</li>
-                                    <li>Valves et robinetterie</li>
+                                    <li>{{ "Toilette"|_ }}</li>
+                                    <li>{{ "Évier et lavabo"|_ }}</li>
+                                    <li>{{ "Douche"|_ }}</li>
+                                    <li>{{ "Baignoire"|_ }}</li>
+                                    <li>{{ "Lave-vaisselle"|_ }}</li>
+                                    <li>{{ "Valves et robinetterie"|_ }}</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 text-center">
-                    <h3 class="h3-responsive text-primary">Plomberie complète pour construction ou rénovation</h3>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-12 px-0">
+                    <h3 class="h3-responsive text-primary text-center">{{ "Plomberie complète pour construction ou rénovation"|_ }}</h3>
                     <img src="{{'assets/images/renovation-plomberie.jpg'|theme}}"
                          class="card-img img-fluid"
                          alt="{{ 'Service commerciale de plomberie'|_ }}">
                     <p>
-                        Vous entreprenez des rénovations majeures ou avez un projet de construction de résidence? Nous sommes la référence pour planifier et exécuter les travaux d’installation pour la plomberie de votre maison.</p>
+                        {{ "Vous entreprenez des rénovations majeures ou avez un projet de construction de résidence?"|_ }}
+                        {{ "Nous sommes la référence pour planifier et exécuter les travaux d’installation pour la plomberie de votre maison."|_ }}
+                        </p>
                     <p>
-                        Il s’agit d’une opération coûteuse qui s’ajoute au coût total de vos travaux, et vous pouvez compter sur notre expertise et notre transparence pour vous présenter une soumission raisonnable à un rapport qualité-prix incomparable.</p>
-                    <a href="#contact" class="btn btn-primary text-uppercase">Demander une soumission</a>
+                        {{ "Il s’agit d’une opération coûteuse qui s’ajoute au coût total de vos travaux, et vous pouvez compter sur notre expertise"|_ }}
+                        {{ "et notre transparence pour vous présenter une soumission raisonnable à un rapport qualité-prix incomparable."|_ }}
+                    </p>
+                        <div class="text-center pt-3"> <a href="#contact" class="btn btn-primary text-uppercase">{{ "Demander une soumission"|_ }}</a></div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-{% partial 'reusable/cta' %}";s:5:"mtime";i:1597939520;s:6:"markup";s:4441:"<div class="jumbotron jumbotron-fluid residentielle-bg-header">
+{% partial 'reusable/cta' %}";s:5:"mtime";i:1597958731;s:6:"markup";s:5121:"<div class="jumbotron jumbotron-fluid residentielle-bg-header">
     <div class="container my-5">
-        <div class="row my-5">
-            <div class="col-5 my-5 text-white">
-                <h1 class="display-6 text-uppercase text-shadow">Plomberie Résidentielle</h1>
+        <div class="row my-5 py-5">
+            <div class="col-lg-5 col-sm-12 my-5 text-white">
+                <h1 class="display-6 text-uppercase text-shadow">
+                    {{ "Plomberie Résidentielle"|_ }}</h1>
             </div>
         </div>
     </div>
@@ -95,20 +107,24 @@ localeMeta_description[en] = "English desc."
 <section class="py-5">
     <div class="container">
         <div class="row d-flex justify-content-center">
-            <div class="col-12">
+            <div class="col-10 pb-5">
                 <h3 class="text-center h3-responsive text-primary">
-                    Notre services résidentiels</h3>
+                    {{ "Notre services résidentiels"|_ }}</h3>
                 <p class="text-center">
-                    L’alimentation en eau de votre résidence revêt une importance particulière, pour des raisons de commodité mais aussi de santé. Il n’y a pas de chance à prendre et vous avez besoin de professionnels chevronnés et certifiés pour assurer la conformité des systèmes de plomberie de votre maison.</p>
+                    {{ "L’alimentation en eau de votre résidence revêt une importance particulière, pour des raisons de commodité mais aussi de santé."|_ }}
+                    {{ "Il n’y a pas de chance à prendre et vous avez besoin de professionnels chevronnés et certifiés pour assurer la conformité des systèmes de plomberie de votre maison."|_ }} </p>
 
             </div>
-            <div>
-                <div class="mb-3">
+            <div class="col-sm-12 col-lg-10 pb-5">
+                <div class="my-4">
                     <div class="row no-gutters">
                         <div class="col-md-6 d-flex align-items-center">
                             <div class="card-body">
-                                <h5 class="card-title">Réparations aux systèmes de plomberie et tuyaux</h5>
-                                <p class="card-text">Si votre plomberie est désuète ou endommagée, des fuites ou micro-fuites peuvent causer des dommages à d’autres éléments de votre propriétés (planchers, armoires, etc.). Nous pouvons faire l’inspection de vos installations actuelles et planifier la mise à jour de votre plomberie.</p>
+                                <h5 class="card-title">
+                                    {{ "Plomberie commerciale et industrielle"|_ }}Réparations aux systèmes de plomberie et tuyaux</h5>
+                                <p class="card-text">
+                                    {{ "Si votre plomberie est désuète ou endommagée, des fuites ou micro-fuites peuvent causer des dommages à d’autres éléments de votre propriétés (planchers, armoires, etc.)."|_ }}
+                                    {{ "Nous pouvons faire l’inspection de vos installations actuelles et planifier la mise à jour de votre plomberie."|_ }}</p>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -118,7 +134,7 @@ localeMeta_description[en] = "English desc."
                         </div>
                     </div>
                 </div>
-                <div class="mb-3">
+                <div class="my-4">
                     <div class="row no-gutters">
                         <div class="col-md-6">
                             <img src="{{'assets/images/salle-de-bain.jpg'|theme}}"
@@ -127,29 +143,35 @@ localeMeta_description[en] = "English desc."
                         </div>
                         <div class="col-md-6 d-flex align-items-center">
                             <div class="card-body">
-                                <h5 class="card-title">Installation et réparation d’appareils sanitaires de cuisine et de salle de bain:</h5>
+                                <h5 class="card-title">{{ "Installation et réparation d’appareils sanitaires de cuisine et de salle de bain:"|_ }}</h5>
                                 <ul>
-                                    <li>Toilette</li>
-                                    <li>Évier et lavabo</li>
-                                    <li>Douche</li>
-                                    <li>Baignoire</li>
-                                    <li>Lave-vaisselle</li>
-                                    <li>Valves et robinetterie</li>
+                                    <li>{{ "Toilette"|_ }}</li>
+                                    <li>{{ "Évier et lavabo"|_ }}</li>
+                                    <li>{{ "Douche"|_ }}</li>
+                                    <li>{{ "Baignoire"|_ }}</li>
+                                    <li>{{ "Lave-vaisselle"|_ }}</li>
+                                    <li>{{ "Valves et robinetterie"|_ }}</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 text-center">
-                    <h3 class="h3-responsive text-primary">Plomberie complète pour construction ou rénovation</h3>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-12 px-0">
+                    <h3 class="h3-responsive text-primary text-center">{{ "Plomberie complète pour construction ou rénovation"|_ }}</h3>
                     <img src="{{'assets/images/renovation-plomberie.jpg'|theme}}"
                          class="card-img img-fluid"
                          alt="{{ 'Service commerciale de plomberie'|_ }}">
                     <p>
-                        Vous entreprenez des rénovations majeures ou avez un projet de construction de résidence? Nous sommes la référence pour planifier et exécuter les travaux d’installation pour la plomberie de votre maison.</p>
+                        {{ "Vous entreprenez des rénovations majeures ou avez un projet de construction de résidence?"|_ }}
+                        {{ "Nous sommes la référence pour planifier et exécuter les travaux d’installation pour la plomberie de votre maison."|_ }}
+                        </p>
                     <p>
-                        Il s’agit d’une opération coûteuse qui s’ajoute au coût total de vos travaux, et vous pouvez compter sur notre expertise et notre transparence pour vous présenter une soumission raisonnable à un rapport qualité-prix incomparable.</p>
-                    <a href="#contact" class="btn btn-primary text-uppercase">Demander une soumission</a>
+                        {{ "Il s’agit d’une opération coûteuse qui s’ajoute au coût total de vos travaux, et vous pouvez compter sur notre expertise"|_ }}
+                        {{ "et notre transparence pour vous présenter une soumission raisonnable à un rapport qualité-prix incomparable."|_ }}
+                    </p>
+                        <div class="text-center pt-3"> <a href="#contact" class="btn btn-primary text-uppercase">{{ "Demander une soumission"|_ }}</a></div>
+                    </div>
                 </div>
             </div>
         </div>

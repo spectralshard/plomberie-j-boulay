@@ -46,7 +46,7 @@ class __TwigTemplate_6c01405a17d07be404debf7c8b5d1362688880e286a585f7581485ba687
             <div class=\"form-group\">
                 <input placeholder=\"";
         // line 7
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["__SELF__"] ?? null), "properties", [], "any", false, false, false, 7), "nameLabel", [], "any", false, false, false, 7), "html", null, true);
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), [twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["__SELF__"] ?? null), "properties", [], "any", false, false, false, 7), "nameLabel", [], "any", false, false, false, 7)]);
         echo "\" type=\"text\" id=\"name\" name=\"name\" class=\"form-control\" required >
             </div>
         </div>
@@ -58,7 +58,7 @@ class __TwigTemplate_6c01405a17d07be404debf7c8b5d1362688880e286a585f7581485ba687
             echo "            <div class=\"form-group\">
                 <input placeholder=\"";
             // line 13
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["__SELF__"] ?? null), "properties", [], "any", false, false, false, 13), "phoneLabel", [], "any", false, false, false, 13), "html", null, true);
+            echo call_user_func_array($this->env->getFilter('_')->getCallable(), [twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["__SELF__"] ?? null), "properties", [], "any", false, false, false, 13), "phoneLabel", [], "any", false, false, false, 13)]);
             echo "\" type=\"text\" id=\"phone\" name=\"phone\" class=\"form-control\" required>
             </div>
             ";
@@ -69,7 +69,7 @@ class __TwigTemplate_6c01405a17d07be404debf7c8b5d1362688880e286a585f7581485ba687
             <div class=\"form-group\">
                 <input placeholder=\"";
         // line 19
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["__SELF__"] ?? null), "properties", [], "any", false, false, false, 19), "emailLabel", [], "any", false, false, false, 19), "html", null, true);
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), [twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["__SELF__"] ?? null), "properties", [], "any", false, false, false, 19), "emailLabel", [], "any", false, false, false, 19)]);
         echo "\" type=\"email\" id=\"email\" name=\"email\" class=\"form-control\" required >
             </div>
         </div>
@@ -82,7 +82,7 @@ class __TwigTemplate_6c01405a17d07be404debf7c8b5d1362688880e286a585f7581485ba687
     <div class=\"form-group\">
         <textarea placeholder=\"";
         // line 29
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["__SELF__"] ?? null), "properties", [], "any", false, false, false, 29), "messageLabel", [], "any", false, false, false, 29), "html", null, true);
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), [twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["__SELF__"] ?? null), "properties", [], "any", false, false, false, 29), "messageLabel", [], "any", false, false, false, 29)]);
         echo "\" id=\"message\" name=\"message\" class=\"form-control\" required style=\"height:150px;resize: none;\"></textarea>
     </div>
         </div>
@@ -110,7 +110,7 @@ class __TwigTemplate_6c01405a17d07be404debf7c8b5d1362688880e286a585f7581485ba687
             type=\"submit\" class=\"btn btn-primary float-right text-uppercase\">
         ";
         // line 46
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["__SELF__"] ?? null), "properties", [], "any", false, false, false, 46), "buttonText", [], "any", false, false, false, 46), "html", null, true);
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), [twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["__SELF__"] ?? null), "properties", [], "any", false, false, false, 46), "buttonText", [], "any", false, false, false, 46)]);
         echo "
     </button>
                 </div>
@@ -141,19 +141,19 @@ class __TwigTemplate_6c01405a17d07be404debf7c8b5d1362688880e286a585f7581485ba687
     <div class=\"row\">
         <div class=\"col-12 pt-4\">
             <div class=\"form-group\">
-                <input placeholder=\"{{__SELF__.properties.nameLabel}}\" type=\"text\" id=\"name\" name=\"name\" class=\"form-control\" required >
+                <input placeholder=\"{{__SELF__.properties.nameLabel|_}}\" type=\"text\" id=\"name\" name=\"name\" class=\"form-control\" required >
             </div>
         </div>
         <div class=\"col-6\">
             {% if(__SELF__.properties.phoneEnabled) %}
             <div class=\"form-group\">
-                <input placeholder=\"{{__SELF__.properties.phoneLabel}}\" type=\"text\" id=\"phone\" name=\"phone\" class=\"form-control\" required>
+                <input placeholder=\"{{__SELF__.properties.phoneLabel|_}}\" type=\"text\" id=\"phone\" name=\"phone\" class=\"form-control\" required>
             </div>
             {% endif %}
         </div>
         <div class=\"col-6\">
             <div class=\"form-group\">
-                <input placeholder=\"{{__SELF__.properties.emailLabel}}\" type=\"email\" id=\"email\" name=\"email\" class=\"form-control\" required >
+                <input placeholder=\"{{__SELF__.properties.emailLabel|_}}\" type=\"email\" id=\"email\" name=\"email\" class=\"form-control\" required >
             </div>
         </div>
         <div class=\"col-12\">
@@ -163,7 +163,7 @@ class __TwigTemplate_6c01405a17d07be404debf7c8b5d1362688880e286a585f7581485ba687
         </div>
         <div class=\"col-12\">
     <div class=\"form-group\">
-        <textarea placeholder=\"{{__SELF__.properties.messageLabel}}\" id=\"message\" name=\"message\" class=\"form-control\" required style=\"height:150px;resize: none;\"></textarea>
+        <textarea placeholder=\"{{__SELF__.properties.messageLabel|_}}\" id=\"message\" name=\"message\" class=\"form-control\" required style=\"height:150px;resize: none;\"></textarea>
     </div>
         </div>
 
@@ -180,7 +180,7 @@ class __TwigTemplate_6c01405a17d07be404debf7c8b5d1362688880e286a585f7581485ba687
                 <div class=\"col-12\">
     <button id=\"simpleContactSubmitButton\"
             type=\"submit\" class=\"btn btn-primary float-right text-uppercase\">
-        {{__SELF__.properties.buttonText}}
+        {{__SELF__.properties.buttonText|_}}
     </button>
                 </div>
     </div>

@@ -10,7 +10,35 @@
  * !! YOU HAVE BEEN WARNED !! MODIFY THIS FILE AT YOUR OWN RISK !!
  *
  */
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v16/S6u8w4BMUTPHjxswWw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI5wqPHA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHvxk.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVew8.ttf) format('truetype');
+}
+
 body[data-aos-duration="50"] [data-aos], [data-aos][data-aos][data-aos-duration="50"] {
   transition-duration: 50ms;
 }
@@ -16678,8 +16706,8 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("../webfonts/fa-brands-400.eot");
-  src: url("../webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg");
+  src: url("../themes/plomberie/assets/webfonts/fa-brands-400.eot");
+  src: url("../themes/plomberie/assets/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../themes/plomberie/assets/webfonts/fa-brands-400.woff2") format("woff2"), url("../themes/plomberie/assets/webfonts/fa-brands-400.woff") format("woff"), url("../themes/plomberie/assets/webfonts/fa-brands-400.ttf") format("truetype"), url("../themes/plomberie/assets/webfonts/fa-brands-400.svg#fontawesome") format("svg");
 }
 .fab {
   font-family: "Font Awesome 5 Brands";
@@ -16695,8 +16723,8 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("../webfonts/fa-regular-400.eot");
-  src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg");
+  src: url("../themes/plomberie/assets/webfonts/fa-regular-400.eot");
+  src: url("../themes/plomberie/assets/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../themes/plomberie/assets/webfonts/fa-regular-400.woff2") format("woff2"), url("../themes/plomberie/assets/webfonts/fa-regular-400.woff") format("woff"), url("../themes/plomberie/assets/webfonts/fa-regular-400.ttf") format("truetype"), url("../themes/plomberie/assets/webfonts/fa-regular-400.svg#fontawesome") format("svg");
 }
 .far {
   font-family: "Font Awesome 5 Free";
@@ -16712,8 +16740,8 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 900;
   font-display: block;
-  src: url("../webfonts/fa-solid-900.eot");
-  src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg");
+  src: url("../themes/plomberie/assets/webfonts/fa-solid-900.eot");
+  src: url("../themes/plomberie/assets/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../themes/plomberie/assets/webfonts/fa-solid-900.woff2") format("woff2"), url("../themes/plomberie/assets/webfonts/fa-solid-900.woff") format("woff"), url("../themes/plomberie/assets/webfonts/fa-solid-900.ttf") format("truetype"), url("../themes/plomberie/assets/webfonts/fa-solid-900.svg#fontawesome") format("svg");
 }
 .fa,
 .fas {
@@ -19248,7 +19276,7 @@ a .page-link {
 }
 
 .home-bg-header {
-  background-image: linear-gradient(90deg, #0074c2 0%, rgba(57, 160, 220, 0) 70%), url("../images/home-emergency-call-slider.jpg");
+  background-image: linear-gradient(90deg, #0074c2 0%, rgba(57, 160, 220, 0) 70%), url("../themes/plomberie/assets/images/home-emergency-call-slider.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -19259,7 +19287,7 @@ a .page-link {
 }
 
 .about-bg-header {
-  background-image: linear-gradient(90deg, #0074c2 0%, rgba(57, 160, 220, 0) 70%), url("../images/about-slide.jpg");
+  background-image: linear-gradient(90deg, #0074c2 0%, rgba(57, 160, 220, 0) 70%), url("../themes/plomberie/assets/images/about-slide.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -19270,7 +19298,7 @@ a .page-link {
 }
 
 .residentielle-bg-header {
-  background-image: linear-gradient(90deg, #0074c2 0%, rgba(57, 160, 220, 0) 70%), url("../images/residentielle-service.jpg");
+  background-image: linear-gradient(90deg, #0074c2 0%, rgba(57, 160, 220, 0) 70%), url("../themes/plomberie/assets/images/residentielle-service.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -19281,7 +19309,7 @@ a .page-link {
 }
 
 .commerciale-bg-header {
-  background-image: linear-gradient(90deg, #0074c2 0%, rgba(57, 160, 220, 0) 70%), url("../images/commercial-service.jpg");
+  background-image: linear-gradient(90deg, #0074c2 0%, rgba(57, 160, 220, 0) 70%), url("../themes/plomberie/assets/images/commercial-service.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;

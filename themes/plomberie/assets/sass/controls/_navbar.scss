@@ -94,6 +94,15 @@
 }
 
 /* mobile view */
+@media (max-width:1000px) {
+  .nav-link {
+    height: 50px;
+  }
+  .nav-link:hover {
+    color: $primary-color;
+    background-color: transparent;
+  }
+}
 @media (max-width:500px)
 {
   .dropdown-menu {

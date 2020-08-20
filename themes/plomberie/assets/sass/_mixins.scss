@@ -72,6 +72,17 @@ a .page-link{
   border-color: $primary-color-dark;
 }
 
+.btn-black {
+  background-color: #000000;
+  border-color: #000000;
+  color: $white;
+}
+.btn-black:hover {
+  background-color: #212121;
+  border-color: #212121;
+  color: $white;
+}
+
 .gray-scale{
 -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 filter: grayscale(100%);}

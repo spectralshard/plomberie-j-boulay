@@ -55,7 +55,7 @@ p {
   font: 400 15px/15px 'Lato', sans-serif;
   font-size: 1em;
   line-height: 1.4em;
-  margin-bottom: 1.125em;
+  margin: 1.125em 0;
 }
 
 // Emphasis & misc
@@ -86,7 +86,9 @@ ol {
   padding-bottom: 16px;
 }
 li {
-  font-size: 1.2em;
+  font: 400 15px/15px 'Lato', sans-serif;
+  font-size: 1em;
+  line-height: 1.4em;
 }
 // MISC
 // ----

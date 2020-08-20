@@ -1,4 +1,4 @@
-1597688903a:1:{s:11:"default.htm";a:7:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:3215:"description = "Default Layout"
+1597940120a:1:{s:11:"default.htm";a:7:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:3228:"description = "Default Layout"
 
 [localePicker]
 forceUrl = 0
@@ -62,7 +62,7 @@ $this['site_url'] = asset('');
 <main id="page">
     {% page %}
 </main>
-<section>
+<section id="contact">
     {% partial 'contact' %}
 </section>
 <footer class="footer">
@@ -80,7 +80,7 @@ $this['site_url'] = asset('');
 {% framework extras %}
 {% scripts %}
 </body>
-</html>";s:5:"mtime";i:1597684464;s:6:"markup";s:2907:"<!DOCTYPE html>
+</html>";s:5:"mtime";i:1597939520;s:6:"markup";s:2920:"<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -128,7 +128,7 @@ $this['site_url'] = asset('');
 <main id="page">
     {% page %}
 </main>
-<section>
+<section id="contact">
     {% partial 'contact' %}
 </section>
 <footer class="footer">

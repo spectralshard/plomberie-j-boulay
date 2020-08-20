@@ -34,7 +34,7 @@ class __TwigTemplate_189b3f9d65f4bde34bbb46feb1a9fc51380f7feb06ded9a2acb1bbd6f2c
     {
         $macros = $this->macros;
         // line 1
-        echo "<nav id=\"navbar\" class=\"navbar bg-white navbar-expand-lg\">
+        echo "<nav id=\"navbar\" class=\"navbar bg-white navbar-expand-lg shadow\">
 \t<div class=\"container\">
 \t\t<a class=\"navbar-brand\" href=\"";
         // line 3
@@ -133,7 +133,7 @@ class __TwigTemplate_189b3f9d65f4bde34bbb46feb1a9fc51380f7feb06ded9a2acb1bbd6f2c
 
     public function getSourceContext()
     {
-        return new Source("<nav id=\"navbar\" class=\"navbar bg-white navbar-expand-lg\">
+        return new Source("<nav id=\"navbar\" class=\"navbar bg-white navbar-expand-lg shadow\">
 \t<div class=\"container\">
 \t\t<a class=\"navbar-brand\" href=\"{{ 'home'|page }}\">
 \t\t\t<img src=\"{{'assets/images/logo-plomberie-jboulay.jpg'|theme}}\"

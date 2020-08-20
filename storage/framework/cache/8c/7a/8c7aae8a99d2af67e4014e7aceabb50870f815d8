@@ -1,4 +1,4 @@
-1597689082a:1:{s:8:"home.htm";a:13:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:3271:"title = "Accueil"
+1597939988a:1:{s:8:"home.htm";a:13:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:3637:"title = "Accueil"
 url = "/"
 layout = "default"
 description = "Meta desc."
@@ -11,12 +11,12 @@ localeUrl[en] = "/"
 localeMeta_title[en] = "English title"
 localeMeta_description[en] = "English desc."
 ==
-<div class="jumbotron jumbotron-fluid">
-    <div class="container">
-        <div class="row">
-            <div class="col-5 my-5">
-                <h1 class="display-6 text-uppercase">Une urgence avec votre plomberie?</h1>
-                <a href="tel:{{ this.theme.default_phone }}" class="btn btn-danger text-uppercase" title="{{ this.theme.default_phone }}">Appeler maintenant</a>
+<div class="jumbotron jumbotron-fluid home-bg-header">
+    <div class="container my-5">
+        <div class="row my-5">
+            <div class="col-5 my-5 text-white">
+                <h1 class="display-6 text-uppercase text-shadow pb-3">Une urgence avec votre plomberie?</h1>
+                <a href="tel:{{ this.theme.default_phone }}" class="btn btn-black text-uppercase" title="{{ this.theme.default_phone }}">Appeler maintenant</a>
             </div>
         </div>
     </div>
@@ -33,28 +33,32 @@ localeMeta_description[en] = "English desc."
                     <div class="mb-3">
                         <div class="row no-gutters">
                             <div class="col-md-6">
-                                <img src="https://placeholder.com/wp-content/uploads/2019/06/stock-images.webp" class="card-img img-fluid">
+                                <img src="{{'assets/images/residentielle-service.jpg'|theme}}"
+                                     class="card-img img-fluid"
+                                     alt="{{ 'Service résidentielle de plomberie'|_ }}">
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 d-flex align-items-center">
                                 <div class="card-body">
                                     <h5 class="card-title">Résidentielle</h5>
                                     <p class="card-text">De la réparation des problèmes reliés à la tuyauterie de votre résidence à l'installation des appareils sanitaires, nous offrons l'éventail complet - et même plus - des services de plomberie résidentielle.</p>
-                                    <a href="" class="btn btn-primary text-uppercase">En savoir plus</a>
+                                    <a href="{{ 'residentielle'|page }}" class="btn btn-primary text-uppercase">En savoir plus</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="mb-3">
                         <div class="row no-gutters">
-                            <div class="col-md-6">
+                            <div class="col-md-6 d-flex align-items-center">
                                 <div class="card-body">
                                     <h5 class="card-title">Commerciale</h5>
                                     <p class="card-text">Pour l'installation et l'entretien de séparateur de graisses ou tous vos besoins en plomberie pour votre cuisine commerciale ou vos salles de bain publiques.</p>
-                                    <a href="" class="btn btn-primary text-uppercase">En savoir plus</a>
+                                    <a href="{{ 'commerciale'|page }}" class="btn btn-primary text-uppercase">En savoir plus</a>
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <img src="https://placeholder.com/wp-content/uploads/2019/06/stock-images.webp" class="card-img img-fluid">
+                                <img src="{{'assets/images/commercial-service.jpg'|theme}}"
+                                     class="card-img img-fluid"
+                                     alt="{{ 'Service commerciale de plomberie'|_ }}">
                             </div>
                         </div>
                     </div>
@@ -63,12 +67,12 @@ localeMeta_description[en] = "English desc."
         </div>
     </div>
 </section>
-{% partial 'reusable/cta' %}";s:5:"mtime";i:1597688482;s:6:"markup";s:3008:"<div class="jumbotron jumbotron-fluid">
-    <div class="container">
-        <div class="row">
-            <div class="col-5 my-5">
-                <h1 class="display-6 text-uppercase">Une urgence avec votre plomberie?</h1>
-                <a href="tel:{{ this.theme.default_phone }}" class="btn btn-danger text-uppercase" title="{{ this.theme.default_phone }}">Appeler maintenant</a>
+{% partial 'reusable/cta' %}";s:5:"mtime";i:1597939388;s:6:"markup";s:3374:"<div class="jumbotron jumbotron-fluid home-bg-header">
+    <div class="container my-5">
+        <div class="row my-5">
+            <div class="col-5 my-5 text-white">
+                <h1 class="display-6 text-uppercase text-shadow pb-3">Une urgence avec votre plomberie?</h1>
+                <a href="tel:{{ this.theme.default_phone }}" class="btn btn-black text-uppercase" title="{{ this.theme.default_phone }}">Appeler maintenant</a>
             </div>
         </div>
     </div>
@@ -85,28 +89,32 @@ localeMeta_description[en] = "English desc."
                     <div class="mb-3">
                         <div class="row no-gutters">
                             <div class="col-md-6">
-                                <img src="https://placeholder.com/wp-content/uploads/2019/06/stock-images.webp" class="card-img img-fluid">
+                                <img src="{{'assets/images/residentielle-service.jpg'|theme}}"
+                                     class="card-img img-fluid"
+                                     alt="{{ 'Service résidentielle de plomberie'|_ }}">
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 d-flex align-items-center">
                                 <div class="card-body">
                                     <h5 class="card-title">Résidentielle</h5>
                                     <p class="card-text">De la réparation des problèmes reliés à la tuyauterie de votre résidence à l'installation des appareils sanitaires, nous offrons l'éventail complet - et même plus - des services de plomberie résidentielle.</p>
-                                    <a href="" class="btn btn-primary text-uppercase">En savoir plus</a>
+                                    <a href="{{ 'residentielle'|page }}" class="btn btn-primary text-uppercase">En savoir plus</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="mb-3">
                         <div class="row no-gutters">
-                            <div class="col-md-6">
+                            <div class="col-md-6 d-flex align-items-center">
                                 <div class="card-body">
                                     <h5 class="card-title">Commerciale</h5>
                                     <p class="card-text">Pour l'installation et l'entretien de séparateur de graisses ou tous vos besoins en plomberie pour votre cuisine commerciale ou vos salles de bain publiques.</p>
-                                    <a href="" class="btn btn-primary text-uppercase">En savoir plus</a>
+                                    <a href="{{ 'commerciale'|page }}" class="btn btn-primary text-uppercase">En savoir plus</a>
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <img src="https://placeholder.com/wp-content/uploads/2019/06/stock-images.webp" class="card-img img-fluid">
+                                <img src="{{'assets/images/commercial-service.jpg'|theme}}"
+                                     class="card-img img-fluid"
+                                     alt="{{ 'Service commerciale de plomberie'|_ }}">
                             </div>
                         </div>
                     </div>

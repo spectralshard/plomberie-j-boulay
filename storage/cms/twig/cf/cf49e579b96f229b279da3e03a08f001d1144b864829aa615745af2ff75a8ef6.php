@@ -159,7 +159,7 @@ class __TwigTemplate_a6d85e86fbf2aab13f61116ef9bbea1ca8ec39a7f59e53586d0119cab25
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
         // line 48
         echo "</main>
-<section>
+<section id=\"contact\">
     ";
         // line 50
         $context['__cms_partial_params'] = [];
@@ -278,7 +278,7 @@ class __TwigTemplate_a6d85e86fbf2aab13f61116ef9bbea1ca8ec39a7f59e53586d0119cab25
 <main id=\"page\">
     {% page %}
 </main>
-<section>
+<section id=\"contact\">
     {% partial 'contact' %}
 </section>
 <footer class=\"footer\">

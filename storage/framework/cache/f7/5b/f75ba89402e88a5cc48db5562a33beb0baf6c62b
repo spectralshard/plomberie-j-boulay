@@ -1,25 +1,29 @@
-1597688489a:1:{s:16:"reusable/cta.htm";a:5:{s:8:"fileName";s:16:"reusable/cta.htm";s:7:"content";s:763:"<div class="card mb-3 row-flush">
+1597939544a:1:{s:16:"reusable/cta.htm";a:5:{s:8:"fileName";s:16:"reusable/cta.htm";s:7:"content";s:882:"<div class="card mb-3 row-flush">
     <div class="row no-gutters secondary-color">
         <div class="col-md-6">
-            <img src="https://placeholder.com/wp-content/uploads/2019/06/stock-images.webp" class="img-fluid">
+            <img src="{{'assets/images/leaking-home-cta.jpg'|theme}}"
+                 class="card-img img-fluid"
+                 alt="{{ 'Service résidentielle de plomberie'|_ }}">
         </div>
         <div class="col-md-6 py-5 d-flex align-items-center">
             <div class="card-body container text-white mx-sm-5">
-                <h2 class="text-uppercase">Un dégât d'eau?</h2>
-                <h3>Faites appel à nous dès maintenant</h3>
+                <h2 class="text-uppercase py-0 h2-responsive">Un dégât d'eau?</h2>
+                <h3 class="mt-0 h3-responsive">Faites appel à nous dès maintenant</h3>
                 <p>Contactez-nous rapidement lors d’un dégât d’eau. Notre équipe vous aidera à distance pendant qu’un plombier se rendra à votre domicile pour limiter les dégâts et réparer le tout. </p>
             </div>
         </div>
     </div>
-</div>";s:5:"mtime";i:1597687127;s:6:"markup";s:763:"<div class="card mb-3 row-flush">
+</div>";s:5:"mtime";i:1597859068;s:6:"markup";s:882:"<div class="card mb-3 row-flush">
     <div class="row no-gutters secondary-color">
         <div class="col-md-6">
-            <img src="https://placeholder.com/wp-content/uploads/2019/06/stock-images.webp" class="img-fluid">
+            <img src="{{'assets/images/leaking-home-cta.jpg'|theme}}"
+                 class="card-img img-fluid"
+                 alt="{{ 'Service résidentielle de plomberie'|_ }}">
         </div>
         <div class="col-md-6 py-5 d-flex align-items-center">
             <div class="card-body container text-white mx-sm-5">
-                <h2 class="text-uppercase">Un dégât d'eau?</h2>
-                <h3>Faites appel à nous dès maintenant</h3>
+                <h2 class="text-uppercase py-0 h2-responsive">Un dégât d'eau?</h2>
+                <h3 class="mt-0 h3-responsive">Faites appel à nous dès maintenant</h3>
                 <p>Contactez-nous rapidement lors d’un dégât d’eau. Notre équipe vous aidera à distance pendant qu’un plombier se rendra à votre domicile pour limiter les dégâts et réparer le tout. </p>
             </div>
         </div>

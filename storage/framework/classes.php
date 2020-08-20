@@ -33,4 +33,5 @@
   'VojtaSvoboda\\TwigExtensions\\Classes\\TimeDiffTranslator' => 'plugins/vojtasvoboda/twigextensions/classes/TimeDiffTranslator.php',
   'cms\\Controllers\\themeoptions' => 'modules/cms/controllers/themeoptions.php',
   'Zainab\\SimpleContact\\Models\\Settings' => 'plugins/zainab/simplecontact/models/Settings.php',
+  'rainlab\\translate\\Controllers\\locales' => 'plugins/rainlab/translate/controllers/locales.php',
 );

@@ -1,21 +1,21 @@
 title = "Service résidentielle"
 url = "/residentielle"
 layout = "default"
-description = "Meta desc."
-meta_title = "Meta Title"
-meta_description = "Meta desc"
+description = "Votre plomberie est désuète ou endommagée ou des fuites ou micro-fuites sont présente? Appellez nous maintenant!"
+meta_title = "Services résidentiels de plomberie"
+meta_description = "Votre plomberie est désuète ou endommagée ou des fuites ou micro-fuites sont présente? Appellez nous maintenant!"
 is_hidden = 0
 
 [viewBag]
 localeUrl[en] = "/residential"
-localeMeta_title[en] = "English title"
-localeMeta_description[en] = "English desc."
+localeMeta_title[en] = "Residential plumbing services"
+localeMeta_description[en] = "Is your plumbing outdated or damaged or are there leaks or micro-leaks? Call us now!"
 ==
 <div class="jumbotron jumbotron-fluid residentielle-bg-header">
     <div class="container my-5">
         <div class="row my-5 py-5">
             <div class="col-lg-5 col-sm-12 my-5 text-white">
-                <h1 class="display-6 text-uppercase text-shadow">
+                <h1 class="display-6 text-uppercase text-shadow" data-aos="fade-up">
                     {{ "Plomberie Résidentielle"|_ }}</h1>
             </div>
         </div>
@@ -47,7 +47,9 @@ localeMeta_description[en] = "English desc."
                         <div class="col-md-6">
                             <img src="{{'assets/images/residentielle-plomberie.jpg'|theme}}"
                                  class="card-img img-fluid"
-                                 alt="{{ 'Service résidentielle de plomberie'|_ }}">
+                                 alt="{{ 'Pièces de plomberie brisées'|_ }}"
+                                 data-aos="fade-up"
+                                 data-aos-anchor-placement="top-bottom">
                         </div>
                     </div>
                 </div>
@@ -56,11 +58,15 @@ localeMeta_description[en] = "English desc."
                         <div class="col-md-6">
                             <img src="{{'assets/images/salle-de-bain.jpg'|theme}}"
                                  class="card-img img-fluid"
-                                 alt="{{ 'Service commerciale de plomberie'|_ }}">
+                                 alt="{{ 'Installation de plomberie neuve dans une salle de bain résidentielle'|_ }}"
+                                 data-aos="fade-up"
+                                 data-aos-anchor-placement="top-bottom">
                         </div>
                         <div class="col-md-6 d-flex align-items-center">
                             <div class="card-body">
-                                <h5 class="card-title">{{ "Installation et réparation d’appareils sanitaires de cuisine et de salle de bain:"|_ }}</h5>
+                                <h5 class="card-title">
+                                    {{ "Installation et réparation d’appareils sanitaires de cuisine et de salle de bain:"|_ }}
+                                </h5>
                                 <ul>
                                     <li>{{ "Toilette"|_ }}</li>
                                     <li>{{ "Évier et lavabo"|_ }}</li>
@@ -75,10 +81,14 @@ localeMeta_description[en] = "English desc."
                 </div>
                 <div class="row d-flex justify-content-center">
                     <div class="col-12 px-0">
-                    <h3 class="h3-responsive text-primary text-center">{{ "Plomberie complète pour construction ou rénovation"|_ }}</h3>
+                    <h3 class="h3-responsive text-primary text-center">
+                        {{ "Plomberie complète pour construction ou rénovation"|_ }}
+                    </h3>
                     <img src="{{'assets/images/renovation-plomberie.jpg'|theme}}"
                          class="card-img img-fluid"
-                         alt="{{ 'Service commerciale de plomberie'|_ }}">
+                         alt="{{ 'Service de rénovation de plomberie résidentielle'|_ }}"
+                         data-aos="fade-up"
+                         data-aos-anchor-placement="top-bottom">
                     <p>
                         {{ "Vous entreprenez des rénovations majeures ou avez un projet de construction de résidence?"|_ }}
                         {{ "Nous sommes la référence pour planifier et exécuter les travaux d’installation pour la plomberie de votre maison."|_ }}
@@ -87,7 +97,14 @@ localeMeta_description[en] = "English desc."
                         {{ "Il s’agit d’une opération coûteuse qui s’ajoute au coût total de vos travaux, et vous pouvez compter sur notre expertise"|_ }}
                         {{ "et notre transparence pour vous présenter une soumission raisonnable à un rapport qualité-prix incomparable."|_ }}
                     </p>
-                        <div class="text-center pt-3"> <a href="#contact" class="btn btn-primary text-uppercase">{{ "Demander une soumission"|_ }}</a></div>
+                        <div class="text-center pt-3">
+                            <a href="#contact"
+                               class="btn btn-primary text-uppercase"
+                               title="{{ 'Demander une soumission'|_ }}"
+                               data-aos="fade-up">
+                                {{ "Demander une soumission"|_ }}
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

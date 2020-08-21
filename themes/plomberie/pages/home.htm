@@ -2,22 +2,23 @@ title = "Accueil"
 url = "/"
 layout = "default"
 description = "Meta desc."
-meta_title = "Meta Title"
-meta_description = "Meta desc"
+meta_title = "Service de plomberie 24/7 dans la grande région de Montréal et rive-sud"
+meta_description = "Plomberie J. Boulay inc. offre principalement des services en réparation et en rénovation de plomberie dans les secteurs résidentiel et commercial."
 is_hidden = 0
 
 [viewBag]
 localeUrl[en] = "/"
-localeMeta_title[en] = "English title"
-localeMeta_description[en] = "English desc."
+localeMeta_title[en] = "24/7 plumbing service in the greater Montreal area and south shore"
+localeMeta_description[en] = "Plomberie J. Boulay inc. mainly offers repair and renovation plumbing services in the residential and commercial sectors."
 ==
 <div class="jumbotron jumbotron-fluid home-bg-header">
     <div class="container my-5">
         <div class="row my-5 py-5">
             <div class="col-lg-5 col-sm-12 my-5 py-5 text-white">
-                <h1 class="display-6 text-uppercase text-shadow pb-3">
+                <h1 class="display-6 text-uppercase text-shadow pb-3" data-aos="fade-up">
                     {{ "Une urgence avec votre plomberie?"|_ }}</h1>
-                <a href="tel:{{ this.theme.default_phone }}" class="btn btn-black text-uppercase" title="{{ this.theme.default_phone }}">{{ "Appeler maintenant"|_ }}</a>
+                <a href="tel:{{ this.theme.default_phone }}" class="btn btn-black text-uppercase"
+                   title="{{ this.theme.default_phone }}" data-aos="fade-right">{{ "Appeler maintenant"|_ }}</a>
             </div>
         </div>
     </div>
@@ -37,14 +38,18 @@ localeMeta_description[en] = "English desc."
                             <div class="col-md-6">
                                 <img src="{{'assets/images/residentielle-service-600x.jpg'|theme}}"
                                      class="card-img img-fluid"
-                                     alt="{{ 'Service résidentielle de plomberie'|_ }}">
+                                     alt="{{ 'Service résidentielle de plomberie'|_ }}"
+                                     data-aos="fade-up"
+                                     data-aos-anchor-placement="top-bottom">
                             </div>
                             <div class="col-md-6 d-flex align-items-center">
                                 <div class="card-body">
                                     <h5 class="card-title">{{ "Résidentielle"|_ }}</h5>
                                     <p class="card-text">{{ "De la réparation des problèmes reliés à la tuyauterie de votre résidence à l'installation des appareils sanitaires, nous offrons l'éventail complet"|_ }} -
                                    {{ "et même plus - des services de plomberie résidentielle."|_ }}</p>
-                                    <a href="{{ 'residentielle'|page }}" class="btn btn-primary text-uppercase">{{ "En savoir plus"|_ }}</a>
+                                    <a href="{{ 'residentielle'|page }}"
+                                       class="btn btn-primary text-uppercase"
+                                    title="{{ 'Service résidentielle de plomberie'|_ }}">{{ "En savoir plus"|_ }}</a>
                                 </div>
                             </div>
                         </div>
@@ -54,13 +59,17 @@ localeMeta_description[en] = "English desc."
                             <div class="col-md-6 order-sm-1 order-lg-2">
                                 <img src="{{'assets/images/commercial-service-600x.jpg'|theme}}"
                                      class="card-img img-fluid"
-                                     alt="{{ 'Service commerciale de plomberie'|_ }}">
+                                     alt="{{ 'Service commerciale de plomberie'|_ }}"
+                                     data-aos="fade-up"
+                                     data-aos-anchor-placement="top-bottom">
                             </div>
                             <div class="col-md-6 d-flex align-items-center order-sm-2 order-lg-1">
                                 <div class="card-body">
                                     <h5 class="card-title">{{ "Commerciale"|_ }}</h5>
                                     <p class="card-text">{{ "Pour l'installation et l'entretien de séparateur de graisses ou tous vos besoins en plomberie pour votre cuisine commerciale ou vos salles de bain publiques."|_ }}</p>
-                                    <a href="{{ 'commerciale'|page }}" class="btn btn-primary text-uppercase">{{ "En savoir plus"|_ }}</a>
+                                    <a href="{{ 'commerciale'|page }}"
+                                       class="btn btn-primary text-uppercase"
+                                       title="{{ 'Service commerciale de plomberie'|_ }}">{{ "En savoir plus"|_ }}</a>
                                 </div>
                             </div>
                         </div>

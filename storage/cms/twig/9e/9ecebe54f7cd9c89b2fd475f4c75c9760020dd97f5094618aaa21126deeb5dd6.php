@@ -38,7 +38,7 @@ class __TwigTemplate_cc6354f9ccf2dcdc9ae1b2c0bc5ba15d9672813059965ca5631e4334c33
     <div class=\"container my-5\">
         <div class=\"row my-5 py-5\">
             <div class=\"col-lg-5 col-sm-12 my-5 text-white\">
-                <h1 class=\"display-6 text-uppercase text-shadow\">
+                <h1 class=\"display-6 text-uppercase text-shadow\" data-aos=\"fade-up\">
                     ";
         // line 6
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["À Propos"]);
@@ -124,7 +124,7 @@ class __TwigTemplate_cc6354f9ccf2dcdc9ae1b2c0bc5ba15d9672813059965ca5631e4334c33
     <div class=\"container my-5\">
         <div class=\"row my-5 py-5\">
             <div class=\"col-lg-5 col-sm-12 my-5 text-white\">
-                <h1 class=\"display-6 text-uppercase text-shadow\">
+                <h1 class=\"display-6 text-uppercase text-shadow\" data-aos=\"fade-up\">
                     {{ \"À Propos\"|_ }}
                 </h1>
             </div>

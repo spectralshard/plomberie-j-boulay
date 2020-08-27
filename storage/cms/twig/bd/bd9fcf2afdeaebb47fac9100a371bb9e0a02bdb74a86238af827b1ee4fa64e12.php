@@ -44,25 +44,32 @@ class __TwigTemplate_68394e8f4f2ccf0d0b3ae0642429e19d50089332f0e8288e3225d87fef2
                  class=\"card-img img-fluid\"
                  alt=\"";
         // line 6
-        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Service résidentielle de plomberie"]);
-        echo "\">
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Un dégât d'eau? Faites appel à nous dès maintenant"]);
+        echo "\"
+            data-aos=\"fade-up\"
+            data-aos-anchor-placement=\"top-bottom\">
         </div>
         <div class=\"col-md-12 col-lg-6 py-5 d-flex align-items-center\">
             <div class=\"card-body container text-white mx-sm-5\">
-                <h2 class=\"text-uppercase py-0 h2-responsive\">";
-        // line 10
+                <h2 class=\"text-uppercase py-0 h2-responsive\">
+                    ";
+        // line 13
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Un dégât d'eau?"]);
-        echo "</h2>
+        echo "
+                </h2>
                 <h3 class=\"mt-0 h3-responsive\">";
-        // line 11
+        // line 15
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Faites appel à nous dès maintenant"]);
         echo "</h3>
                 <p>";
-        // line 12
+        // line 16
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Contactez-nous rapidement lors d'un dégât d'eau."]);
-        echo " ";
+        echo "
+                    ";
+        // line 17
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Notre équipe vous aidera à distance pendant qu'un plombier se rendra à votre domicile pour limiter les dégâts et réparer le tout."]);
-        echo " </p>
+        echo "
+                </p>
             </div>
         </div>
     </div>
@@ -81,7 +88,7 @@ class __TwigTemplate_68394e8f4f2ccf0d0b3ae0642429e19d50089332f0e8288e3225d87fef2
 
     public function getDebugInfo()
     {
-        return array (  62 => 12,  58 => 11,  54 => 10,  47 => 6,  42 => 4,  37 => 1,);
+        return array (  70 => 17,  66 => 16,  62 => 15,  57 => 13,  47 => 6,  42 => 4,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -91,13 +98,19 @@ class __TwigTemplate_68394e8f4f2ccf0d0b3ae0642429e19d50089332f0e8288e3225d87fef2
         <div class=\"col-md-12 col-lg-6\">
             <img src=\"{{'assets/images/leaking-home-cta.jpg'|theme}}\"
                  class=\"card-img img-fluid\"
-                 alt=\"{{ 'Service résidentielle de plomberie'|_ }}\">
+                 alt=\"{{ \"Un dégât d'eau? Faites appel à nous dès maintenant\"|_ }}\"
+            data-aos=\"fade-up\"
+            data-aos-anchor-placement=\"top-bottom\">
         </div>
         <div class=\"col-md-12 col-lg-6 py-5 d-flex align-items-center\">
             <div class=\"card-body container text-white mx-sm-5\">
-                <h2 class=\"text-uppercase py-0 h2-responsive\">{{ \"Un dégât d'eau?\"|_ }}</h2>
-                <h3 class=\"mt-0 h3-responsive\">{{ 'Faites appel à nous dès maintenant'|_ }}</h3>
-                <p>{{ \"Contactez-nous rapidement lors d'un dégât d'eau.\"|_ }} {{ \"Notre équipe vous aidera à distance pendant qu'un plombier se rendra à votre domicile pour limiter les dégâts et réparer le tout.\"|_ }} </p>
+                <h2 class=\"text-uppercase py-0 h2-responsive\">
+                    {{ \"Un dégât d'eau?\" |_ }}
+                </h2>
+                <h3 class=\"mt-0 h3-responsive\">{{ \"Faites appel à nous dès maintenant\"|_ }}</h3>
+                <p>{{ \"Contactez-nous rapidement lors d'un dégât d'eau.\"|_ }}
+                    {{ \"Notre équipe vous aidera à distance pendant qu'un plombier se rendra à votre domicile pour limiter les dégâts et réparer le tout.\"|_ }}
+                </p>
             </div>
         </div>
     </div>

@@ -1,15 +1,15 @@
-1597959631a:1:{s:7:"404.htm";a:12:{s:8:"fileName";s:7:"404.htm";s:7:"content";s:1312:"title = "404"
+1598023496a:1:{s:7:"404.htm";a:12:{s:8:"fileName";s:7:"404.htm";s:7:"content";s:1376:"title = "404"
 url = "/404"
 layout = "default"
 meta_title = "404"
-meta_description = ""
+meta_description = "La page demandé est introuvable"
 is_hidden = 0
 
 [viewBag]
 localeTitle[en] = "404"
 localeUrl[en] = "/404"
 localeMeta_title[en] = "404"
-localeMeta_description[en] = ""
+localeMeta_description[en] = "The requested page was not found"
 ==
 
 <div class="jumbotron jumbotron-fluid about-bg-header">
@@ -40,7 +40,7 @@ localeMeta_description[en] = ""
             </div>
         </div>
     </div>
-</section>";s:5:"mtime";i:1597959031;s:6:"markup";s:1088:"<div class="jumbotron jumbotron-fluid about-bg-header">
+</section>";s:5:"mtime";i:1598018434;s:6:"markup";s:1088:"<div class="jumbotron jumbotron-fluid about-bg-header">
     <div class="container my-5">
         <div class="row my-5 py-5">
             <div class="col-sm-12 my-5 text-white text-center">
@@ -68,4 +68,4 @@ localeMeta_description[en] = ""
             </div>
         </div>
     </div>
-</section>";s:4:"code";N;s:5:"title";s:3:"404";s:3:"url";s:4:"/404";s:6:"layout";s:7:"default";s:10:"meta_title";s:3:"404";s:16:"meta_description";s:0:"";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:4:{s:11:"localeTitle";a:1:{s:2:"en";s:3:"404";}s:9:"localeUrl";a:1:{s:2:"en";s:4:"/404";}s:16:"localeMeta_title";a:1:{s:2:"en";s:3:"404";}s:22:"localeMeta_description";a:1:{s:2:"en";s:0:"";}}}}
+</section>";s:4:"code";N;s:5:"title";s:3:"404";s:3:"url";s:4:"/404";s:6:"layout";s:7:"default";s:10:"meta_title";s:3:"404";s:16:"meta_description";s:32:"La page demandé est introuvable";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:4:{s:11:"localeTitle";a:1:{s:2:"en";s:3:"404";}s:9:"localeUrl";a:1:{s:2:"en";s:4:"/404";}s:16:"localeMeta_title";a:1:{s:2:"en";s:3:"404";}s:22:"localeMeta_description";a:1:{s:2:"en";s:32:"The requested page was not found";}}}}

@@ -38,7 +38,7 @@ class __TwigTemplate_9080b98c0c6e6efac6741a8bcd60bb463b95babd103702107556d3ac41c
     <div class=\"container my-5\">
         <div class=\"row my-5 py-5\">
             <div class=\"col-lg-5 col-sm-12 my-5 text-white\">
-                <h1 class=\"display-6 text-uppercase text-shadow\">
+                <h1 class=\"display-6 text-uppercase text-shadow\" data-aos=\"fade-up\">
                     ";
         // line 6
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Plomberie commerciale et industrielle"]);
@@ -115,83 +115,99 @@ class __TwigTemplate_9080b98c0c6e6efac6741a8bcd60bb463b95babd103702107556d3ac41c
                                  class=\"card-img img-fluid\"
                                  alt=\"";
         // line 47
-        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Service résidentielle de plomberie"]);
-        echo "\">
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Plomberie industrielle"]);
+        echo "\"
+                                 data-aos=\"fade-up\"
+                                 data-aos-anchor-placement=\"top-bottom\">
                         </div>
                     </div>
                 </div>
                 <div class=\"col-12\">
-                    <h3 class=\"h3-responsive text-primary text-center pb-2\">";
-        // line 52
+                    <h3 class=\"h3-responsive text-primary text-center pb-2\">
+                        ";
+        // line 55
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Services offerts pour votre entreprise"]);
-        echo "</h3>
+        echo "
+                    </h3>
                     <img src=\"";
-        // line 53
+        // line 57
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/renovation-entreprise.jpg");
         echo "\"
                          class=\"card-img img-fluid\"
                          alt=\"";
-        // line 55
-        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Service commerciale de plomberie"]);
-        echo "\">
+        // line 59
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Rénovation de votre plomberie commercial"]);
+        echo "\"
+                         data-aos=\"fade-up\"
+                         data-aos-anchor-placement=\"top-bottom\">
                     <p>
                         ";
-        // line 57
+        // line 63
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Votre local commercial nécessite un entretien constant et ses installations de plomberie et sa tuyauterie sont hautement sollicitées de façon constante."]);
         echo "
                     ";
-        // line 58
+        // line 64
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Vous devez pouvoir faire confiance à une entreprise en plomberie solide qui pourra répondre à vos besoins commerciaux rapidement et efficacement."]);
         echo "
                     </p>
                     <p>
                         ";
-        // line 61
+        // line 67
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Voici un petit échantillon des services que vous pouvez nous confier dans votre établissement:"]);
         echo "</p>
                     <ul>
                         <li>";
-        // line 63
+        // line 69
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Réparation de fuites dans la tuyauterie"]);
-        echo " </li>
+        echo "</li>
                         <li>";
-        // line 64
+        // line 70
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Installation de régulateur de pression d’eau"]);
-        echo " </li>
+        echo "</li>
                         <li>";
-        // line 65
+        // line 71
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Installation de compteur d’eau"]);
-        echo " </li>
+        echo "</li>
                         <li>";
-        // line 66
+        // line 72
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Installation et remplacement de chauffe-eau"]);
-        echo " </li>
+        echo "</li>
                         <li>";
-        // line 67
+        // line 73
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Inspection préventive complète de vos installations de plomberie commerciale"]);
-        echo " </li>
+        echo "</li>
                         <li>";
-        // line 68
+        // line 74
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Installation et entretien de séparateurs de graisses (trappe à graisse)"]);
-        echo " </li>
+        echo "</li>
                     </ul>
                     <p>
                         ";
-        // line 71
+        // line 77
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Contactez-nous dès maintenant pour que nous puissions discuter de vos besoins commerciaux pour la plomberie de votre entreprise."]);
         echo "
                         </p>
-                    <div class=\"text-center pt-3\"> <a href=\"#contact\" class=\"btn btn-primary text-uppercase\">";
-        // line 73
+                    <div class=\"text-center pt-3\">
+                        <a href=\"#contact\"
+                           class=\"btn btn-primary text-uppercase\"
+                           title=\"";
+        // line 82
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Demander une soumission"]);
-        echo "</a></div>
+        echo "\"
+                           data-aos=\"fade-up\">
+                            ";
+        // line 84
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Demander une soumission"]);
+        echo "
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
 ";
-        // line 79
+        // line 92
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("reusable/cta"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
@@ -209,7 +225,7 @@ class __TwigTemplate_9080b98c0c6e6efac6741a8bcd60bb463b95babd103702107556d3ac41c
 
     public function getDebugInfo()
     {
-        return array (  195 => 79,  186 => 73,  181 => 71,  175 => 68,  171 => 67,  167 => 66,  163 => 65,  159 => 64,  155 => 63,  150 => 61,  144 => 58,  140 => 57,  135 => 55,  130 => 53,  126 => 52,  118 => 47,  113 => 45,  105 => 40,  101 => 39,  95 => 36,  91 => 35,  85 => 32,  81 => 31,  73 => 26,  63 => 19,  58 => 17,  44 => 6,  37 => 1,);
+        return array (  211 => 92,  200 => 84,  195 => 82,  187 => 77,  181 => 74,  177 => 73,  173 => 72,  169 => 71,  165 => 70,  161 => 69,  156 => 67,  150 => 64,  146 => 63,  139 => 59,  134 => 57,  129 => 55,  118 => 47,  113 => 45,  105 => 40,  101 => 39,  95 => 36,  91 => 35,  85 => 32,  81 => 31,  73 => 26,  63 => 19,  58 => 17,  44 => 6,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -218,7 +234,7 @@ class __TwigTemplate_9080b98c0c6e6efac6741a8bcd60bb463b95babd103702107556d3ac41c
     <div class=\"container my-5\">
         <div class=\"row my-5 py-5\">
             <div class=\"col-lg-5 col-sm-12 my-5 text-white\">
-                <h1 class=\"display-6 text-uppercase text-shadow\">
+                <h1 class=\"display-6 text-uppercase text-shadow\" data-aos=\"fade-up\">
                     {{ \"Plomberie commerciale et industrielle\"|_ }}
                     </h1>
             </div>
@@ -260,15 +276,21 @@ class __TwigTemplate_9080b98c0c6e6efac6741a8bcd60bb463b95babd103702107556d3ac41c
                         <div class=\"col-md-6\">
                             <img src=\"{{'assets/images/commercial-intro.jpg'|theme}}\"
                                  class=\"card-img img-fluid\"
-                                 alt=\"{{ 'Service résidentielle de plomberie'|_ }}\">
+                                 alt=\"{{ 'Plomberie industrielle'|_ }}\"
+                                 data-aos=\"fade-up\"
+                                 data-aos-anchor-placement=\"top-bottom\">
                         </div>
                     </div>
                 </div>
                 <div class=\"col-12\">
-                    <h3 class=\"h3-responsive text-primary text-center pb-2\">{{ \"Services offerts pour votre entreprise\"|_ }}</h3>
+                    <h3 class=\"h3-responsive text-primary text-center pb-2\">
+                        {{ \"Services offerts pour votre entreprise\"|_ }}
+                    </h3>
                     <img src=\"{{'assets/images/renovation-entreprise.jpg'|theme}}\"
                          class=\"card-img img-fluid\"
-                         alt=\"{{ 'Service commerciale de plomberie'|_ }}\">
+                         alt=\"{{ 'Rénovation de votre plomberie commercial'|_ }}\"
+                         data-aos=\"fade-up\"
+                         data-aos-anchor-placement=\"top-bottom\">
                     <p>
                         {{ \"Votre local commercial nécessite un entretien constant et ses installations de plomberie et sa tuyauterie sont hautement sollicitées de façon constante.\"|_ }}
                     {{ \"Vous devez pouvoir faire confiance à une entreprise en plomberie solide qui pourra répondre à vos besoins commerciaux rapidement et efficacement.\"|_ }}
@@ -276,17 +298,24 @@ class __TwigTemplate_9080b98c0c6e6efac6741a8bcd60bb463b95babd103702107556d3ac41c
                     <p>
                         {{ \"Voici un petit échantillon des services que vous pouvez nous confier dans votre établissement:\"|_ }}</p>
                     <ul>
-                        <li>{{ \"Réparation de fuites dans la tuyauterie\"|_ }} </li>
-                        <li>{{ \"Installation de régulateur de pression d’eau\"|_ }} </li>
-                        <li>{{ \"Installation de compteur d’eau\"|_ }} </li>
-                        <li>{{ \"Installation et remplacement de chauffe-eau\"|_ }} </li>
-                        <li>{{ \"Inspection préventive complète de vos installations de plomberie commerciale\"|_ }} </li>
-                        <li>{{ \"Installation et entretien de séparateurs de graisses (trappe à graisse)\"|_ }} </li>
+                        <li>{{ \"Réparation de fuites dans la tuyauterie\"|_ }}</li>
+                        <li>{{ \"Installation de régulateur de pression d’eau\"|_ }}</li>
+                        <li>{{ \"Installation de compteur d’eau\"|_ }}</li>
+                        <li>{{ \"Installation et remplacement de chauffe-eau\"|_ }}</li>
+                        <li>{{ \"Inspection préventive complète de vos installations de plomberie commerciale\"|_ }}</li>
+                        <li>{{ \"Installation et entretien de séparateurs de graisses (trappe à graisse)\"|_ }}</li>
                     </ul>
                     <p>
                         {{ \"Contactez-nous dès maintenant pour que nous puissions discuter de vos besoins commerciaux pour la plomberie de votre entreprise.\"|_ }}
                         </p>
-                    <div class=\"text-center pt-3\"> <a href=\"#contact\" class=\"btn btn-primary text-uppercase\">{{ \"Demander une soumission\"|_ }}</a></div>
+                    <div class=\"text-center pt-3\">
+                        <a href=\"#contact\"
+                           class=\"btn btn-primary text-uppercase\"
+                           title=\"{{ 'Demander une soumission'|_ }}\"
+                           data-aos=\"fade-up\">
+                            {{ \"Demander une soumission\"|_ }}
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

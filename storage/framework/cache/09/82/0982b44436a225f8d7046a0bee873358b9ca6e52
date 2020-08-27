@@ -1,21 +1,21 @@
-1597959453a:1:{s:15:"commerciale.htm";a:13:{s:8:"fileName";s:15:"commerciale.htm";s:7:"content";s:5449:"title = "Service commerciale"
+1598023496a:1:{s:15:"commerciale.htm";a:13:{s:8:"fileName";s:15:"commerciale.htm";s:7:"content";s:6206:"title = "Service commerciale"
 url = "/commerciale"
 layout = "default"
 description = "Meta desc."
-meta_title = "Meta Title"
-meta_description = "Meta desc"
+meta_title = "Plomberie commerciale et industrielle"
+meta_description = "Vous avez une idée en tête ou un mandats de plomberie commerciale? Pensez à Plomberie J. Boulay inc.!"
 is_hidden = 0
 
 [viewBag]
 localeUrl[en] = "/commercial"
-localeMeta_title[en] = "English title"
-localeMeta_description[en] = "English desc."
+localeMeta_title[en] = "Commercial and industrial plumbing"
+localeMeta_description[en] = "Do you have an idea in mind or a commercial plumbing mandate? Think about Plomberie J. Boulay inc.!"
 ==
 <div class="jumbotron jumbotron-fluid commerciale-bg-header">
     <div class="container my-5">
         <div class="row my-5 py-5">
             <div class="col-lg-5 col-sm-12 my-5 text-white">
-                <h1 class="display-6 text-uppercase text-shadow">
+                <h1 class="display-6 text-uppercase text-shadow" data-aos="fade-up">
                     {{ "Plomberie commerciale et industrielle"|_ }}
                     </h1>
             </div>
@@ -57,15 +57,21 @@ localeMeta_description[en] = "English desc."
                         <div class="col-md-6">
                             <img src="{{'assets/images/commercial-intro.jpg'|theme}}"
                                  class="card-img img-fluid"
-                                 alt="{{ 'Service résidentielle de plomberie'|_ }}">
+                                 alt="{{ 'Plomberie industrielle'|_ }}"
+                                 data-aos="fade-up"
+                                 data-aos-anchor-placement="top-bottom">
                         </div>
                     </div>
                 </div>
                 <div class="col-12">
-                    <h3 class="h3-responsive text-primary text-center pb-2">{{ "Services offerts pour votre entreprise"|_ }}</h3>
+                    <h3 class="h3-responsive text-primary text-center pb-2">
+                        {{ "Services offerts pour votre entreprise"|_ }}
+                    </h3>
                     <img src="{{'assets/images/renovation-entreprise.jpg'|theme}}"
                          class="card-img img-fluid"
-                         alt="{{ 'Service commerciale de plomberie'|_ }}">
+                         alt="{{ 'Rénovation de votre plomberie commercial'|_ }}"
+                         data-aos="fade-up"
+                         data-aos-anchor-placement="top-bottom">
                     <p>
                         {{ "Votre local commercial nécessite un entretien constant et ses installations de plomberie et sa tuyauterie sont hautement sollicitées de façon constante."|_ }}
                     {{ "Vous devez pouvoir faire confiance à une entreprise en plomberie solide qui pourra répondre à vos besoins commerciaux rapidement et efficacement."|_ }}
@@ -73,27 +79,34 @@ localeMeta_description[en] = "English desc."
                     <p>
                         {{ "Voici un petit échantillon des services que vous pouvez nous confier dans votre établissement:"|_ }}</p>
                     <ul>
-                        <li>{{ "Réparation de fuites dans la tuyauterie"|_ }} </li>
-                        <li>{{ "Installation de régulateur de pression d’eau"|_ }} </li>
-                        <li>{{ "Installation de compteur d’eau"|_ }} </li>
-                        <li>{{ "Installation et remplacement de chauffe-eau"|_ }} </li>
-                        <li>{{ "Inspection préventive complète de vos installations de plomberie commerciale"|_ }} </li>
-                        <li>{{ "Installation et entretien de séparateurs de graisses (trappe à graisse)"|_ }} </li>
+                        <li>{{ "Réparation de fuites dans la tuyauterie"|_ }}</li>
+                        <li>{{ "Installation de régulateur de pression d’eau"|_ }}</li>
+                        <li>{{ "Installation de compteur d’eau"|_ }}</li>
+                        <li>{{ "Installation et remplacement de chauffe-eau"|_ }}</li>
+                        <li>{{ "Inspection préventive complète de vos installations de plomberie commerciale"|_ }}</li>
+                        <li>{{ "Installation et entretien de séparateurs de graisses (trappe à graisse)"|_ }}</li>
                     </ul>
                     <p>
                         {{ "Contactez-nous dès maintenant pour que nous puissions discuter de vos besoins commerciaux pour la plomberie de votre entreprise."|_ }}
                         </p>
-                    <div class="text-center pt-3"> <a href="#contact" class="btn btn-primary text-uppercase">{{ "Demander une soumission"|_ }}</a></div>
+                    <div class="text-center pt-3">
+                        <a href="#contact"
+                           class="btn btn-primary text-uppercase"
+                           title="{{ 'Demander une soumission'|_ }}"
+                           data-aos="fade-up">
+                            {{ "Demander une soumission"|_ }}
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-{% partial 'reusable/cta' %}";s:5:"mtime";i:1597958853;s:6:"markup";s:5153:"<div class="jumbotron jumbotron-fluid commerciale-bg-header">
+{% partial 'reusable/cta' %}";s:5:"mtime";i:1598020568;s:6:"markup";s:5681:"<div class="jumbotron jumbotron-fluid commerciale-bg-header">
     <div class="container my-5">
         <div class="row my-5 py-5">
             <div class="col-lg-5 col-sm-12 my-5 text-white">
-                <h1 class="display-6 text-uppercase text-shadow">
+                <h1 class="display-6 text-uppercase text-shadow" data-aos="fade-up">
                     {{ "Plomberie commerciale et industrielle"|_ }}
                     </h1>
             </div>
@@ -135,15 +148,21 @@ localeMeta_description[en] = "English desc."
                         <div class="col-md-6">
                             <img src="{{'assets/images/commercial-intro.jpg'|theme}}"
                                  class="card-img img-fluid"
-                                 alt="{{ 'Service résidentielle de plomberie'|_ }}">
+                                 alt="{{ 'Plomberie industrielle'|_ }}"
+                                 data-aos="fade-up"
+                                 data-aos-anchor-placement="top-bottom">
                         </div>
                     </div>
                 </div>
                 <div class="col-12">
-                    <h3 class="h3-responsive text-primary text-center pb-2">{{ "Services offerts pour votre entreprise"|_ }}</h3>
+                    <h3 class="h3-responsive text-primary text-center pb-2">
+                        {{ "Services offerts pour votre entreprise"|_ }}
+                    </h3>
                     <img src="{{'assets/images/renovation-entreprise.jpg'|theme}}"
                          class="card-img img-fluid"
-                         alt="{{ 'Service commerciale de plomberie'|_ }}">
+                         alt="{{ 'Rénovation de votre plomberie commercial'|_ }}"
+                         data-aos="fade-up"
+                         data-aos-anchor-placement="top-bottom">
                     <p>
                         {{ "Votre local commercial nécessite un entretien constant et ses installations de plomberie et sa tuyauterie sont hautement sollicitées de façon constante."|_ }}
                     {{ "Vous devez pouvoir faire confiance à une entreprise en plomberie solide qui pourra répondre à vos besoins commerciaux rapidement et efficacement."|_ }}
@@ -151,20 +170,27 @@ localeMeta_description[en] = "English desc."
                     <p>
                         {{ "Voici un petit échantillon des services que vous pouvez nous confier dans votre établissement:"|_ }}</p>
                     <ul>
-                        <li>{{ "Réparation de fuites dans la tuyauterie"|_ }} </li>
-                        <li>{{ "Installation de régulateur de pression d’eau"|_ }} </li>
-                        <li>{{ "Installation de compteur d’eau"|_ }} </li>
-                        <li>{{ "Installation et remplacement de chauffe-eau"|_ }} </li>
-                        <li>{{ "Inspection préventive complète de vos installations de plomberie commerciale"|_ }} </li>
-                        <li>{{ "Installation et entretien de séparateurs de graisses (trappe à graisse)"|_ }} </li>
+                        <li>{{ "Réparation de fuites dans la tuyauterie"|_ }}</li>
+                        <li>{{ "Installation de régulateur de pression d’eau"|_ }}</li>
+                        <li>{{ "Installation de compteur d’eau"|_ }}</li>
+                        <li>{{ "Installation et remplacement de chauffe-eau"|_ }}</li>
+                        <li>{{ "Inspection préventive complète de vos installations de plomberie commerciale"|_ }}</li>
+                        <li>{{ "Installation et entretien de séparateurs de graisses (trappe à graisse)"|_ }}</li>
                     </ul>
                     <p>
                         {{ "Contactez-nous dès maintenant pour que nous puissions discuter de vos besoins commerciaux pour la plomberie de votre entreprise."|_ }}
                         </p>
-                    <div class="text-center pt-3"> <a href="#contact" class="btn btn-primary text-uppercase">{{ "Demander une soumission"|_ }}</a></div>
+                    <div class="text-center pt-3">
+                        <a href="#contact"
+                           class="btn btn-primary text-uppercase"
+                           title="{{ 'Demander une soumission'|_ }}"
+                           data-aos="fade-up">
+                            {{ "Demander une soumission"|_ }}
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-{% partial 'reusable/cta' %}";s:4:"code";N;s:5:"title";s:19:"Service commerciale";s:3:"url";s:12:"/commerciale";s:6:"layout";s:7:"default";s:11:"description";s:10:"Meta desc.";s:10:"meta_title";s:10:"Meta Title";s:16:"meta_description";s:9:"Meta desc";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:3:{s:9:"localeUrl";a:1:{s:2:"en";s:11:"/commercial";}s:16:"localeMeta_title";a:1:{s:2:"en";s:13:"English title";}s:22:"localeMeta_description";a:1:{s:2:"en";s:13:"English desc.";}}}}
+{% partial 'reusable/cta' %}";s:4:"code";N;s:5:"title";s:19:"Service commerciale";s:3:"url";s:12:"/commerciale";s:6:"layout";s:7:"default";s:11:"description";s:10:"Meta desc.";s:10:"meta_title";s:37:"Plomberie commerciale et industrielle";s:16:"meta_description";s:104:"Vous avez une idée en tête ou un mandats de plomberie commerciale? Pensez à Plomberie J. Boulay inc.!";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:3:{s:9:"localeUrl";a:1:{s:2:"en";s:11:"/commercial";}s:16:"localeMeta_title";a:1:{s:2:"en";s:34:"Commercial and industrial plumbing";}s:22:"localeMeta_description";a:1:{s:2:"en";s:99:"Do you have an idea in mind or a commercial plumbing mandate? Think about Plomberie J. Boulay inc.!";}}}}

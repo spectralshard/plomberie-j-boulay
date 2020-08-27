@@ -38,7 +38,7 @@ class __TwigTemplate_7bc054429f73a9b15eb5c6615235a144eeb29259bf17f50cee2acaeb3fd
     <div class=\"container my-5\">
         <div class=\"row my-5 py-5\">
             <div class=\"col-lg-5 col-sm-12 my-5 text-white\">
-                <h1 class=\"display-6 text-uppercase text-shadow\">
+                <h1 class=\"display-6 text-uppercase text-shadow\" data-aos=\"fade-up\">
                     ";
         // line 6
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Plomberie Résidentielle"]);
@@ -96,8 +96,10 @@ class __TwigTemplate_7bc054429f73a9b15eb5c6615235a144eeb29259bf17f50cee2acaeb3fd
                                  class=\"card-img img-fluid\"
                                  alt=\"";
         // line 37
-        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Service résidentielle de plomberie"]);
-        echo "\">
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Pièces de plomberie brisées"]);
+        echo "\"
+                                 data-aos=\"fade-up\"
+                                 data-aos-anchor-placement=\"top-bottom\">
                         </div>
                     </div>
                 </div>
@@ -105,44 +107,48 @@ class __TwigTemplate_7bc054429f73a9b15eb5c6615235a144eeb29259bf17f50cee2acaeb3fd
                     <div class=\"row no-gutters\">
                         <div class=\"col-md-6\">
                             <img src=\"";
-        // line 44
+        // line 46
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/salle-de-bain.jpg");
         echo "\"
                                  class=\"card-img img-fluid\"
                                  alt=\"";
-        // line 46
-        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Service commerciale de plomberie"]);
-        echo "\">
+        // line 48
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Installation de plomberie neuve dans une salle de bain résidentielle"]);
+        echo "\"
+                                 data-aos=\"fade-up\"
+                                 data-aos-anchor-placement=\"top-bottom\">
                         </div>
                         <div class=\"col-md-6 d-flex align-items-center\">
                             <div class=\"card-body\">
-                                <h5 class=\"card-title\">";
-        // line 50
+                                <h5 class=\"card-title\">
+                                    ";
+        // line 55
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Installation et réparation d’appareils sanitaires de cuisine et de salle de bain:"]);
-        echo "</h5>
+        echo "
+                                </h5>
                                 <ul>
                                     <li>";
-        // line 52
+        // line 58
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Toilette"]);
         echo "</li>
                                     <li>";
-        // line 53
+        // line 59
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Évier et lavabo"]);
         echo "</li>
                                     <li>";
-        // line 54
+        // line 60
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Douche"]);
         echo "</li>
                                     <li>";
-        // line 55
+        // line 61
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Baignoire"]);
         echo "</li>
                                     <li>";
-        // line 56
+        // line 62
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Lave-vaisselle"]);
         echo "</li>
                                     <li>";
-        // line 57
+        // line 63
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Valves et robinetterie"]);
         echo "</li>
                                 </ul>
@@ -152,43 +158,57 @@ class __TwigTemplate_7bc054429f73a9b15eb5c6615235a144eeb29259bf17f50cee2acaeb3fd
                 </div>
                 <div class=\"row d-flex justify-content-center\">
                     <div class=\"col-12 px-0\">
-                    <h3 class=\"h3-responsive text-primary text-center\">";
-        // line 65
+                    <h3 class=\"h3-responsive text-primary text-center\">
+                        ";
+        // line 72
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Plomberie complète pour construction ou rénovation"]);
-        echo "</h3>
+        echo "
+                    </h3>
                     <img src=\"";
-        // line 66
+        // line 74
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/renovation-plomberie.jpg");
         echo "\"
                          class=\"card-img img-fluid\"
                          alt=\"";
-        // line 68
-        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Service commerciale de plomberie"]);
-        echo "\">
+        // line 76
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Service de rénovation de plomberie résidentielle"]);
+        echo "\"
+                         data-aos=\"fade-up\"
+                         data-aos-anchor-placement=\"top-bottom\">
                     <p>
                         ";
-        // line 70
+        // line 80
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Vous entreprenez des rénovations majeures ou avez un projet de construction de résidence?"]);
         echo "
                         ";
-        // line 71
+        // line 81
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Nous sommes la référence pour planifier et exécuter les travaux d’installation pour la plomberie de votre maison."]);
         echo "
                         </p>
                     <p>
                         ";
-        // line 74
+        // line 84
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Il s’agit d’une opération coûteuse qui s’ajoute au coût total de vos travaux, et vous pouvez compter sur notre expertise"]);
         echo "
                         ";
-        // line 75
+        // line 85
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["et notre transparence pour vous présenter une soumission raisonnable à un rapport qualité-prix incomparable."]);
         echo "
                     </p>
-                        <div class=\"text-center pt-3\"> <a href=\"#contact\" class=\"btn btn-primary text-uppercase\">";
-        // line 77
+                        <div class=\"text-center pt-3\">
+                            <a href=\"#contact\"
+                               class=\"btn btn-primary text-uppercase\"
+                               title=\"";
+        // line 90
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Demander une soumission"]);
-        echo "</a></div>
+        echo "\"
+                               data-aos=\"fade-up\">
+                                ";
+        // line 92
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Demander une soumission"]);
+        echo "
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -196,7 +216,7 @@ class __TwigTemplate_7bc054429f73a9b15eb5c6615235a144eeb29259bf17f50cee2acaeb3fd
     </div>
 </section>
 ";
-        // line 84
+        // line 101
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("reusable/cta"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
@@ -214,7 +234,7 @@ class __TwigTemplate_7bc054429f73a9b15eb5c6615235a144eeb29259bf17f50cee2acaeb3fd
 
     public function getDebugInfo()
     {
-        return array (  200 => 84,  190 => 77,  185 => 75,  181 => 74,  175 => 71,  171 => 70,  166 => 68,  161 => 66,  157 => 65,  146 => 57,  142 => 56,  138 => 55,  134 => 54,  130 => 53,  126 => 52,  121 => 50,  114 => 46,  109 => 44,  99 => 37,  94 => 35,  87 => 31,  83 => 30,  78 => 28,  66 => 19,  62 => 18,  57 => 16,  44 => 6,  37 => 1,);
+        return array (  220 => 101,  208 => 92,  203 => 90,  195 => 85,  191 => 84,  185 => 81,  181 => 80,  174 => 76,  169 => 74,  164 => 72,  152 => 63,  148 => 62,  144 => 61,  140 => 60,  136 => 59,  132 => 58,  126 => 55,  116 => 48,  111 => 46,  99 => 37,  94 => 35,  87 => 31,  83 => 30,  78 => 28,  66 => 19,  62 => 18,  57 => 16,  44 => 6,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -223,7 +243,7 @@ class __TwigTemplate_7bc054429f73a9b15eb5c6615235a144eeb29259bf17f50cee2acaeb3fd
     <div class=\"container my-5\">
         <div class=\"row my-5 py-5\">
             <div class=\"col-lg-5 col-sm-12 my-5 text-white\">
-                <h1 class=\"display-6 text-uppercase text-shadow\">
+                <h1 class=\"display-6 text-uppercase text-shadow\" data-aos=\"fade-up\">
                     {{ \"Plomberie Résidentielle\"|_ }}</h1>
             </div>
         </div>
@@ -255,7 +275,9 @@ class __TwigTemplate_7bc054429f73a9b15eb5c6615235a144eeb29259bf17f50cee2acaeb3fd
                         <div class=\"col-md-6\">
                             <img src=\"{{'assets/images/residentielle-plomberie.jpg'|theme}}\"
                                  class=\"card-img img-fluid\"
-                                 alt=\"{{ 'Service résidentielle de plomberie'|_ }}\">
+                                 alt=\"{{ 'Pièces de plomberie brisées'|_ }}\"
+                                 data-aos=\"fade-up\"
+                                 data-aos-anchor-placement=\"top-bottom\">
                         </div>
                     </div>
                 </div>
@@ -264,11 +286,15 @@ class __TwigTemplate_7bc054429f73a9b15eb5c6615235a144eeb29259bf17f50cee2acaeb3fd
                         <div class=\"col-md-6\">
                             <img src=\"{{'assets/images/salle-de-bain.jpg'|theme}}\"
                                  class=\"card-img img-fluid\"
-                                 alt=\"{{ 'Service commerciale de plomberie'|_ }}\">
+                                 alt=\"{{ 'Installation de plomberie neuve dans une salle de bain résidentielle'|_ }}\"
+                                 data-aos=\"fade-up\"
+                                 data-aos-anchor-placement=\"top-bottom\">
                         </div>
                         <div class=\"col-md-6 d-flex align-items-center\">
                             <div class=\"card-body\">
-                                <h5 class=\"card-title\">{{ \"Installation et réparation d’appareils sanitaires de cuisine et de salle de bain:\"|_ }}</h5>
+                                <h5 class=\"card-title\">
+                                    {{ \"Installation et réparation d’appareils sanitaires de cuisine et de salle de bain:\"|_ }}
+                                </h5>
                                 <ul>
                                     <li>{{ \"Toilette\"|_ }}</li>
                                     <li>{{ \"Évier et lavabo\"|_ }}</li>
@@ -283,10 +309,14 @@ class __TwigTemplate_7bc054429f73a9b15eb5c6615235a144eeb29259bf17f50cee2acaeb3fd
                 </div>
                 <div class=\"row d-flex justify-content-center\">
                     <div class=\"col-12 px-0\">
-                    <h3 class=\"h3-responsive text-primary text-center\">{{ \"Plomberie complète pour construction ou rénovation\"|_ }}</h3>
+                    <h3 class=\"h3-responsive text-primary text-center\">
+                        {{ \"Plomberie complète pour construction ou rénovation\"|_ }}
+                    </h3>
                     <img src=\"{{'assets/images/renovation-plomberie.jpg'|theme}}\"
                          class=\"card-img img-fluid\"
-                         alt=\"{{ 'Service commerciale de plomberie'|_ }}\">
+                         alt=\"{{ 'Service de rénovation de plomberie résidentielle'|_ }}\"
+                         data-aos=\"fade-up\"
+                         data-aos-anchor-placement=\"top-bottom\">
                     <p>
                         {{ \"Vous entreprenez des rénovations majeures ou avez un projet de construction de résidence?\"|_ }}
                         {{ \"Nous sommes la référence pour planifier et exécuter les travaux d’installation pour la plomberie de votre maison.\"|_ }}
@@ -295,7 +325,14 @@ class __TwigTemplate_7bc054429f73a9b15eb5c6615235a144eeb29259bf17f50cee2acaeb3fd
                         {{ \"Il s’agit d’une opération coûteuse qui s’ajoute au coût total de vos travaux, et vous pouvez compter sur notre expertise\"|_ }}
                         {{ \"et notre transparence pour vous présenter une soumission raisonnable à un rapport qualité-prix incomparable.\"|_ }}
                     </p>
-                        <div class=\"text-center pt-3\"> <a href=\"#contact\" class=\"btn btn-primary text-uppercase\">{{ \"Demander une soumission\"|_ }}</a></div>
+                        <div class=\"text-center pt-3\">
+                            <a href=\"#contact\"
+                               class=\"btn btn-primary text-uppercase\"
+                               title=\"{{ 'Demander une soumission'|_ }}\"
+                               data-aos=\"fade-up\">
+                                {{ \"Demander une soumission\"|_ }}
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

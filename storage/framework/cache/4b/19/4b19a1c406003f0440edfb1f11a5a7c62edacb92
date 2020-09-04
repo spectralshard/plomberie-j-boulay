@@ -1,4 +1,4 @@
-1598023496a:1:{s:17:"residentielle.htm";a:13:{s:8:"fileName";s:17:"residentielle.htm";s:7:"content";s:6557:"title = "Service résidentielle"
+1599234108a:1:{s:17:"residentielle.htm";a:13:{s:8:"fileName";s:17:"residentielle.htm";s:7:"content";s:6528:"title = "Service résidentielle"
 url = "/residentielle"
 layout = "default"
 description = "Votre plomberie est désuète ou endommagée ou des fuites ou micro-fuites sont présente? Appellez nous maintenant!"
@@ -26,10 +26,10 @@ localeMeta_description[en] = "Is your plumbing outdated or damaged or are there 
         <div class="row d-flex justify-content-center">
             <div class="col-10 pb-5">
                 <h3 class="text-center h3-responsive text-primary">
-                    {{ "Notre services résidentiels"|_ }}</h3>
+                    {{ "Notre service résidentiels"|_ }}</h3>
                 <p class="text-center">
-                    {{ "L’alimentation en eau de votre résidence revêt une importance particulière, pour des raisons de commodité mais aussi de santé."|_ }}
-                    {{ "Il n’y a pas de chance à prendre et vous avez besoin de professionnels chevronnés et certifiés pour assurer la conformité des systèmes de plomberie de votre maison."|_ }} </p>
+                    {{ "L’alimentation en eau de votre résidence revêt une importance particulière, pour des raisons de commodité, mais aussi de santé."|_ }}
+                    {{ "Il n’y a pas de chance à prendre! Vous avez besoin de professionnels chevronnés et certifiés pour assurer la conformité des systèmes de plomberie de votre maison."|_ }} </p>
 
             </div>
             <div class="col-sm-12 col-lg-10 pb-5">
@@ -38,9 +38,9 @@ localeMeta_description[en] = "Is your plumbing outdated or damaged or are there 
                         <div class="col-md-6 d-flex align-items-center">
                             <div class="card-body">
                                 <h5 class="card-title">
-                                    {{ "Plomberie commerciale et industrielle"|_ }}Réparations aux systèmes de plomberie et tuyaux</h5>
+                                    {{ "Réparations aux systèmes de plomberie et de tuyaux"|_ }}</h5>
                                 <p class="card-text">
-                                    {{ "Si votre plomberie est désuète ou endommagée, des fuites ou micro-fuites peuvent causer des dommages à d’autres éléments de votre propriétés (planchers, armoires, etc.)."|_ }}
+                                    {{ "Si votre plomberie est désuète ou endommagée, des fuites ou micro-fuites peuvent causer des dommages à d’autres éléments de votre propriété (planchers, armoires, etc.)."|_ }}
                                     {{ "Nous pouvons faire l’inspection de vos installations actuelles et planifier la mise à jour de votre plomberie."|_ }}</p>
                             </div>
                         </div>
@@ -68,12 +68,12 @@ localeMeta_description[en] = "Is your plumbing outdated or damaged or are there 
                                     {{ "Installation et réparation d’appareils sanitaires de cuisine et de salle de bain:"|_ }}
                                 </h5>
                                 <ul>
-                                    <li>{{ "Toilette"|_ }}</li>
-                                    <li>{{ "Évier et lavabo"|_ }}</li>
-                                    <li>{{ "Douche"|_ }}</li>
-                                    <li>{{ "Baignoire"|_ }}</li>
-                                    <li>{{ "Lave-vaisselle"|_ }}</li>
-                                    <li>{{ "Valves et robinetterie"|_ }}</li>
+                                    <li>{{ "Toilette;"|_ }}</li>
+                                    <li>{{ "Évier et lavabo;"|_ }}</li>
+                                    <li>{{ "Douche;"|_ }}</li>
+                                    <li>{{ "Baignoire;"|_ }}</li>
+                                    <li>{{ "Lave-vaisselle;"|_ }}</li>
+                                    <li>{{ "Valves et robinetterie."|_ }}</li>
                                 </ul>
                             </div>
                         </div>
@@ -90,11 +90,11 @@ localeMeta_description[en] = "Is your plumbing outdated or damaged or are there 
                          data-aos="fade-up"
                          data-aos-anchor-placement="top-bottom">
                     <p>
-                        {{ "Vous entreprenez des rénovations majeures ou avez un projet de construction de résidence?"|_ }}
+                        {{ "Vous entreprenez des rénovations majeures ou vous avez un projet de construction de résidence?"|_ }}
                         {{ "Nous sommes la référence pour planifier et exécuter les travaux d’installation pour la plomberie de votre maison."|_ }}
                         </p>
                     <p>
-                        {{ "Il s’agit d’une opération coûteuse qui s’ajoute au coût total de vos travaux, et vous pouvez compter sur notre expertise"|_ }}
+                        {{ "Il s’agit d’une opération coûteuse qui s’ajoute au coût total de vos travaux. Vous pouvez compter sur notre expertise"|_ }}
                         {{ "et notre transparence pour vous présenter une soumission raisonnable à un rapport qualité-prix incomparable."|_ }}
                     </p>
                         <div class="text-center pt-3">
@@ -111,7 +111,7 @@ localeMeta_description[en] = "Is your plumbing outdated or damaged or are there 
         </div>
     </div>
 </section>
-{% partial 'reusable/cta' %}";s:5:"mtime";i:1598020568;s:6:"markup";s:5930:"<div class="jumbotron jumbotron-fluid residentielle-bg-header">
+{% partial 'reusable/cta' %}";s:5:"mtime";i:1598541492;s:6:"markup";s:5901:"<div class="jumbotron jumbotron-fluid residentielle-bg-header">
     <div class="container my-5">
         <div class="row my-5 py-5">
             <div class="col-lg-5 col-sm-12 my-5 text-white">
@@ -126,10 +126,10 @@ localeMeta_description[en] = "Is your plumbing outdated or damaged or are there 
         <div class="row d-flex justify-content-center">
             <div class="col-10 pb-5">
                 <h3 class="text-center h3-responsive text-primary">
-                    {{ "Notre services résidentiels"|_ }}</h3>
+                    {{ "Notre service résidentiels"|_ }}</h3>
                 <p class="text-center">
-                    {{ "L’alimentation en eau de votre résidence revêt une importance particulière, pour des raisons de commodité mais aussi de santé."|_ }}
-                    {{ "Il n’y a pas de chance à prendre et vous avez besoin de professionnels chevronnés et certifiés pour assurer la conformité des systèmes de plomberie de votre maison."|_ }} </p>
+                    {{ "L’alimentation en eau de votre résidence revêt une importance particulière, pour des raisons de commodité, mais aussi de santé."|_ }}
+                    {{ "Il n’y a pas de chance à prendre! Vous avez besoin de professionnels chevronnés et certifiés pour assurer la conformité des systèmes de plomberie de votre maison."|_ }} </p>
 
             </div>
             <div class="col-sm-12 col-lg-10 pb-5">
@@ -138,9 +138,9 @@ localeMeta_description[en] = "Is your plumbing outdated or damaged or are there 
                         <div class="col-md-6 d-flex align-items-center">
                             <div class="card-body">
                                 <h5 class="card-title">
-                                    {{ "Plomberie commerciale et industrielle"|_ }}Réparations aux systèmes de plomberie et tuyaux</h5>
+                                    {{ "Réparations aux systèmes de plomberie et de tuyaux"|_ }}</h5>
                                 <p class="card-text">
-                                    {{ "Si votre plomberie est désuète ou endommagée, des fuites ou micro-fuites peuvent causer des dommages à d’autres éléments de votre propriétés (planchers, armoires, etc.)."|_ }}
+                                    {{ "Si votre plomberie est désuète ou endommagée, des fuites ou micro-fuites peuvent causer des dommages à d’autres éléments de votre propriété (planchers, armoires, etc.)."|_ }}
                                     {{ "Nous pouvons faire l’inspection de vos installations actuelles et planifier la mise à jour de votre plomberie."|_ }}</p>
                             </div>
                         </div>
@@ -168,12 +168,12 @@ localeMeta_description[en] = "Is your plumbing outdated or damaged or are there 
                                     {{ "Installation et réparation d’appareils sanitaires de cuisine et de salle de bain:"|_ }}
                                 </h5>
                                 <ul>
-                                    <li>{{ "Toilette"|_ }}</li>
-                                    <li>{{ "Évier et lavabo"|_ }}</li>
-                                    <li>{{ "Douche"|_ }}</li>
-                                    <li>{{ "Baignoire"|_ }}</li>
-                                    <li>{{ "Lave-vaisselle"|_ }}</li>
-                                    <li>{{ "Valves et robinetterie"|_ }}</li>
+                                    <li>{{ "Toilette;"|_ }}</li>
+                                    <li>{{ "Évier et lavabo;"|_ }}</li>
+                                    <li>{{ "Douche;"|_ }}</li>
+                                    <li>{{ "Baignoire;"|_ }}</li>
+                                    <li>{{ "Lave-vaisselle;"|_ }}</li>
+                                    <li>{{ "Valves et robinetterie."|_ }}</li>
                                 </ul>
                             </div>
                         </div>
@@ -190,11 +190,11 @@ localeMeta_description[en] = "Is your plumbing outdated or damaged or are there 
                          data-aos="fade-up"
                          data-aos-anchor-placement="top-bottom">
                     <p>
-                        {{ "Vous entreprenez des rénovations majeures ou avez un projet de construction de résidence?"|_ }}
+                        {{ "Vous entreprenez des rénovations majeures ou vous avez un projet de construction de résidence?"|_ }}
                         {{ "Nous sommes la référence pour planifier et exécuter les travaux d’installation pour la plomberie de votre maison."|_ }}
                         </p>
                     <p>
-                        {{ "Il s’agit d’une opération coûteuse qui s’ajoute au coût total de vos travaux, et vous pouvez compter sur notre expertise"|_ }}
+                        {{ "Il s’agit d’une opération coûteuse qui s’ajoute au coût total de vos travaux. Vous pouvez compter sur notre expertise"|_ }}
                         {{ "et notre transparence pour vous présenter une soumission raisonnable à un rapport qualité-prix incomparable."|_ }}
                     </p>
                         <div class="text-center pt-3">

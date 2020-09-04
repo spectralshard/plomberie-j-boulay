@@ -69,7 +69,7 @@ class __TwigTemplate_d91fd18de074995da554ad693cc806b5d695ada399253f79d63cb32829c
                 <p class=\"text-center\">
                     ";
         // line 20
-        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Nos experts de la plomberie sont certifiés et expérimentés pour faire l’analyse de vos besoin ou problème ainsi que de vous proposer la solution la mieux adaptée."]);
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Nos experts de la plomberie sont certifiés et expérimentés pour faire l’analyse de vos besoins ou problèmes ainsi que de vous proposer la solution la mieux adaptée."]);
         echo "
                 </p>
                 <div>
@@ -96,11 +96,11 @@ class __TwigTemplate_d91fd18de074995da554ad693cc806b5d695ada399253f79d63cb32829c
         echo "</h5>
                                     <p class=\"card-text\">";
         // line 35
-        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["De la réparation des problèmes reliés à la tuyauterie de votre résidence à l'installation des appareils sanitaires, nous offrons l'éventail complet"]);
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["De la réparation des problèmes reliés à la tuyauterie de votre résidence à l'installation des appareils sanitaires."]);
         echo " -
                                    ";
         // line 36
-        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["et même plus - des services de plomberie résidentielle."]);
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Nous offrons l’éventail complet des services de plomberie résidentielle."]);
         echo "</p>
                                     <a href=\"";
         // line 37
@@ -140,7 +140,7 @@ class __TwigTemplate_d91fd18de074995da554ad693cc806b5d695ada399253f79d63cb32829c
         echo "</h5>
                                     <p class=\"card-text\">";
         // line 56
-        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Pour l'installation et l'entretien de séparateur de graisses ou tous vos besoins en plomberie pour votre cuisine commerciale ou vos salles de bain publiques."]);
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Pour l'installation et l'entretien de séparateurs de graisses ou tous vos besoins en plomberie pour votre cuisine commerciale ou vos salles de bains publiques."]);
         echo "</p>
                                     <a href=\"";
         // line 57
@@ -205,7 +205,7 @@ class __TwigTemplate_d91fd18de074995da554ad693cc806b5d695ada399253f79d63cb32829c
                 <h2 class=\"h2-responsive text-center\">
                     {{ \"Services Complets\"|_ }}</h2>
                 <p class=\"text-center\">
-                    {{ \"Nos experts de la plomberie sont certifiés et expérimentés pour faire l’analyse de vos besoin ou problème ainsi que de vous proposer la solution la mieux adaptée.\"|_ }}
+                    {{ \"Nos experts de la plomberie sont certifiés et expérimentés pour faire l’analyse de vos besoins ou problèmes ainsi que de vous proposer la solution la mieux adaptée.\"|_ }}
                 </p>
                 <div>
                     <div class=\"my-4\">
@@ -220,8 +220,8 @@ class __TwigTemplate_d91fd18de074995da554ad693cc806b5d695ada399253f79d63cb32829c
                             <div class=\"col-md-6 d-flex align-items-center\">
                                 <div class=\"card-body\">
                                     <h5 class=\"card-title\">{{ \"Résidentielle\"|_ }}</h5>
-                                    <p class=\"card-text\">{{ \"De la réparation des problèmes reliés à la tuyauterie de votre résidence à l'installation des appareils sanitaires, nous offrons l'éventail complet\"|_ }} -
-                                   {{ \"et même plus - des services de plomberie résidentielle.\"|_ }}</p>
+                                    <p class=\"card-text\">{{ \"De la réparation des problèmes reliés à la tuyauterie de votre résidence à l'installation des appareils sanitaires.\"|_ }} -
+                                   {{ \"Nous offrons l’éventail complet des services de plomberie résidentielle.\"|_ }}</p>
                                     <a href=\"{{ 'residentielle'|page }}\"
                                        class=\"btn btn-primary text-uppercase\"
                                     title=\"{{ 'Service résidentielle de plomberie'|_ }}\">{{ \"En savoir plus\"|_ }}</a>
@@ -241,7 +241,7 @@ class __TwigTemplate_d91fd18de074995da554ad693cc806b5d695ada399253f79d63cb32829c
                             <div class=\"col-md-6 d-flex align-items-center order-sm-2 order-lg-1\">
                                 <div class=\"card-body\">
                                     <h5 class=\"card-title\">{{ \"Commerciale\"|_ }}</h5>
-                                    <p class=\"card-text\">{{ \"Pour l'installation et l'entretien de séparateur de graisses ou tous vos besoins en plomberie pour votre cuisine commerciale ou vos salles de bain publiques.\"|_ }}</p>
+                                    <p class=\"card-text\">{{ \"Pour l'installation et l'entretien de séparateurs de graisses ou tous vos besoins en plomberie pour votre cuisine commerciale ou vos salles de bains publiques.\"|_ }}</p>
                                     <a href=\"{{ 'commerciale'|page }}\"
                                        class=\"btn btn-primary text-uppercase\"
                                        title=\"{{ 'Service commerciale de plomberie'|_ }}\">{{ \"En savoir plus\"|_ }}</a>

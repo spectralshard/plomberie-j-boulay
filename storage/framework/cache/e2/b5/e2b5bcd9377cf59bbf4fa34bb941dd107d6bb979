@@ -1,4 +1,4 @@
-1598023496a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:4459:"description = "Footer"
+1599234286a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:4678:"description = "Footer"
 ==
 <section id="footer" class="py-5 primary-color footer">
     <div class="container">
@@ -11,9 +11,13 @@
                     </h6>
                     <hr class="footer-divider">
                     <p class="text-white">
-                        {{ "Plomberie J. Boulay inc. est une entreprise familiale de plomberie fondée par Jonathan Boulay."|_ }}
-                        {{ "Elle offre principalement des services en réparation et en rénovation dans les secteurs résidentiel et commercial."|_ }}
+                        {{ "L'entreprise offre des services en réparation et en rénovation de plomberie dans les secteurs résidentiels et commerciaux."|_ }}
+                        {{ "Compagnie en règle. Membre de la CMMTQ et assurances valides."|_ }} <br>
+                        RBQ : 5778-2260-01
                     </p>
+                    <img class="pb-3" src="{{'assets/images/logo-membre-cmmtq.png'|theme}}"
+                         style="width:150px;"
+                         alt="{{ 'Membre du CMMTQ'|_ }}">
                 </div>
             </div>
         </div>
@@ -46,7 +50,7 @@
                                class="text-white"
                                data-request="onSwitchLocale"
                                data-request-data="locale: 'en'" title="English">
-                                Enlgish
+                                English
                             </a>
                             {% else %}
                             <a href="#"
@@ -97,7 +101,7 @@
             </div>
         </div>
     </div>
-</section>";s:5:"mtime";i:1597957853;s:6:"markup";s:4433:"<section id="footer" class="py-5 primary-color footer">
+</section>";s:5:"mtime";i:1599233685;s:6:"markup";s:4652:"<section id="footer" class="py-5 primary-color footer">
     <div class="container">
     <div class="row">
         <div class="col-sm-6 col-md-4 col-lg-5">
@@ -108,9 +112,13 @@
                     </h6>
                     <hr class="footer-divider">
                     <p class="text-white">
-                        {{ "Plomberie J. Boulay inc. est une entreprise familiale de plomberie fondée par Jonathan Boulay."|_ }}
-                        {{ "Elle offre principalement des services en réparation et en rénovation dans les secteurs résidentiel et commercial."|_ }}
+                        {{ "L'entreprise offre des services en réparation et en rénovation de plomberie dans les secteurs résidentiels et commerciaux."|_ }}
+                        {{ "Compagnie en règle. Membre de la CMMTQ et assurances valides."|_ }} <br>
+                        RBQ : 5778-2260-01
                     </p>
+                    <img class="pb-3" src="{{'assets/images/logo-membre-cmmtq.png'|theme}}"
+                         style="width:150px;"
+                         alt="{{ 'Membre du CMMTQ'|_ }}">
                 </div>
             </div>
         </div>
@@ -143,7 +151,7 @@
                                class="text-white"
                                data-request="onSwitchLocale"
                                data-request-data="locale: 'en'" title="English">
-                                Enlgish
+                                English
                             </a>
                             {% else %}
                             <a href="#"

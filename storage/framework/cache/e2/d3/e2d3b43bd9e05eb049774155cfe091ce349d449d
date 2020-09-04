@@ -1,4 +1,4 @@
-1598023496a:1:{s:10:"header.htm";a:6:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:1815:"description = "Header"
+1599234109a:1:{s:10:"header.htm";a:6:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:1802:"description = "Header"
 ==
 <section id="header" class="elegant-color">
     <div class="container">
@@ -54,11 +54,10 @@
 				</a>
 				{% endif %}
 				</span>
-				</small>
 			</div>
         </div>
     </div>
-</section>";s:5:"mtime";i:1597952309;s:6:"markup";s:1789:"<section id="header" class="elegant-color">
+</section>";s:5:"mtime";i:1599233389;s:6:"markup";s:1776:"<section id="header" class="elegant-color">
     <div class="container">
         <div class="row justify-content-end">
 			<div class="col-6 col-sm-8 col-md-6 col-lg-9 p-1">
@@ -112,7 +111,6 @@
 				</a>
 				{% endif %}
 				</span>
-				</small>
 			</div>
         </div>
     </div>

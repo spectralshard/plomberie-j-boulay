@@ -1,9 +1,9 @@
-1598023496a:1:{s:8:"home.htm";a:13:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:4866:"title = "Accueil"
+1599234108a:1:{s:8:"home.htm";a:13:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:4854:"title = "Accueil"
 url = "/"
 layout = "default"
 description = "Meta desc."
 meta_title = "Service de plomberie 24/7 dans la grande région de Montréal et rive-sud"
-meta_description = "Plomberie J. Boulay inc. offre principalement des services en réparation et en rénovation de plomberie dans les secteurs résidentiel et commercial."
+meta_description = "Plomberie J. Boulay inc. offre principalement des services en réparation et en rénovation de plomberie dans le secteur résidentiel et commercial."
 is_hidden = 0
 
 [viewBag]
@@ -30,7 +30,7 @@ localeMeta_description[en] = "Plomberie J. Boulay inc. mainly offers repair and 
                 <h2 class="h2-responsive text-center">
                     {{ "Services Complets"|_ }}</h2>
                 <p class="text-center">
-                    {{ "Nos experts de la plomberie sont certifiés et expérimentés pour faire l’analyse de vos besoin ou problème ainsi que de vous proposer la solution la mieux adaptée."|_ }}
+                    {{ "Nos experts de la plomberie sont certifiés et expérimentés pour faire l’analyse de vos besoins ou problèmes ainsi que de vous proposer la solution la mieux adaptée."|_ }}
                 </p>
                 <div>
                     <div class="my-4">
@@ -45,8 +45,8 @@ localeMeta_description[en] = "Plomberie J. Boulay inc. mainly offers repair and 
                             <div class="col-md-6 d-flex align-items-center">
                                 <div class="card-body">
                                     <h5 class="card-title">{{ "Résidentielle"|_ }}</h5>
-                                    <p class="card-text">{{ "De la réparation des problèmes reliés à la tuyauterie de votre résidence à l'installation des appareils sanitaires, nous offrons l'éventail complet"|_ }} -
-                                   {{ "et même plus - des services de plomberie résidentielle."|_ }}</p>
+                                    <p class="card-text">{{ "De la réparation des problèmes reliés à la tuyauterie de votre résidence à l'installation des appareils sanitaires."|_ }} -
+                                   {{ "Nous offrons l’éventail complet des services de plomberie résidentielle."|_ }}</p>
                                     <a href="{{ 'residentielle'|page }}"
                                        class="btn btn-primary text-uppercase"
                                     title="{{ 'Service résidentielle de plomberie'|_ }}">{{ "En savoir plus"|_ }}</a>
@@ -66,7 +66,7 @@ localeMeta_description[en] = "Plomberie J. Boulay inc. mainly offers repair and 
                             <div class="col-md-6 d-flex align-items-center order-sm-2 order-lg-1">
                                 <div class="card-body">
                                     <h5 class="card-title">{{ "Commerciale"|_ }}</h5>
-                                    <p class="card-text">{{ "Pour l'installation et l'entretien de séparateur de graisses ou tous vos besoins en plomberie pour votre cuisine commerciale ou vos salles de bain publiques."|_ }}</p>
+                                    <p class="card-text">{{ "Pour l'installation et l'entretien de séparateurs de graisses ou tous vos besoins en plomberie pour votre cuisine commerciale ou vos salles de bains publiques."|_ }}</p>
                                     <a href="{{ 'commerciale'|page }}"
                                        class="btn btn-primary text-uppercase"
                                        title="{{ 'Service commerciale de plomberie'|_ }}">{{ "En savoir plus"|_ }}</a>
@@ -79,7 +79,7 @@ localeMeta_description[en] = "Plomberie J. Boulay inc. mainly offers repair and 
         </div>
     </div>
 </section>
-{% partial 'reusable/cta' %}";s:5:"mtime";i:1598020456;s:6:"markup";s:4238:"<div class="jumbotron jumbotron-fluid home-bg-header">
+{% partial 'reusable/cta' %}";s:5:"mtime";i:1598542241;s:6:"markup";s:4228:"<div class="jumbotron jumbotron-fluid home-bg-header">
     <div class="container my-5">
         <div class="row my-5 py-5">
             <div class="col-lg-5 col-sm-12 my-5 py-5 text-white">
@@ -98,7 +98,7 @@ localeMeta_description[en] = "Plomberie J. Boulay inc. mainly offers repair and 
                 <h2 class="h2-responsive text-center">
                     {{ "Services Complets"|_ }}</h2>
                 <p class="text-center">
-                    {{ "Nos experts de la plomberie sont certifiés et expérimentés pour faire l’analyse de vos besoin ou problème ainsi que de vous proposer la solution la mieux adaptée."|_ }}
+                    {{ "Nos experts de la plomberie sont certifiés et expérimentés pour faire l’analyse de vos besoins ou problèmes ainsi que de vous proposer la solution la mieux adaptée."|_ }}
                 </p>
                 <div>
                     <div class="my-4">
@@ -113,8 +113,8 @@ localeMeta_description[en] = "Plomberie J. Boulay inc. mainly offers repair and 
                             <div class="col-md-6 d-flex align-items-center">
                                 <div class="card-body">
                                     <h5 class="card-title">{{ "Résidentielle"|_ }}</h5>
-                                    <p class="card-text">{{ "De la réparation des problèmes reliés à la tuyauterie de votre résidence à l'installation des appareils sanitaires, nous offrons l'éventail complet"|_ }} -
-                                   {{ "et même plus - des services de plomberie résidentielle."|_ }}</p>
+                                    <p class="card-text">{{ "De la réparation des problèmes reliés à la tuyauterie de votre résidence à l'installation des appareils sanitaires."|_ }} -
+                                   {{ "Nous offrons l’éventail complet des services de plomberie résidentielle."|_ }}</p>
                                     <a href="{{ 'residentielle'|page }}"
                                        class="btn btn-primary text-uppercase"
                                     title="{{ 'Service résidentielle de plomberie'|_ }}">{{ "En savoir plus"|_ }}</a>
@@ -134,7 +134,7 @@ localeMeta_description[en] = "Plomberie J. Boulay inc. mainly offers repair and 
                             <div class="col-md-6 d-flex align-items-center order-sm-2 order-lg-1">
                                 <div class="card-body">
                                     <h5 class="card-title">{{ "Commerciale"|_ }}</h5>
-                                    <p class="card-text">{{ "Pour l'installation et l'entretien de séparateur de graisses ou tous vos besoins en plomberie pour votre cuisine commerciale ou vos salles de bain publiques."|_ }}</p>
+                                    <p class="card-text">{{ "Pour l'installation et l'entretien de séparateurs de graisses ou tous vos besoins en plomberie pour votre cuisine commerciale ou vos salles de bains publiques."|_ }}</p>
                                     <a href="{{ 'commerciale'|page }}"
                                        class="btn btn-primary text-uppercase"
                                        title="{{ 'Service commerciale de plomberie'|_ }}">{{ "En savoir plus"|_ }}</a>
@@ -147,4 +147,4 @@ localeMeta_description[en] = "Plomberie J. Boulay inc. mainly offers repair and 
         </div>
     </div>
 </section>
-{% partial 'reusable/cta' %}";s:4:"code";N;s:5:"title";s:7:"Accueil";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:11:"description";s:10:"Meta desc.";s:10:"meta_title";s:73:"Service de plomberie 24/7 dans la grande région de Montréal et rive-sud";s:16:"meta_description";s:150:"Plomberie J. Boulay inc. offre principalement des services en réparation et en rénovation de plomberie dans les secteurs résidentiel et commercial.";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:3:{s:9:"localeUrl";a:1:{s:2:"en";s:1:"/";}s:16:"localeMeta_title";a:1:{s:2:"en";s:66:"24/7 plumbing service in the greater Montreal area and south shore";}s:22:"localeMeta_description";a:1:{s:2:"en";s:121:"Plomberie J. Boulay inc. mainly offers repair and renovation plumbing services in the residential and commercial sectors.";}}}}
+{% partial 'reusable/cta' %}";s:4:"code";N;s:5:"title";s:7:"Accueil";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:11:"description";s:10:"Meta desc.";s:10:"meta_title";s:73:"Service de plomberie 24/7 dans la grande région de Montréal et rive-sud";s:16:"meta_description";s:148:"Plomberie J. Boulay inc. offre principalement des services en réparation et en rénovation de plomberie dans le secteur résidentiel et commercial.";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:3:{s:9:"localeUrl";a:1:{s:2:"en";s:1:"/";}s:16:"localeMeta_title";a:1:{s:2:"en";s:66:"24/7 plumbing service in the greater Montreal area and south shore";}s:22:"localeMeta_description";a:1:{s:2:"en";s:121:"Plomberie J. Boulay inc. mainly offers repair and renovation plumbing services in the residential and commercial sectors.";}}}}

@@ -47,13 +47,23 @@ class __TwigTemplate_d0b3f83f1229a16c0c070b9d515da2fa91fffff735cebd1a3cd602c0e69
                     <p class=\"text-white\">
                         ";
         // line 12
-        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Plomberie J. Boulay inc. est une entreprise familiale de plomberie fondée par Jonathan Boulay."]);
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["L'entreprise offre des services en réparation et en rénovation de plomberie dans les secteurs résidentiels et commerciaux."]);
         echo "
                         ";
         // line 13
-        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Elle offre principalement des services en réparation et en rénovation dans les secteurs résidentiel et commercial."]);
-        echo "
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Compagnie en règle. Membre de la CMMTQ et assurances valides."]);
+        echo " <br>
+                        RBQ : 5778-2260-01
                     </p>
+                    <img class=\"pb-3\" src=\"";
+        // line 16
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/logo-membre-cmmtq.png");
+        echo "\"
+                         style=\"width:150px;\"
+                         alt=\"";
+        // line 18
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Membre du CMMTQ"]);
+        echo "\">
                 </div>
             </div>
         </div>
@@ -62,73 +72,73 @@ class __TwigTemplate_d0b3f83f1229a16c0c070b9d515da2fa91fffff735cebd1a3cd602c0e69
                 <div class=\"col-12\">
                     <h6 class=\"text-uppercase text-white mb-1\">
                         <strong>";
-        // line 22
+        // line 26
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Navigation"]);
         echo "</strong>
                     </h6>
                     <hr class=\"footer-divider\">
                         <p class=\"text-white mb-0\">
                             <a class=\"text-white\" href=\"";
-        // line 26
+        // line 30
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("home");
         echo "\" title=\"";
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Accueil"]);
         echo "\">
                             ";
-        // line 27
+        // line 31
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Accueil"]);
         echo "
                             </a>
                         <br>
                             <a class=\"text-white\" href=\"";
-        // line 30
+        // line 34
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("residentielle");
         echo "\" title=\"";
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Résidentielle"]);
         echo "\">
                             ";
-        // line 31
+        // line 35
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Résidentielle"]);
         echo "
                             </a>
                             <br>
                             <a class=\"text-white\" href=\"";
-        // line 34
+        // line 38
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("commerciale");
         echo "\" title=\"";
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Commerciale"]);
         echo "\">
                             ";
-        // line 35
+        // line 39
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Commerciale"]);
         echo "
                             </a>
                             <br>
                             <a class=\"text-white\" href=\"";
-        // line 38
+        // line 42
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("a-propos");
         echo "\" title=\"";
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["À Propos"]);
         echo "\">
                             ";
-        // line 39
+        // line 43
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["À Propos"]);
         echo "
                             </a>
                             <br>
                             ";
-        // line 42
+        // line 46
         if ((($context["lang"] ?? null) == "fr")) {
-            // line 43
+            // line 47
             echo "                            <a href=\"#\"
                                class=\"text-white\"
                                data-request=\"onSwitchLocale\"
                                data-request-data=\"locale: 'en'\" title=\"English\">
-                                Enlgish
+                                English
                             </a>
                             ";
         } else {
-            // line 50
+            // line 54
             echo "                            <a href=\"#\"
                                class=\"text-white\"
                                data-request=\"onSwitchLocale\"
@@ -137,7 +147,7 @@ class __TwigTemplate_d0b3f83f1229a16c0c070b9d515da2fa91fffff735cebd1a3cd602c0e69
                             </a>
                             ";
         }
-        // line 57
+        // line 61
         echo "                        </p>
                 </div>
             </div>
@@ -147,30 +157,30 @@ class __TwigTemplate_d0b3f83f1229a16c0c070b9d515da2fa91fffff735cebd1a3cd602c0e69
                 <div class=\"col-12\">
                     <h6 class=\"text-uppercase text-white mb-2 \">
                         <strong>";
-        // line 65
+        // line 69
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Contact"]);
         echo "</strong>
                     </h6>
                     <hr class=\"footer-divider\">
                     <p class=\"mb-0\"><a class=\"mr-3 text-white\"
                        href=\"tel:";
-        // line 69
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 69), "default_phone", [], "any", false, false, false, 69), "html", null, true);
+        // line 73
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 73), "default_phone", [], "any", false, false, false, 73), "html", null, true);
         echo "\"><i class=\"fas fa-phone\"></i>&nbsp;
                             ";
-        // line 70
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 70), "default_phone", [], "any", false, false, false, 70), "html", null, true);
+        // line 74
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 74), "default_phone", [], "any", false, false, false, 74), "html", null, true);
         echo "
                     </a>
                         <br>
                     <a class=\"mt-sm-3 mt-md-3 mt-lg-0 text-white\"
                         href=\"mailto:";
-        // line 74
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 74), "default_email", [], "any", false, false, false, 74), "html", null, true);
+        // line 78
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 78), "default_email", [], "any", false, false, false, 78), "html", null, true);
         echo "\"><i class=\"fas fa-envelope\"></i>
                             ";
-        // line 75
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 75), "default_email", [], "any", false, false, false, 75), "html", null, true);
+        // line 79
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 79), "default_email", [], "any", false, false, false, 79), "html", null, true);
         echo "
                     </a>
                     </p>
@@ -178,16 +188,16 @@ class __TwigTemplate_d0b3f83f1229a16c0c070b9d515da2fa91fffff735cebd1a3cd602c0e69
                 <div class=\"col-12\">
                     <p class=\"text-white\">
                         ";
-        // line 81
+        // line 85
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Suivez nous"]);
         echo "
                     </p>
                     ";
-        // line 83
+        // line 87
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("socials-footer"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 84
+        // line 88
         echo "                </div>
             </div>
         </div>
@@ -199,7 +209,7 @@ class __TwigTemplate_d0b3f83f1229a16c0c070b9d515da2fa91fffff735cebd1a3cd602c0e69
         <div class=\"row\">
             <div class=\"col text-center py-2 text-white\">
                 <small>© ";
-        // line 94
+        // line 98
         echo twig_escape_filter($this->env, twig_date_format_filter($this->env, "now", "Y"), "html", null, true);
         echo " ";
         echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Droits réservés"]);
@@ -222,7 +232,7 @@ class __TwigTemplate_d0b3f83f1229a16c0c070b9d515da2fa91fffff735cebd1a3cd602c0e69
 
     public function getDebugInfo()
     {
-        return array (  203 => 94,  191 => 84,  187 => 83,  182 => 81,  173 => 75,  169 => 74,  162 => 70,  158 => 69,  151 => 65,  141 => 57,  132 => 50,  123 => 43,  121 => 42,  115 => 39,  109 => 38,  103 => 35,  97 => 34,  91 => 31,  85 => 30,  79 => 27,  73 => 26,  66 => 22,  54 => 13,  50 => 12,  37 => 1,);
+        return array (  213 => 98,  201 => 88,  197 => 87,  192 => 85,  183 => 79,  179 => 78,  172 => 74,  168 => 73,  161 => 69,  151 => 61,  142 => 54,  133 => 47,  131 => 46,  125 => 43,  119 => 42,  113 => 39,  107 => 38,  101 => 35,  95 => 34,  89 => 31,  83 => 30,  76 => 26,  65 => 18,  60 => 16,  54 => 13,  50 => 12,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -238,9 +248,13 @@ class __TwigTemplate_d0b3f83f1229a16c0c070b9d515da2fa91fffff735cebd1a3cd602c0e69
                     </h6>
                     <hr class=\"footer-divider\">
                     <p class=\"text-white\">
-                        {{ \"Plomberie J. Boulay inc. est une entreprise familiale de plomberie fondée par Jonathan Boulay.\"|_ }}
-                        {{ \"Elle offre principalement des services en réparation et en rénovation dans les secteurs résidentiel et commercial.\"|_ }}
+                        {{ \"L'entreprise offre des services en réparation et en rénovation de plomberie dans les secteurs résidentiels et commerciaux.\"|_ }}
+                        {{ \"Compagnie en règle. Membre de la CMMTQ et assurances valides.\"|_ }} <br>
+                        RBQ : 5778-2260-01
                     </p>
+                    <img class=\"pb-3\" src=\"{{'assets/images/logo-membre-cmmtq.png'|theme}}\"
+                         style=\"width:150px;\"
+                         alt=\"{{ 'Membre du CMMTQ'|_ }}\">
                 </div>
             </div>
         </div>
@@ -273,7 +287,7 @@ class __TwigTemplate_d0b3f83f1229a16c0c070b9d515da2fa91fffff735cebd1a3cd602c0e69
                                class=\"text-white\"
                                data-request=\"onSwitchLocale\"
                                data-request-data=\"locale: 'en'\" title=\"English\">
-                                Enlgish
+                                English
                             </a>
                             {% else %}
                             <a href=\"#\"

@@ -57,129 +57,130 @@ class __TwigTemplate_a6d85e86fbf2aab13f61116ef9bbea1ca8ec39a7f59e53586d0119cab25
         // line 11
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("");
         echo "\"/>
+    <meta name=\"google-site-verification\" content=\"hNRQrKF0XaqxR5fLnc4pEupRThpDYRySao7qRKdkExs\" />
     <meta property=\"og:title\" content=\"";
-        // line 12
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 12), "meta_title", [], "any", false, false, false, 12), "html", null, true);
+        // line 13
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 13), "meta_title", [], "any", false, false, false, 13), "html", null, true);
         echo " | Plomberie J. Boulay inc.\" />
     <meta property=\"og:url\" content=\"";
-        // line 13
+        // line 14
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("");
         echo "\" />
     ";
-        // line 14
+        // line 15
         if (($context["image_url"] ?? null)) {
-            // line 15
+            // line 16
             echo "    <meta property=\"og:image:secure_url\" content=\"";
             echo twig_escape_filter($this->env, ($context["image_url"] ?? null), "html", null, true);
             echo "\" />
     <meta property=\"og:image\" content=\"";
-            // line 16
+            // line 17
             echo twig_escape_filter($this->env, ($context["image_url"] ?? null), "html", null, true);
             echo "\" />
     <meta name=\"twitter:image\" content=\"";
-            // line 17
+            // line 18
             echo twig_escape_filter($this->env, ($context["image_url"] ?? null), "html", null, true);
             echo "\">
     ";
         } else {
-            // line 19
+            // line 20
             echo "    <meta property=\"og:image:secure_url\" content=\"";
             echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/default-share-img.jpg");
             echo "\" />
     <meta property=\"og:image\" content=\"";
-            // line 20
+            // line 21
             echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/default-share-img.jpg");
             echo "\" />
     <meta name=\"twitter:image\" content=\"";
-            // line 21
+            // line 22
             echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/default-share-img.jpg");
             echo "\">
     ";
         }
-        // line 23
+        // line 24
         echo "    <meta property=\"og:image:height\" content=\"1200\">
     <meta property=\"og:image:width\" content=\"800\">
     <meta property=\"og:type\" content=\"website\" />
     <meta property=\"og:description\" content=\"";
-        // line 26
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 26), "settings", [], "any", false, false, false, 26), "meta_description", [], "any", false, false, false, 26), "html", null, true);
+        // line 27
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 27), "settings", [], "any", false, false, false, 27), "meta_description", [], "any", false, false, false, 27), "html", null, true);
         echo "\" />
     <meta property=\"og:locale\" content=\"fr_CA\">
     <meta property=\"og:site_name\" content=\"Plomberie J. Boulay inc.\" />
     <meta name=\"twitter:title\" content=\"";
-        // line 29
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 29), "meta_title", [], "any", false, false, false, 29), "html", null, true);
+        // line 30
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 30), "meta_title", [], "any", false, false, false, 30), "html", null, true);
         echo " | Plomberie J. Boulay inc.\">
     <meta name=\"twitter:description\" content=\"";
-        // line 30
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 30), "settings", [], "any", false, false, false, 30), "meta_description", [], "any", false, false, false, 30), "html", null, true);
+        // line 31
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 31), "settings", [], "any", false, false, false, 31), "meta_description", [], "any", false, false, false, 31), "html", null, true);
         echo "\">
     <meta name=\"twitter:card\" content=\"summary_large_image\">
     <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">
     <link rel=\"icon\" type=\"image/jpg\" href=\"";
-        // line 33
+        // line 34
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/favicon.png");
         echo "\"/>
     <link href=\"";
-        // line 34
+        // line 35
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/apple-touch-icon.png");
         echo "\" rel=\"apple-touch-icon\">
     <link href=\"";
-        // line 35
+        // line 36
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/apple-touch-icon-precomposed.png");
         echo "\" rel=\"apple-touch-icon-precomposed\">
     <link href=\"";
-        // line 36
+        // line 37
         echo $this->extensions['Cms\Twig\Extension']->themeFilter([0 => "assets/css/theme.css"]);
-        // line 38
+        // line 39
         echo "\" rel=\"stylesheet\">
     ";
-        // line 39
+        // line 40
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('css');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('styles');
-        // line 40
+        // line 41
         echo "</head>
 <body>
 <header>
     ";
-        // line 43
+        // line 44
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("header"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 44
+        // line 45
         echo "    ";
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("navbar"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 45
+        // line 46
         echo "</header>
 <main id=\"page\">
     ";
-        // line 47
-        echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
         // line 48
+        echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
+        // line 49
         echo "</main>
 <section id=\"contact\">
     ";
-        // line 50
+        // line 51
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("contact"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 51
+        // line 52
         echo "</section>
 <footer class=\"footer\">
     ";
-        // line 53
+        // line 54
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("footer"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 54
+        // line 55
         echo "</footer>
 ";
-        $_type = isset($context["type"]) ? $context["type"] : null;        $_message = isset($context["message"]) ? $context["message"] : null;        // line 55
+        $_type = isset($context["type"]) ? $context["type"] : null;        $_message = isset($context["message"]) ? $context["message"] : null;        // line 56
         foreach (Flash::getMessages() as $type => $messages) {
             foreach ($messages as $message) {
-                $context["type"] = $type;                $context["message"] = $message;                // line 56
+                $context["type"] = $type;                $context["message"] = $message;                // line 57
                 echo "<span id=\"flash\" data-type=\"";
                 echo twig_escape_filter($this->env, ($context["type"] ?? null), "html", null, true);
                 echo "\" data-message=\"";
@@ -188,13 +189,13 @@ class __TwigTemplate_a6d85e86fbf2aab13f61116ef9bbea1ca8ec39a7f59e53586d0119cab25
 ";
             }
         }
-        $context["type"] = $_type;        $context["message"] = $_message;        // line 58
+        $context["type"] = $_type;        $context["message"] = $_message;        // line 59
         echo "<script src=\"";
         echo $this->extensions['Cms\Twig\Extension']->themeFilter([0 => "assets/vendor/jquery/jquery-3.4.1.min.js", 1 => "assets/vendor/bootstrap/js/bootstrap.min.js", 2 => "assets/vendor/aos/js/aos.js", 3 => "assets/js/main.js"]);
-        // line 63
+        // line 64
         echo "\"></script>
 ";
-        // line 64
+        // line 65
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
         if ($_minify) {
             echo '<script src="' . Request::getBasePath() . '/modules/system/assets/js/framework.combined-min.js"></script>'.PHP_EOL;
@@ -205,10 +206,10 @@ class __TwigTemplate_a6d85e86fbf2aab13f61116ef9bbea1ca8ec39a7f59e53586d0119cab25
         }
         echo '<link rel="stylesheet" property="stylesheet" href="' . Request::getBasePath() .'/modules/system/assets/css/framework.extras'.($_minify ? '-min' : '').'.css">'.PHP_EOL;
         unset($_minify);
-        // line 65
+        // line 66
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
-        // line 66
+        // line 67
         echo "</body>
 </html>";
     }
@@ -225,7 +226,7 @@ class __TwigTemplate_a6d85e86fbf2aab13f61116ef9bbea1ca8ec39a7f59e53586d0119cab25
 
     public function getDebugInfo()
     {
-        return array (  212 => 66,  209 => 65,  198 => 64,  195 => 63,  192 => 58,  183 => 56,  180 => 55,  177 => 54,  173 => 53,  169 => 51,  165 => 50,  161 => 48,  159 => 47,  155 => 45,  150 => 44,  146 => 43,  141 => 40,  138 => 39,  135 => 38,  133 => 36,  129 => 35,  125 => 34,  121 => 33,  115 => 30,  111 => 29,  105 => 26,  100 => 23,  95 => 21,  91 => 20,  86 => 19,  81 => 17,  77 => 16,  72 => 15,  70 => 14,  66 => 13,  62 => 12,  58 => 11,  52 => 8,  48 => 7,  44 => 6,  37 => 1,);
+        return array (  213 => 67,  210 => 66,  199 => 65,  196 => 64,  193 => 59,  184 => 57,  181 => 56,  178 => 55,  174 => 54,  170 => 52,  166 => 51,  162 => 49,  160 => 48,  156 => 46,  151 => 45,  147 => 44,  142 => 41,  139 => 40,  136 => 39,  134 => 37,  130 => 36,  126 => 35,  122 => 34,  116 => 31,  112 => 30,  106 => 27,  101 => 24,  96 => 22,  92 => 21,  87 => 20,  82 => 18,  78 => 17,  73 => 16,  71 => 15,  67 => 14,  63 => 13,  58 => 11,  52 => 8,  48 => 7,  44 => 6,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -241,6 +242,7 @@ class __TwigTemplate_a6d85e86fbf2aab13f61116ef9bbea1ca8ec39a7f59e53586d0119cab25
     <meta name=\"author\" content=\"Techno24.net\">
     <meta name=\"robots\" content=\"index,follow\">
     <link rel=\"canonical\" href=\"{{ ''|page }}\"/>
+    <meta name=\"google-site-verification\" content=\"hNRQrKF0XaqxR5fLnc4pEupRThpDYRySao7qRKdkExs\" />
     <meta property=\"og:title\" content=\"{{ this.page.meta_title }} | Plomberie J. Boulay inc.\" />
     <meta property=\"og:url\" content=\"{{ ''|page }}\" />
     {% if image_url %}

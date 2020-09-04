@@ -44,7 +44,7 @@ class __TwigTemplate_68394e8f4f2ccf0d0b3ae0642429e19d50089332f0e8288e3225d87fef2
                  class=\"card-img img-fluid\"
                  alt=\"";
         // line 6
-        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Un dégât d'eau? Faites appel à nous dès maintenant"]);
+        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Un dégât d'eau? Faites appel à nous dès maintenant!"]);
         echo "\"
             data-aos=\"fade-up\"
             data-aos-anchor-placement=\"top-bottom\">
@@ -98,7 +98,7 @@ class __TwigTemplate_68394e8f4f2ccf0d0b3ae0642429e19d50089332f0e8288e3225d87fef2
         <div class=\"col-md-12 col-lg-6\">
             <img src=\"{{'assets/images/leaking-home-cta.jpg'|theme}}\"
                  class=\"card-img img-fluid\"
-                 alt=\"{{ \"Un dégât d'eau? Faites appel à nous dès maintenant\"|_ }}\"
+                 alt=\"{{ \"Un dégât d'eau? Faites appel à nous dès maintenant!\"|_ }}\"
             data-aos=\"fade-up\"
             data-aos-anchor-placement=\"top-bottom\">
         </div>

@@ -119,7 +119,6 @@ class __TwigTemplate_c9ea065a6cbadf7b16c7af09324bb04551ca633fda67bfefedf91191aae
         }
         // line 54
         echo "\t\t\t\t</span>
-\t\t\t\t</small>
 \t\t\t</div>
         </div>
     </div>
@@ -197,7 +196,6 @@ class __TwigTemplate_c9ea065a6cbadf7b16c7af09324bb04551ca633fda67bfefedf91191aae
 \t\t\t\t</a>
 \t\t\t\t{% endif %}
 \t\t\t\t</span>
-\t\t\t\t</small>
 \t\t\t</div>
         </div>
     </div>

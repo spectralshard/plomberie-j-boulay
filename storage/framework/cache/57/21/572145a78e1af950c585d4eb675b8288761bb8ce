@@ -1,4 +1,4 @@
-1598023496a:1:{s:11:"default.htm";a:7:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:3228:"description = "Default Layout"
+1599234108a:1:{s:11:"default.htm";a:7:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:3328:"description = "Default Layout"
 
 [localePicker]
 forceUrl = 0
@@ -25,6 +25,7 @@ $this['site_url'] = asset('');
     <meta name="author" content="Techno24.net">
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="{{ ''|page }}"/>
+    <meta name="google-site-verification" content="hNRQrKF0XaqxR5fLnc4pEupRThpDYRySao7qRKdkExs" />
     <meta property="og:title" content="{{ this.page.meta_title }} | Plomberie J. Boulay inc." />
     <meta property="og:url" content="{{ ''|page }}" />
     {% if image_url %}
@@ -80,7 +81,7 @@ $this['site_url'] = asset('');
 {% framework extras %}
 {% scripts %}
 </body>
-</html>";s:5:"mtime";i:1597939520;s:6:"markup";s:2920:"<!DOCTYPE html>
+</html>";s:5:"mtime";i:1598367481;s:6:"markup";s:3020:"<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -91,6 +92,7 @@ $this['site_url'] = asset('');
     <meta name="author" content="Techno24.net">
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="{{ ''|page }}"/>
+    <meta name="google-site-verification" content="hNRQrKF0XaqxR5fLnc4pEupRThpDYRySao7qRKdkExs" />
     <meta property="og:title" content="{{ this.page.meta_title }} | Plomberie J. Boulay inc." />
     <meta property="og:url" content="{{ ''|page }}" />
     {% if image_url %}

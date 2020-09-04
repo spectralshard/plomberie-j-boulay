@@ -1,9 +1,9 @@
-1598023496a:1:{s:12:"a-propos.htm";a:13:{s:8:"fileName";s:12:"a-propos.htm";s:7:"content";s:2746:"title = "À propos"
+1599234108a:1:{s:12:"a-propos.htm";a:13:{s:8:"fileName";s:12:"a-propos.htm";s:7:"content";s:2745:"title = "À propos"
 url = "/a-propos"
 layout = "default"
-description = "Nous sommes une entreprise  spécialisé dans le domaine de la plomberie résidentielle et commerciale."
+description = "Nous sommes une entreprise spécialisée dans le domaine de la plomberie résidentielle et commerciale."
 meta_title = "À propos de Plomberie J. Boulay Inc."
-meta_description = "Nous sommes une entreprise  spécialisé dans le domaine de la plomberie résidentielle et commerciale."
+meta_description = "Nous sommes une entreprise spécialisée dans le domaine de la plomberie résidentielle et commerciale."
 is_hidden = 0
 
 [viewBag]
@@ -28,11 +28,11 @@ localeMeta_description[en] = "We are a company specializing in the field of resi
             <div class="col-12 col-lg-10">
                 <h2 class="h2-responsive text-center">Plomberie J. Boulay Inc.</h2>
                 <p class="text-center">
-                    {{ "Nous sommes une entreprise  spécialisé dans le domaine de la plomberie résidentielle et commerciale."|_ }}
-                    {{ "Nous offrons un service d'urgence de plomberie disponible 24 heures sur 24 afin de répondre rapidement à vos besoins."|_ }}
+                    {{ "Nous sommes une entreprise spécialisée dans le domaine de la plomberie résidentielle et commerciale."|_ }}
+                    {{ "Nous offrons un service d'urgence de plomberie disponible, 24 heures sur 24 afin de répondre rapidement à vos besoins."|_ }}
                     </p>
                 <p class="text-center">
-                    {{ "Pour le remplacement et l'installation de tuyauterie ou pour l'installation d'une nouvelle entrée d'eau, vous pouvez compter sur le savoir-faire de l'équipe. Contactez nous dès aujourd'hui!"|_ }}
+                    {{ "Pour un remplacement, l'installation de tuyauterie ou pour l'installation d'une nouvelle entrée d'eau, vous pouvez compter sur le savoir-faire de l'équipe. Contactez-nous dès aujourd'hui!"|_ }}
                 </p>
             </div>
         </div>
@@ -53,7 +53,7 @@ localeMeta_description[en] = "We are a company specializing in the field of resi
             </div>
         </div>
     </div>
-</section>";s:5:"mtime";i:1598020375;s:6:"markup";s:2168:"<div class="jumbotron jumbotron-fluid about-bg-header">
+</section>";s:5:"mtime";i:1598541305;s:6:"markup";s:2167:"<div class="jumbotron jumbotron-fluid about-bg-header">
     <div class="container my-5">
         <div class="row my-5 py-5">
             <div class="col-lg-5 col-sm-12 my-5 text-white">
@@ -70,11 +70,11 @@ localeMeta_description[en] = "We are a company specializing in the field of resi
             <div class="col-12 col-lg-10">
                 <h2 class="h2-responsive text-center">Plomberie J. Boulay Inc.</h2>
                 <p class="text-center">
-                    {{ "Nous sommes une entreprise  spécialisé dans le domaine de la plomberie résidentielle et commerciale."|_ }}
-                    {{ "Nous offrons un service d'urgence de plomberie disponible 24 heures sur 24 afin de répondre rapidement à vos besoins."|_ }}
+                    {{ "Nous sommes une entreprise spécialisée dans le domaine de la plomberie résidentielle et commerciale."|_ }}
+                    {{ "Nous offrons un service d'urgence de plomberie disponible, 24 heures sur 24 afin de répondre rapidement à vos besoins."|_ }}
                     </p>
                 <p class="text-center">
-                    {{ "Pour le remplacement et l'installation de tuyauterie ou pour l'installation d'une nouvelle entrée d'eau, vous pouvez compter sur le savoir-faire de l'équipe. Contactez nous dès aujourd'hui!"|_ }}
+                    {{ "Pour un remplacement, l'installation de tuyauterie ou pour l'installation d'une nouvelle entrée d'eau, vous pouvez compter sur le savoir-faire de l'équipe. Contactez-nous dès aujourd'hui!"|_ }}
                 </p>
             </div>
         </div>
@@ -95,4 +95,4 @@ localeMeta_description[en] = "We are a company specializing in the field of resi
             </div>
         </div>
     </div>
-</section>";s:4:"code";N;s:5:"title";s:9:"À propos";s:3:"url";s:9:"/a-propos";s:6:"layout";s:7:"default";s:11:"description";s:103:"Nous sommes une entreprise  spécialisé dans le domaine de la plomberie résidentielle et commerciale.";s:10:"meta_title";s:37:"À propos de Plomberie J. Boulay Inc.";s:16:"meta_description";s:103:"Nous sommes une entreprise  spécialisé dans le domaine de la plomberie résidentielle et commerciale.";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:3:{s:9:"localeUrl";a:1:{s:2:"en";s:6:"/about";}s:16:"localeMeta_title";a:1:{s:2:"en";s:30:"About Plomberie J. Boulay Inc.";}s:22:"localeMeta_description";a:1:{s:2:"en";s:82:"We are a company specializing in the field of residential and commercial plumbing.";}}}}
+</section>";s:4:"code";N;s:5:"title";s:9:"À propos";s:3:"url";s:9:"/a-propos";s:6:"layout";s:7:"default";s:11:"description";s:103:"Nous sommes une entreprise spécialisée dans le domaine de la plomberie résidentielle et commerciale.";s:10:"meta_title";s:37:"À propos de Plomberie J. Boulay Inc.";s:16:"meta_description";s:103:"Nous sommes une entreprise spécialisée dans le domaine de la plomberie résidentielle et commerciale.";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:3:{s:9:"localeUrl";a:1:{s:2:"en";s:6:"/about";}s:16:"localeMeta_title";a:1:{s:2:"en";s:30:"About Plomberie J. Boulay Inc.";}s:22:"localeMeta_description";a:1:{s:2:"en";s:82:"We are a company specializing in the field of residential and commercial plumbing.";}}}}
